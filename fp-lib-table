@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name boctok_footprints)(type KiCad)(uri /home/oli/tenere/efi/kicad_libs/boctok_footprints.pretty)(options "")(descr ""))
+  (lib (name CINCH)(type Legacy)(uri /home/oli/tenere/efi/kicad_libs/CINCH.mod)(options "")(descr ""))
+  (lib (name rusefi_lib)(type KiCad)(uri /home/oli/tenere/efi/rusefi_lib)(options "")(descr ""))
+)
