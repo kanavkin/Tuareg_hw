@@ -1,2 +1,2 @@
 # Tuareg_hw
-Tuareg boards and schematics
+Tuareg board and schematics
