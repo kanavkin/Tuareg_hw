@@ -44,18 +44,6 @@ F15 "asensor_ch2_raw" I L 4300 3850 50
 F16 "asensor_bat" O R 6100 4600 50 
 $EndSheet
 $Sheet
-S 4300 6600 1800 950 
-U 5BCA424F
-F0 "engine position sensors" 50
-F1 "engine_pos.sch" 50
-F2 "crank_signal" O R 6100 6800 50 
-F3 "vr_spare" O R 6100 7150 50 
-F4 "vr_crank+" I L 4300 6800 50 
-F5 "vr_crank-" I L 4300 6950 50 
-F6 "vr_spare-" I L 4300 7350 50 
-F7 "vr_spare+" I L 4300 7150 50 
-$EndSheet
-$Sheet
 S 4300 5200 1800 1200
 U 5BD211BC
 F0 "digital input" 50
@@ -149,10 +137,6 @@ Text Label 6400 8950 0    50   ~ 0
 knock_int
 Text Label 6350 4750 0    50   ~ 0
 ach8
-Wire Wire Line
-	6100 7150 7450 7150
-Text Label 6400 7150 0    50   ~ 0
-vr_spare
 Wire Wire Line
 	6100 5400 7450 5400
 Wire Wire Line
@@ -272,10 +256,6 @@ Wire Wire Line
 Wire Wire Line
 	3450 6950 4300 6950
 Wire Wire Line
-	3450 7150 4300 7150
-Wire Wire Line
-	3450 7350 4300 7350
-Wire Wire Line
 	3450 7950 4300 7950
 Wire Wire Line
 	3450 8200 4300 8200
@@ -295,10 +275,6 @@ Text Label 3450 6800 0    50   ~ 0
 con_vrcrank+
 Text Label 3450 6950 0    50   ~ 0
 con_vrcrank-
-Text Label 3450 7150 0    50   ~ 0
-con_vrspare+
-Text Label 3450 7350 0    50   ~ 0
-con_vrspare-
 Text Label 3450 7950 0    50   ~ 0
 con_knock1
 Text Label 3450 8200 0    50   ~ 0
@@ -486,8 +462,6 @@ Wire Wire Line
 Wire Wire Line
 	20150 6650 20400 6650
 Wire Wire Line
-	20150 7150 20400 7150
-Wire Wire Line
 	20150 7250 20400 7250
 Text Label 20400 7750 0    50   ~ 0
 con_spareact2
@@ -495,18 +469,12 @@ Text Label 20400 7250 0    50   ~ 0
 con_spareact1
 Wire Wire Line
 	20400 7750 20150 7750
-Text Label 20400 7150 0    50   ~ 0
-con_vrspare+
-Text Label 20400 7050 0    50   ~ 0
-con_vrspare-
 Text Label 20400 6850 0    50   ~ 0
 con_vrcrank-
 Text Label 20400 7350 0    50   ~ 0
 con_vrcrank+
 Wire Wire Line
 	20400 6850 20150 6850
-Wire Wire Line
-	20400 7050 20150 7050
 Wire Wire Line
 	20400 7350 20150 7350
 $Comp
@@ -753,4 +721,13 @@ Wire Wire Line
 	6100 4750 7450 4750
 Wire Wire Line
 	3450 4750 4300 4750
+$Sheet
+S 4300 6600 1800 950 
+U 5BCA424F
+F0 "engine position sensors" 50
+F1 "engine_pos.sch" 50
+F2 "crank_signal" O R 6100 6800 50 
+F3 "vr_crank+" I L 4300 6800 50 
+F4 "vr_crank-" I L 4300 6950 50 
+$EndSheet
 $EndSCHEMATC
