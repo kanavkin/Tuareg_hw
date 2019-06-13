@@ -1,0 +1,3 @@
+[submodule "Tuareg_kicad_libs"]
+	path = Tuareg_kicad_libs
+	url = https://github.com/kanavkin/Tuareg_kicad_libs.git
