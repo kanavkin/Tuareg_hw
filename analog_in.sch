@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L KICAD_Older_Version:C C19
+L Device:C C19
 U 1 1 524A0814
 P 13200 1700
 F 0 "C19" H 13200 1800 40  0000 L CNN
@@ -28,7 +28,7 @@ F 5 "DIGI,478-1395-1-ND" V 9830 -3950 60  0001 C CNN "VEND1,VEND1#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KICAD_Older_Version:R R2
+L Device:R R2
 U 1 1 524B7914
 P 1850 2200
 F 0 "R2" V 1930 2200 40  0000 C CNN
@@ -42,7 +42,7 @@ F 6 "," H 7175 1425 60  0001 C CNN "VEND2,VEND2#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KICAD_Older_Version:R R10
+L Device:R R10
 U 1 1 524B7920
 P 4900 2050
 F 0 "R10" V 4980 2050 40  0000 C CNN
@@ -56,7 +56,7 @@ F 6 "," H 7225 1425 60  0001 C CNN "VEND2,VEND2#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KICAD_Older_Version:R R14
+L Device:R R14
 U 1 1 524B7926
 P 5200 2350
 F 0 "R14" V 5280 2350 40  0000 C CNN
@@ -70,7 +70,7 @@ F 6 "," H 7025 1725 60  0001 C CNN "VEND2,VEND2#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KICAD_Older_Version:R R6
+L Device:R R6
 U 1 1 52894D25
 P 2300 1950
 F 0 "R6" V 2380 1950 40  0000 C CNN
@@ -97,10 +97,8 @@ Text Notes 1300 1350 2    60   ~ 0
 CH 1
 Text Notes 3700 1600 0    60   ~ 0
 low pass filter knee at 1kHz 
-Wire Wire Line
-	1850 1950 2050 1950
 $Comp
-L KICAD_Older_Version:C C11
+L Device:C C11
 U 1 1 588C97A2
 P 3450 2250
 F 0 "C11" H 3450 2350 40  0000 L CNN
@@ -116,27 +114,14 @@ Connection ~ 3450 1950
 Wire Wire Line
 	3450 1950 3900 1950
 Wire Wire Line
-	5200 2050 5200 2100
-Wire Wire Line
-	5200 2600 5200 2650
-Wire Wire Line
-	1850 2450 1850 2650
-Wire Wire Line
 	1850 2650 2800 2650
 Connection ~ 2800 2650
-Wire Wire Line
-	5150 2050 5200 2050
-Wire Wire Line
-	4650 2050 4600 2050
 Text GLabel 2600 1350 0    50   Input ~ 0
 pwr_5v_clamp
 Wire Wire Line
 	2600 1350 2800 1350
 Text HLabel 1700 1950 0    50   Input ~ 0
 asensor_ch1_raw
-Wire Wire Line
-	1700 1950 1850 1950
-Connection ~ 1850 1950
 Text HLabel 5300 2050 2    50   Output ~ 0
 asensor_ch1
 Wire Wire Line
@@ -144,10 +129,6 @@ Wire Wire Line
 Connection ~ 5200 2050
 Wire Wire Line
 	2800 2650 3450 2650
-Wire Wire Line
-	3450 1950 3450 2050
-Wire Wire Line
-	3450 2450 3450 2650
 Connection ~ 3450 2650
 Wire Wire Line
 	3450 2650 5200 2650
@@ -160,7 +141,7 @@ Wire Notes Line
 Wire Notes Line
 	800  1000 6200 1000
 $Comp
-L KICAD_Older_Version:R R3
+L Device:R R3
 U 1 1 5BDE0B14
 P 1850 4800
 F 0 "R3" V 1930 4800 40  0000 C CNN
@@ -174,7 +155,7 @@ F 6 "," H 7175 4025 60  0001 C CNN "VEND2,VEND2#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KICAD_Older_Version:R R11
+L Device:R R11
 U 1 1 5BDE0B1D
 P 4900 4650
 F 0 "R11" V 4980 4650 40  0000 C CNN
@@ -188,7 +169,7 @@ F 6 "," H 7225 4025 60  0001 C CNN "VEND2,VEND2#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KICAD_Older_Version:R R15
+L Device:R R15
 U 1 1 5BDE0B26
 P 5200 4950
 F 0 "R15" V 5280 4950 40  0000 C CNN
@@ -202,7 +183,7 @@ F 6 "," H 7025 4325 60  0001 C CNN "VEND2,VEND2#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KICAD_Older_Version:R R7
+L Device:R R7
 U 1 1 5BDE0B38
 P 2300 4550
 F 0 "R7" V 2380 4550 40  0000 C CNN
@@ -225,10 +206,8 @@ Wire Wire Line
 	3700 4750 3900 4750
 Text Notes 3700 4200 0    60   ~ 0
 low pass filter knee at 1kHz 
-Wire Wire Line
-	1850 4550 2050 4550
 $Comp
-L KICAD_Older_Version:C C12
+L Device:C C12
 U 1 1 5BDE0B51
 P 3450 4850
 F 0 "C12" H 3450 4950 40  0000 L CNN
@@ -260,9 +239,6 @@ Text GLabel 2600 3950 0    50   Input ~ 0
 pwr_5v_clamp
 Wire Wire Line
 	2600 3950 2800 3950
-Wire Wire Line
-	1700 4550 1850 4550
-Connection ~ 1850 4550
 Text HLabel 5300 4650 2    50   Output ~ 0
 asensor_ch2
 Wire Wire Line
@@ -286,7 +262,7 @@ Wire Notes Line
 Wire Notes Line
 	800  3600 6200 3600
 $Comp
-L KICAD_Older_Version:R R4
+L Device:R R4
 U 1 1 5BDF3448
 P 1850 7400
 F 0 "R4" V 1930 7400 40  0000 C CNN
@@ -300,7 +276,7 @@ F 6 "," H 7175 6625 60  0001 C CNN "VEND2,VEND2#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KICAD_Older_Version:R R12
+L Device:R R12
 U 1 1 5BDF3451
 P 4900 7250
 F 0 "R12" V 4980 7250 40  0000 C CNN
@@ -314,7 +290,7 @@ F 6 "," H 7225 6625 60  0001 C CNN "VEND2,VEND2#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KICAD_Older_Version:R R16
+L Device:R R16
 U 1 1 5BDF345A
 P 5200 7550
 F 0 "R16" V 5280 7550 40  0000 C CNN
@@ -328,7 +304,7 @@ F 6 "," H 7025 6925 60  0001 C CNN "VEND2,VEND2#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KICAD_Older_Version:R R8
+L Device:R R8
 U 1 1 5BDF346C
 P 2300 7150
 F 0 "R8" V 2380 7150 40  0000 C CNN
@@ -351,10 +327,8 @@ Wire Wire Line
 	3700 7350 3900 7350
 Text Notes 3700 6800 0    60   ~ 0
 low pass filter knee at 1kHz 
-Wire Wire Line
-	1850 7150 2050 7150
 $Comp
-L KICAD_Older_Version:C C13
+L Device:C C13
 U 1 1 5BDF347C
 P 3450 7450
 F 0 "C13" H 3450 7550 40  0000 L CNN
@@ -370,25 +344,12 @@ Connection ~ 3450 7150
 Wire Wire Line
 	3450 7150 3900 7150
 Wire Wire Line
-	5200 7250 5200 7300
-Wire Wire Line
-	5200 7800 5200 7850
-Wire Wire Line
-	1850 7650 1850 7850
-Wire Wire Line
 	1850 7850 2800 7850
 Connection ~ 2800 7850
-Wire Wire Line
-	5150 7250 5200 7250
-Wire Wire Line
-	4650 7250 4600 7250
 Text GLabel 2600 6550 0    50   Input ~ 0
 pwr_5v_clamp
 Wire Wire Line
 	2600 6550 2800 6550
-Wire Wire Line
-	1700 7150 1850 7150
-Connection ~ 1850 7150
 Text HLabel 5300 7250 2    50   Output ~ 0
 asensor_ch3
 Wire Wire Line
@@ -396,10 +357,6 @@ Wire Wire Line
 Connection ~ 5200 7250
 Wire Wire Line
 	2800 7850 3450 7850
-Wire Wire Line
-	3450 7150 3450 7250
-Wire Wire Line
-	3450 7650 3450 7850
 Connection ~ 3450 7850
 Wire Wire Line
 	3450 7850 5200 7850
@@ -414,7 +371,7 @@ Wire Notes Line
 Text HLabel 1700 7150 0    50   Input ~ 0
 asensor_ch3_raw
 $Comp
-L KICAD_Older_Version:R R5
+L Device:R R5
 U 1 1 5BE259B2
 P 1850 10000
 F 0 "R5" V 1930 10000 40  0000 C CNN
@@ -428,7 +385,7 @@ F 6 "," H 7175 9225 60  0001 C CNN "VEND2,VEND2#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KICAD_Older_Version:R R13
+L Device:R R13
 U 1 1 5BE259BB
 P 4900 9850
 F 0 "R13" V 4980 9850 40  0000 C CNN
@@ -442,7 +399,7 @@ F 6 "," H 7225 9225 60  0001 C CNN "VEND2,VEND2#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KICAD_Older_Version:R R17
+L Device:R R17
 U 1 1 5BE259C4
 P 5200 10150
 F 0 "R17" V 5280 10150 40  0000 C CNN
@@ -456,7 +413,7 @@ F 6 "," H 7025 9525 60  0001 C CNN "VEND2,VEND2#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KICAD_Older_Version:R R9
+L Device:R R9
 U 1 1 5BE259D6
 P 2300 9750
 F 0 "R9" V 2380 9750 40  0000 C CNN
@@ -479,10 +436,8 @@ Wire Wire Line
 	3700 9950 3900 9950
 Text Notes 4500 9000 0    60   ~ 0
 low pass filter knee at 1kHz 
-Wire Wire Line
-	1850 9750 2050 9750
 $Comp
-L KICAD_Older_Version:C C14
+L Device:C C14
 U 1 1 5BE259E5
 P 3450 10050
 F 0 "C14" H 3450 10150 40  0000 L CNN
@@ -498,25 +453,12 @@ Connection ~ 3450 9750
 Wire Wire Line
 	3450 9750 3900 9750
 Wire Wire Line
-	5200 9850 5200 9900
-Wire Wire Line
-	5200 10400 5200 10450
-Wire Wire Line
-	1850 10250 1850 10450
-Wire Wire Line
 	1850 10450 2800 10450
 Connection ~ 2800 10450
-Wire Wire Line
-	5150 9850 5200 9850
-Wire Wire Line
-	4650 9850 4600 9850
 Text GLabel 2600 9150 0    50   Input ~ 0
 pwr_5v_clamp
 Wire Wire Line
 	2600 9150 2800 9150
-Wire Wire Line
-	1700 9750 1850 9750
-Connection ~ 1850 9750
 Text HLabel 5300 9850 2    50   Output ~ 0
 asensor_ch4
 Wire Wire Line
@@ -524,10 +466,6 @@ Wire Wire Line
 Connection ~ 5200 9850
 Wire Wire Line
 	2800 10450 3450 10450
-Wire Wire Line
-	3450 9750 3450 9850
-Wire Wire Line
-	3450 10250 3450 10450
 Connection ~ 3450 10450
 Wire Notes Line
 	6200 8800 6200 10950
@@ -540,7 +478,7 @@ Wire Notes Line
 Text HLabel 1700 9750 0    50   Input ~ 0
 asensor_ch4_raw
 $Comp
-L KICAD_Older_Version:C C20
+L Device:C C20
 U 1 1 5BEA5BA1
 P 13500 1700
 F 0 "C20" H 13500 1800 40  0000 L CNN
@@ -553,7 +491,7 @@ F 5 "DIGI,478-1395-1-ND" V 10130 -3950 60  0001 C CNN "VEND1,VEND1#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KICAD_Older_Version:R R18
+L Device:R R18
 U 1 1 5BEA5BAA
 P 7600 2200
 F 0 "R18" V 7680 2200 40  0000 C CNN
@@ -567,7 +505,7 @@ F 6 "," H 12925 1425 60  0001 C CNN "VEND2,VEND2#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KICAD_Older_Version:R R26
+L Device:R R26
 U 1 1 5BEA5BB3
 P 10650 2050
 F 0 "R26" V 10730 2050 40  0000 C CNN
@@ -581,7 +519,7 @@ F 6 "," H 12975 1425 60  0001 C CNN "VEND2,VEND2#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KICAD_Older_Version:R R30
+L Device:R R30
 U 1 1 5BEA5BBC
 P 10950 2350
 F 0 "R30" V 11030 2350 40  0000 C CNN
@@ -595,7 +533,7 @@ F 6 "," H 12775 1725 60  0001 C CNN "VEND2,VEND2#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KICAD_Older_Version:R R23
+L Device:R R23
 U 1 1 5BEA5BCE
 P 8050 1950
 F 0 "R23" V 8130 1950 40  0000 C CNN
@@ -620,10 +558,8 @@ Text Notes 7050 1350 2    60   ~ 0
 CH5
 Text Notes 9450 1600 0    60   ~ 0
 low pass filter knee at 1kHz 
-Wire Wire Line
-	7600 1950 7800 1950
 $Comp
-L KICAD_Older_Version:C C15
+L Device:C C15
 U 1 1 5BEA5C21
 P 9200 2250
 F 0 "C15" H 9200 2350 40  0000 L CNN
@@ -639,27 +575,14 @@ Connection ~ 9200 1950
 Wire Wire Line
 	9200 1950 9650 1950
 Wire Wire Line
-	10950 2050 10950 2100
-Wire Wire Line
-	10950 2600 10950 2650
-Wire Wire Line
-	7600 2450 7600 2650
-Wire Wire Line
 	7600 2650 8550 2650
 Connection ~ 8550 2650
-Wire Wire Line
-	10900 2050 10950 2050
-Wire Wire Line
-	10400 2050 10350 2050
 Text GLabel 8350 1350 0    50   Input ~ 0
 pwr_5v_clamp
 Wire Wire Line
 	8350 1350 8550 1350
 Text HLabel 7450 1950 0    50   Input ~ 0
 asensor_ch5_raw
-Wire Wire Line
-	7450 1950 7600 1950
-Connection ~ 7600 1950
 Text HLabel 11050 2050 2    50   Output ~ 0
 asensor_ch5
 Wire Wire Line
@@ -667,10 +590,6 @@ Wire Wire Line
 Connection ~ 10950 2050
 Wire Wire Line
 	8550 2650 9200 2650
-Wire Wire Line
-	9200 1950 9200 2050
-Wire Wire Line
-	9200 2450 9200 2650
 Connection ~ 9200 2650
 Wire Wire Line
 	9200 2650 10950 2650
@@ -683,7 +602,7 @@ Wire Notes Line
 Wire Notes Line
 	6550 1000 11950 1000
 $Comp
-L KICAD_Older_Version:R R19
+L Device:R R19
 U 1 1 5BEA5C49
 P 7600 4800
 F 0 "R19" V 7680 4800 40  0000 C CNN
@@ -697,7 +616,7 @@ F 6 "," H 12925 4025 60  0001 C CNN "VEND2,VEND2#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KICAD_Older_Version:R R27
+L Device:R R27
 U 1 1 5BEA5C52
 P 10650 4650
 F 0 "R27" V 10730 4650 40  0000 C CNN
@@ -711,7 +630,7 @@ F 6 "," H 12975 4025 60  0001 C CNN "VEND2,VEND2#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KICAD_Older_Version:R R31
+L Device:R R31
 U 1 1 5BEA5C5B
 P 10950 4950
 F 0 "R31" V 11030 4950 40  0000 C CNN
@@ -725,7 +644,7 @@ F 6 "," H 12775 4325 60  0001 C CNN "VEND2,VEND2#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KICAD_Older_Version:R R24
+L Device:R R24
 U 1 1 5BEA5C6D
 P 8050 4550
 F 0 "R24" V 8130 4550 40  0000 C CNN
@@ -750,10 +669,8 @@ Text Notes 7050 3950 2    60   ~ 0
 CH6
 Text Notes 9450 4200 0    60   ~ 0
 low pass filter knee at 1kHz 
-Wire Wire Line
-	7600 4550 7800 4550
 $Comp
-L KICAD_Older_Version:C C16
+L Device:C C16
 U 1 1 5BEA5C7D
 P 9200 4850
 F 0 "C16" H 9200 4950 40  0000 L CNN
@@ -769,27 +686,14 @@ Connection ~ 9200 4550
 Wire Wire Line
 	9200 4550 9650 4550
 Wire Wire Line
-	10950 4650 10950 4700
-Wire Wire Line
-	10950 5200 10950 5250
-Wire Wire Line
-	7600 5050 7600 5250
-Wire Wire Line
 	7600 5250 8550 5250
 Connection ~ 8550 5250
-Wire Wire Line
-	10900 4650 10950 4650
-Wire Wire Line
-	10400 4650 10350 4650
 Text GLabel 8350 3950 0    50   Input ~ 0
 pwr_5v_clamp
 Wire Wire Line
 	8350 3950 8550 3950
 Text HLabel 7450 4550 0    50   Input ~ 0
 asensor_ch6_raw
-Wire Wire Line
-	7450 4550 7600 4550
-Connection ~ 7600 4550
 Text HLabel 11050 4650 2    50   Output ~ 0
 asensor_ch6
 Wire Wire Line
@@ -797,10 +701,6 @@ Wire Wire Line
 Connection ~ 10950 4650
 Wire Wire Line
 	8550 5250 9200 5250
-Wire Wire Line
-	9200 4550 9200 4650
-Wire Wire Line
-	9200 5050 9200 5250
 Connection ~ 9200 5250
 Wire Wire Line
 	9200 5250 10950 5250
@@ -813,7 +713,7 @@ Wire Notes Line
 Wire Notes Line
 	6550 3600 11950 3600
 $Comp
-L KICAD_Older_Version:R R28
+L Device:R R28
 U 1 1 5BEA5CAF
 P 10650 7250
 F 0 "R28" V 10730 7250 40  0000 C CNN
@@ -827,7 +727,7 @@ F 6 "," H 12975 6625 60  0001 C CNN "VEND2,VEND2#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KICAD_Older_Version:R R32
+L Device:R R32
 U 1 1 5BEA5CB8
 P 10950 7550
 F 0 "R32" V 11030 7550 40  0000 C CNN
@@ -851,7 +751,7 @@ Wire Wire Line
 Text Notes 9450 6800 0    60   ~ 0
 low pass filter knee at 1kHz 
 $Comp
-L KICAD_Older_Version:C C17
+L Device:C C17
 U 1 1 5BEA5CD9
 P 9200 7450
 F 0 "C17" H 9200 7550 40  0000 L CNN
@@ -866,14 +766,6 @@ $EndComp
 Connection ~ 9200 7150
 Wire Wire Line
 	9200 7150 9650 7150
-Wire Wire Line
-	10950 7250 10950 7300
-Wire Wire Line
-	10950 7800 10950 7850
-Wire Wire Line
-	10900 7250 10950 7250
-Wire Wire Line
-	10400 7250 10350 7250
 Text GLabel 8350 6550 0    50   Input ~ 0
 pwr_5v_clamp
 Wire Wire Line
@@ -885,10 +777,6 @@ Wire Wire Line
 Connection ~ 10950 7250
 Wire Wire Line
 	8550 7850 9200 7850
-Wire Wire Line
-	9200 7150 9200 7250
-Wire Wire Line
-	9200 7650 9200 7850
 Connection ~ 9200 7850
 Wire Wire Line
 	9200 7850 10950 7850
@@ -901,7 +789,7 @@ Wire Notes Line
 Wire Notes Line
 	6550 6200 11950 6200
 $Comp
-L KICAD_Older_Version:R R20
+L Device:R R20
 U 1 1 5BEA5D01
 P 7600 10000
 F 0 "R20" V 7680 10000 40  0000 C CNN
@@ -915,7 +803,7 @@ F 6 "," H 12925 9225 60  0001 C CNN "VEND2,VEND2#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KICAD_Older_Version:R R29
+L Device:R R29
 U 1 1 5BEA5D0A
 P 10650 9850
 F 0 "R29" V 10730 9850 40  0000 C CNN
@@ -929,7 +817,7 @@ F 6 "," H 12975 9225 60  0001 C CNN "VEND2,VEND2#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L KICAD_Older_Version:R R33
+L Device:R R33
 U 1 1 5BEA5D13
 P 10950 10150
 F 0 "R33" V 11030 10150 40  0000 C CNN
@@ -943,7 +831,7 @@ F 6 "," H 12775 9525 60  0001 C CNN "VEND2,VEND2#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KICAD_Older_Version:R R25
+L Device:R R25
 U 1 1 5BEA5D25
 P 8050 9750
 F 0 "R25" V 8130 9750 40  0000 C CNN
@@ -966,10 +854,8 @@ Wire Wire Line
 	9450 9950 9650 9950
 Text Notes 10250 9000 0    60   ~ 0
 low pass filter knee at 1kHz 
-Wire Wire Line
-	7600 9750 7800 9750
 $Comp
-L KICAD_Older_Version:C C18
+L Device:C C18
 U 1 1 5BEA5D34
 P 9200 10050
 F 0 "C18" H 9200 10150 40  0000 L CNN
@@ -985,25 +871,12 @@ Connection ~ 9200 9750
 Wire Wire Line
 	9200 9750 9650 9750
 Wire Wire Line
-	10950 9850 10950 9900
-Wire Wire Line
-	10950 10400 10950 10450
-Wire Wire Line
-	7600 10250 7600 10450
-Wire Wire Line
 	7600 10450 8550 10450
 Connection ~ 8550 10450
-Wire Wire Line
-	10900 9850 10950 9850
-Wire Wire Line
-	10400 9850 10350 9850
 Text GLabel 8350 9150 0    50   Input ~ 0
 pwr_5v_clamp
 Wire Wire Line
 	8350 9150 8550 9150
-Wire Wire Line
-	7450 9750 7600 9750
-Connection ~ 7600 9750
 Text HLabel 11050 9850 2    50   Output ~ 0
 asensor_ch8
 Wire Wire Line
@@ -1011,10 +884,6 @@ Wire Wire Line
 Connection ~ 10950 9850
 Wire Wire Line
 	8550 10450 9200 10450
-Wire Wire Line
-	9200 9750 9200 9850
-Wire Wire Line
-	9200 10250 9200 10450
 Connection ~ 9200 10450
 Wire Notes Line
 	11950 8800 11950 10950
@@ -1336,12 +1205,8 @@ $EndComp
 Wire Wire Line
 	13200 1350 13200 1400
 Wire Wire Line
-	13200 1900 13200 2000
-Wire Wire Line
 	13800 1400 13500 1400
 Connection ~ 13200 1400
-Wire Wire Line
-	13200 1400 13200 1500
 Wire Wire Line
 	13800 1400 14400 1400
 Connection ~ 13800 1400
@@ -1353,13 +1218,9 @@ Connection ~ 13800 2000
 Connection ~ 13200 2000
 Wire Wire Line
 	13200 2000 13200 2050
-Wire Wire Line
-	13500 1900 13500 2000
 Connection ~ 13500 2000
 Wire Wire Line
 	13500 2000 13200 2000
-Wire Wire Line
-	13500 1500 13500 1400
 Connection ~ 13500 1400
 Wire Wire Line
 	13500 1400 13200 1400
@@ -1374,21 +1235,9 @@ Wire Notes Line
 Wire Notes Line
 	12800 1000 15050 1000
 Wire Wire Line
-	2550 1950 3000 1950
-Wire Wire Line
 	2550 4550 3000 4550
 Wire Wire Line
-	8300 1950 8750 1950
-Wire Wire Line
-	8300 4550 8750 4550
-Wire Wire Line
 	8000 7150 8750 7150
-Wire Wire Line
-	2550 7150 3000 7150
-Wire Wire Line
-	2550 9750 3000 9750
-Wire Wire Line
-	8300 9750 8750 9750
 $Comp
 L boctok:BAT54S D4
 U 1 1 5BF43125
@@ -1565,4 +1414,164 @@ Text Label 4550 7250 0    50   ~ 0
 ch3_out
 Text Label 4500 9850 0    50   ~ 0
 ch4_out
+Wire Wire Line
+	1700 4550 2050 4550
+Wire Wire Line
+	1700 1950 1850 1950
+Wire Wire Line
+	2450 1950 3000 1950
+Wire Wire Line
+	1850 2050 1850 1950
+Connection ~ 1850 1950
+Wire Wire Line
+	1850 1950 2150 1950
+Wire Wire Line
+	1850 2350 1850 2650
+Wire Wire Line
+	3450 1950 3450 2100
+Wire Wire Line
+	3450 2400 3450 2650
+Wire Wire Line
+	4600 2050 4750 2050
+Wire Wire Line
+	5050 2050 5200 2050
+Wire Wire Line
+	5200 2050 5200 2200
+Wire Wire Line
+	5200 2500 5200 2650
+Wire Wire Line
+	1700 7150 1850 7150
+Wire Wire Line
+	1850 7250 1850 7150
+Connection ~ 1850 7150
+Wire Wire Line
+	1850 7150 2150 7150
+Wire Wire Line
+	1850 7550 1850 7850
+Wire Wire Line
+	2450 7150 3000 7150
+Wire Wire Line
+	3450 7150 3450 7300
+Wire Wire Line
+	3450 7600 3450 7850
+Wire Wire Line
+	4600 7250 4750 7250
+Wire Wire Line
+	5050 7250 5200 7250
+Wire Wire Line
+	5200 7250 5200 7400
+Wire Wire Line
+	5200 7700 5200 7850
+Wire Wire Line
+	1700 9750 1850 9750
+Wire Wire Line
+	2450 9750 3000 9750
+Wire Wire Line
+	1850 9850 1850 9750
+Connection ~ 1850 9750
+Wire Wire Line
+	1850 9750 2150 9750
+Wire Wire Line
+	1850 10150 1850 10450
+Wire Wire Line
+	3450 9750 3450 9900
+Wire Wire Line
+	3450 10200 3450 10450
+Wire Wire Line
+	4600 9850 4750 9850
+Wire Wire Line
+	5050 9850 5200 9850
+Wire Wire Line
+	5200 9850 5200 10000
+Wire Wire Line
+	5200 10300 5200 10450
+Wire Wire Line
+	7450 1950 7600 1950
+Wire Wire Line
+	8200 1950 8750 1950
+Wire Wire Line
+	7600 2050 7600 1950
+Connection ~ 7600 1950
+Wire Wire Line
+	7600 1950 7900 1950
+Wire Wire Line
+	7600 2350 7600 2650
+Wire Wire Line
+	9200 1950 9200 2100
+Wire Wire Line
+	9200 2400 9200 2650
+Wire Wire Line
+	10350 2050 10500 2050
+Wire Wire Line
+	10800 2050 10950 2050
+Wire Wire Line
+	10950 2050 10950 2200
+Wire Wire Line
+	10950 2500 10950 2650
+Wire Wire Line
+	7450 4550 7600 4550
+Wire Wire Line
+	7600 4650 7600 4550
+Connection ~ 7600 4550
+Wire Wire Line
+	7600 4550 7900 4550
+Wire Wire Line
+	7600 4950 7600 5250
+Wire Wire Line
+	8200 4550 8750 4550
+Wire Wire Line
+	9200 4550 9200 4700
+Wire Wire Line
+	9200 5000 9200 5250
+Wire Wire Line
+	10350 4650 10500 4650
+Wire Wire Line
+	10800 4650 10950 4650
+Wire Wire Line
+	10950 4650 10950 4800
+Wire Wire Line
+	10950 5100 10950 5250
+Wire Wire Line
+	9200 7150 9200 7300
+Wire Wire Line
+	9200 7600 9200 7850
+Wire Wire Line
+	10350 7250 10500 7250
+Wire Wire Line
+	10800 7250 10950 7250
+Wire Wire Line
+	10950 7250 10950 7400
+Wire Wire Line
+	10950 7700 10950 7850
+Wire Wire Line
+	7450 9750 7600 9750
+Wire Wire Line
+	8200 9750 8750 9750
+Wire Wire Line
+	7600 9850 7600 9750
+Connection ~ 7600 9750
+Wire Wire Line
+	7600 9750 7900 9750
+Wire Wire Line
+	7600 10150 7600 10450
+Wire Wire Line
+	9200 9750 9200 9900
+Wire Wire Line
+	9200 10200 9200 10450
+Wire Wire Line
+	10350 9850 10500 9850
+Wire Wire Line
+	10800 9850 10950 9850
+Wire Wire Line
+	10950 9850 10950 10000
+Wire Wire Line
+	10950 10300 10950 10450
+Wire Wire Line
+	13200 1400 13200 1550
+Wire Wire Line
+	13200 1850 13200 2000
+Wire Wire Line
+	13500 1400 13500 1550
+Wire Wire Line
+	13500 1850 13500 2000
 $EndSCHEMATC
