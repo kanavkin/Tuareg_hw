@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Tuareg-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -469,14 +468,10 @@ Text Label 20400 7250 0    50   ~ 0
 con_spareact1
 Wire Wire Line
 	20400 7750 20150 7750
-Text Label 20400 6850 0    50   ~ 0
-con_vrcrank-
 Text Label 20400 7350 0    50   ~ 0
+con_vrcrank-
+Text Label 20400 6850 0    50   ~ 0
 con_vrcrank+
-Wire Wire Line
-	20400 6850 20150 6850
-Wire Wire Line
-	20400 7350 20150 7350
 $Comp
 L power:GND #PWR0103
 U 1 1 5BF748D1
@@ -730,4 +725,11 @@ F2 "crank_signal" O R 6100 6800 50
 F3 "vr_crank+" I L 4300 6800 50 
 F4 "vr_crank-" I L 4300 6950 50 
 $EndSheet
+NoConn ~ 20150 7150
+NoConn ~ 20150 7050
+NoConn ~ 7450 7150
+Wire Wire Line
+	20400 7350 20150 7350
+Wire Wire Line
+	20400 6850 20150 6850
 $EndSCHEMATC

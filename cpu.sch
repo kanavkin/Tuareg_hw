@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Tuareg-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 8
+Sheet 7 8
 Title ""
 Date ""
 Rev ""

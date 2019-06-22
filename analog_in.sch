@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Tuareg-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -223,18 +222,8 @@ Connection ~ 3450 4550
 Wire Wire Line
 	3450 4550 3900 4550
 Wire Wire Line
-	5200 4650 5200 4700
-Wire Wire Line
-	5200 5200 5200 5250
-Wire Wire Line
-	1850 5050 1850 5250
-Wire Wire Line
 	1850 5250 2800 5250
 Connection ~ 2800 5250
-Wire Wire Line
-	5150 4650 5200 4650
-Wire Wire Line
-	4650 4650 4600 4650
 Text GLabel 2600 3950 0    50   Input ~ 0
 pwr_5v_clamp
 Wire Wire Line
@@ -246,10 +235,6 @@ Wire Wire Line
 Connection ~ 5200 4650
 Wire Wire Line
 	2800 5250 3450 5250
-Wire Wire Line
-	3450 4550 3450 4650
-Wire Wire Line
-	3450 5050 3450 5250
 Connection ~ 3450 5250
 Wire Wire Line
 	3450 5250 5200 5250
@@ -1235,8 +1220,6 @@ Wire Notes Line
 Wire Notes Line
 	12800 1000 15050 1000
 Wire Wire Line
-	2550 4550 3000 4550
-Wire Wire Line
 	8000 7150 8750 7150
 $Comp
 L boctok:BAT54S D4
@@ -1415,8 +1398,6 @@ ch3_out
 Text Label 4500 9850 0    50   ~ 0
 ch4_out
 Wire Wire Line
-	1700 4550 2050 4550
-Wire Wire Line
 	1700 1950 1850 1950
 Wire Wire Line
 	2450 1950 3000 1950
@@ -1574,4 +1555,27 @@ Wire Wire Line
 	13500 1400 13500 1550
 Wire Wire Line
 	13500 1850 13500 2000
+Wire Wire Line
+	1700 4550 1850 4550
+Wire Wire Line
+	2450 4550 3000 4550
+Wire Wire Line
+	1850 4650 1850 4550
+Connection ~ 1850 4550
+Wire Wire Line
+	1850 4550 2150 4550
+Wire Wire Line
+	1850 4950 1850 5250
+Wire Wire Line
+	3450 4550 3450 4700
+Wire Wire Line
+	3450 5000 3450 5250
+Wire Wire Line
+	4600 4650 4750 4650
+Wire Wire Line
+	5050 4650 5200 4650
+Wire Wire Line
+	5200 4650 5200 4800
+Wire Wire Line
+	5200 5100 5200 5250
 $EndSCHEMATC
