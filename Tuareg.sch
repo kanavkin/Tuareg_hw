@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Tuareg-cache
 EELAYER 29 0
 EELAYER END
 $Descr A2 23386 16535
@@ -518,13 +519,9 @@ Wire Wire Line
 	18350 6100 18700 6100
 Wire Wire Line
 	18700 6000 18350 6000
-Wire Wire Line
-	18350 5800 18700 5800
-Text Label 18350 5600 2    50   ~ 0
-con_ach1
-Wire Wire Line
-	18350 5600 18700 5600
 Text Label 18350 5800 2    50   ~ 0
+con_ach1
+Text Label 18350 5600 2    50   ~ 0
 con_ach8
 Text Label 20450 6000 0    50   ~ 0
 con_ach6
@@ -732,4 +729,8 @@ Wire Wire Line
 	20400 7350 20150 7350
 Wire Wire Line
 	20400 6850 20150 6850
+Wire Wire Line
+	18350 5600 18700 5600
+Wire Wire Line
+	18350 5800 18700 5800
 $EndSCHEMATC
