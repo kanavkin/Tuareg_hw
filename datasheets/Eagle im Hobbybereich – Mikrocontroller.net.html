@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html class="client-js" dir="ltr" lang="de"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script async="" src="Eagle%20im%20Hobbybereich%20%E2%80%93%20Mikrocontroller.net_files/analytics.js"></script><script async="" type="text/javascript" src="Eagle%20im%20Hobbybereich%20%E2%80%93%20Mikrocontroller.net_files/gpt.js"></script>
+<meta charset="UTF-8">
+<title>Eagle im Hobbybereich – Mikrocontroller.net</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Eagle_im_Hobbybereich","wgTitle":"Eagle im Hobbybereich","wgCurRevisionId":100532,"wgRevisionId":100532,"wgArticleId":2067,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Eagle","Platinen"],"wgBreakFrames":false,"wgPageContentLanguage":"de","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"],"wgMonthNamesShort":["","Jan.","Feb.","Mär.","Apr.","Mai","Jun.","Jul.","Aug.","Sep.","Okt.","Nov.","Dez."],"wgRelevantPageName":"Eagle_im_Hobbybereich","wgRelevantArticleId":2067,"wgRequestId":"6f1a2403552bce496d179753","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":true,"publish":true}});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready"});mw.loader.implement("user.options@045gamm",function($,jQuery,require,module){mw.user.options.set({"variant":"de"});});mw.loader.implement("user.tokens@0kkvpu6",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<link rel="stylesheet" href="Eagle%20im%20Hobbybereich%20%E2%80%93%20Mikrocontroller.net_files/load_002.css">
+<script async="" src="Eagle%20im%20Hobbybereich%20%E2%80%93%20Mikrocontroller.net_files/load.php"></script>
+<style>
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:0;z-index:1099;padding:0;margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:#fff;cursor:pointer;border:solid 1px #aaa;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:#fff;cursor:pointer;border:solid 1px #aaa;padding:0;margin:0}.suggestions-result{color:#000;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#4c59a6;color:#fff}.suggestions-special .special-label{color:#808080;text-align:left}.suggestions-special .special-query{color:#000;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:#c0c0c0}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:#fff}.highlight{font-weight:bold}
+@media screen {
+	.tochidden,.toctoggle{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.toctoggle{font-size:94%}}
+@media print {
+	#toc.tochidden,.toc.tochidden,.toctoggle{display:none}}
+.postedit-container{margin:0 auto;position:fixed;top:0;height:0;left:50%;z-index:1000;font-size:13px}.postedit-container:hover{cursor:pointer}.postedit{position:relative;top:0.6em;left:-50%;padding:0.6em 3.6em 0.6em 1.1em;line-height:1.5625em;color:#626465;background-color:#f4f4f4;border:1px solid #dcd9d9;text-shadow:0 0.0625em 0 rgba( 255,255,255,0.5 );border-radius:5px;box-shadow:0 2px 5px 0 #ccc;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.skin-monobook .postedit{top:6em !important; }.postedit-faded{opacity:0}.postedit-icon{padding-left:41px;  line-height:25px;background-repeat:no-repeat;background-position:8px 50%}.postedit-icon-checkmark{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB9ElEQVR4AZWRA3AYURQArxrVHtW2bdu2bdu2zdi2bdu2bWxs7zeehZaw4f70kbs+zI3e/nWK+RWx3aOFlrL56Sy5SxrruG69hlv6OyK+mz+8KDSXdXembj0ispT7tjs4ZTIbpYBvxGSGKzZTeFrb7W/meN002swFs0U8ttpHTkF2BvCqWQrW35929bTsKm5Zb+SEwWwcY8wAngB9m7Z+d+rIPZ/npdy12M5p47n8dXsCYAf0qPy06eGMdktuDu9Qf+JmKl3SWM91qzVcN9tAbEYkwMaq0tyb1m/To5kP170el/BK8/qa6sJr70ydf+T/Uu5ab+Oo/lS0AkUBpIFWlZ9WPhxpse/PHO7YbOOczjL0vZV2lNxPPtG73dYXM+xvm2znrOl83tidoqCwMBgYXsPFB0on5S6pr+eK5TKuW67lgvaKvF8mL1dtfTL32FHxRdyx3cQpg7m4x9sCXKkTIzA4LDH44zWdzaUf71hv5rTG4uyzcusybxSX7aThbMQ8XgCYAp3rzTTQOiIh9PNlzY3FSuZxrzjme1Y7uGS6kjsWO4jPjM4FVjRZsvD4kO9XtTZzQn82NyzWc0B7AmZh6gA/hOYSGhfw9YbOVnarj+S7800AL2BIsxUAbWNToj7bhBuQmZcOsFdoKUC74rGheCwXmqAIQTc9jQcrADIAAAAASUVORK5CYII=);background-image:url(/wikisoftware/resources/src/mediawiki.action/images/green-checkmark.png?d94f1)!ie;background-position:left}.postedit-close{position:absolute;padding:0 0.8em;right:0;top:0;font-size:1.25em;font-weight:bold;line-height:2.3em;color:#000;text-shadow:0 0.0625em 0 #fff;text-decoration:none;opacity:0.2;filter:alpha( opacity=20 )}.postedit-close:hover{color:#000;text-decoration:none;opacity:0.4;filter:alpha( opacity=40 )}</style><style>
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:#000;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:#fff}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}</style><meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="Eagle%20im%20Hobbybereich%20%E2%80%93%20Mikrocontroller.net_files/load.css">
+<meta name="generator" content="MediaWiki 1.29.2">
+<link rel="shortcut icon" href="https://www.mikrocontroller.net/favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="https://www.mikrocontroller.net/wikisoftware/opensearch_desc.php" title="Mikrocontroller.net (de)">
+<link rel="EditURI" type="application/rsd+xml" href="https://www.mikrocontroller.net/wikisoftware/api.php?action=rsd">
+<link rel="alternate" type="application/atom+xml" title="Atom-Feed für „Mikrocontroller.net“" href="https://www.mikrocontroller.net/wikisoftware/index.php?title=Spezial:Letzte_%C3%84nderungen&amp;feed=atom">
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<script>
+(window.RLQ=window.RLQ||[]).push(function(){
+  mw.loader.load( "/assets/application-437665fced489cca361a44b6c988d5256f514f1a98be7612fb3f1708dcd7a312.js" );
+});
+</script><script src="Eagle%20im%20Hobbybereich%20%E2%80%93%20Mikrocontroller.net_files/load_002.php"></script>
+<link rel="stylesheet" media="all" href="Eagle%20im%20Hobbybereich%20%E2%80%93%20Mikrocontroller.net_files/screen-41cf1a53959b4ba4215b236b4b4e3d9af50e6ce21790f1d31c9df.css">
+<link rel="stylesheet" media="print" href="Eagle%20im%20Hobbybereich%20%E2%80%93%20Mikrocontroller.net_files/print-80f24115f86985d1d30d60a2b339bf75dbcaa308b178ae1f8f564d.css">
+
+
+<script>
+/* <DFP> */
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+
+googletag.cmd.push(function() {
+  //googletag.pubads().enableSingleRequest();
+  googletag.pubads().setTargeting('pagetype', 'article');
+  googletag.pubads().setTargeting('section', 'article');
+  if ('https:' == document.location.protocol) {
+    googletag.pubads().setTargeting('ssl', '1');
+  } else {
+    googletag.pubads().setTargeting('ssl', '0');
+  }
+  if (location.hostname=='embdev.net') {
+      googletag.pubads().setTargeting('site_id', '2');
+  } else {
+    googletag.pubads().setTargeting('site_id', '1');
+  }
+});
+/* </DFP> */
+</script>
+    
+
+<script>
+  if (location.hostname=='embdev.net') {
+    ga_subid = 7;
+  } else {
+    ga_subid = 1;
+  }
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80574-' + ga_subid, 'auto');
+
+  ga('send', 'pageview');
+
+</script>
+    
+<link rel="preload" href="Eagle%20im%20Hobbybereich%20%E2%80%93%20Mikrocontroller.net_files/integrator.js" as="script"><script type="text/javascript" src="Eagle%20im%20Hobbybereich%20%E2%80%93%20Mikrocontroller.net_files/integrator.js"></script><link rel="preload" href="Eagle%20im%20Hobbybereich%20%E2%80%93%20Mikrocontroller.net_files/integrator_002.js" as="script"><script type="text/javascript" src="Eagle%20im%20Hobbybereich%20%E2%80%93%20Mikrocontroller.net_files/integrator_002.js"></script><script src="Eagle%20im%20Hobbybereich%20%E2%80%93%20Mikrocontroller.net_files/pubads_impl_2019080801.js" async=""></script></head>
+<body class="mediawiki ltr sitedir-ltr capitalize-all-nouns mw-hide-empty-elt ns-0 ns-subject page-Eagle_im_Hobbybereich rootpage-Eagle_im_Hobbybereich skin-mikrocontroller action-view">
+    <!--<script src="/javascripts/highlightCurrentLink.js" type="text/javascript"></script>-->
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.mikrocontroller.net/favicon.ico">
+    <style type="text/css">#nav-foren-sub {display: none;} </style>
+    <style type="text/css">#nav-tutorial-sub {display: none;} </style>
+
+	<div id="outer-container">
+    <div id="globalWrapper">
+    <div id="top"><h1><a href="https://www.mikrocontroller.net/"><object data="Eagle%20im%20Hobbybereich%20%E2%80%93%20Mikrocontroller.net_files/logo.svg" type="image/svg+xml">mikrocontroller.net</object></a></h1>
+<div id="hamburger">
+	<div></div>
+  <div></div>
+  <div></div>
+</div>
+
+</div>
+  <table id="twocolumns">
+  <tbody><tr>
+  <td id="sidebar-left" class="sidebar">
+  <!-- begin nav -->
+<div class="nav-container">
+  <ul class="nav-first">
+    <li><b><a href="https://www.mikrocontroller.net/">Home</a></b></li>
+    <li>
+      <b><a href="https://www.mikrocontroller.net/articles/AVR">AVR</a></b>
+      <ul>
+        <li><a href="https://www.mikrocontroller.net/articles/AVR-Tutorial">AVR-Tutorial</a></li>
+        <li><a href="https://www.mikrocontroller.net/articles/AVR-GCC-Tutorial">AVR-GCC-Tutorial</a></li>
+      </ul>
+    </li>
+    <li>
+      <b><a href="https://www.mikrocontroller.net/articles/ARM">ARM</a></b>
+      <ul>
+        <li><a href="https://www.mikrocontroller.net/articles/LPC-Mikrocontroller">LPC</a></li>
+        <li><a href="https://www.mikrocontroller.net/articles/STM32">STM32</a></li>
+        <li><a href="https://www.mikrocontroller.net/articles/Infineon_XMC">XMC</a></li>
+      </ul>
+    </li>
+    <li>
+      <b><a href="https://www.mikrocontroller.net/articles/MSP430">MSP430</a></b>
+    </li>
+    <li>
+      <b><a href="https://www.mikrocontroller.net/articles/PIC">PIC</a></b>
+    </li>
+    <li>
+      <b><a href="https://www.mikrocontroller.net/articles/Programmierbare_Logik">FPGA, CPLD &amp; Co.</a></b>
+      <ul>
+        <li><a href="https://www.mikrocontroller.net/articles/FPGA">Grundlagen zu FPGAs</a></li>
+        <li><a href="https://www.mikrocontroller.net/articles/Hardwarebeschreibungssprachen">VHDL &amp; Co.</a></li>
+        <li><a href="https://www.mikrocontroller.net/articles/Xilinx_ISE">Xilinx ISE</a></li>
+      </ul>
+    </li>
+    <li>
+      <b><a href="https://www.mikrocontroller.net/articles/Digitale_Signalverarbeitung">DSP</a></b>
+    </li>
+
+    <li>
+      <b><a href="https://www.mikrocontroller.net/articles/Elektronik_Allgemein">Elektronik allgemein</a></b>
+      <ul>
+        <li><a href="https://www.mikrocontroller.net/articles/SMD_L%C3%B6ten">SMD Löten</a></li>
+        <li><a href="https://www.mikrocontroller.net/articles/Operationsverst%C3%A4rker-Grundschaltungen">Operationsverstärker</a></li>
+        <li><a href="https://www.mikrocontroller.net/articles/Oszilloskop">Oszilloskop</a></li>
+      </ul> 
+    </li>
+
+    <li>
+      <b><a href="https://www.mikrocontroller.net/forum/all">Forum</a></b>
+      <ul>
+        <li><a href="https://www.mikrocontroller.net/forum/mikrocontroller-elektronik">µC &amp; Elektronik</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/analogtechnik">Analogtechnik</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/fpga-vhdl-cpld">FPGA, VHDL &amp; Co.</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/dsp">DSP</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/gcc">Compiler &amp; IDEs</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/codesammlung">Projekte &amp; Code</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/markt">Markt</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/platinen">Platinen</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/mechanik">Mechanik &amp; Werkzeug</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/hf">HF, Funk &amp; Felder</a></li>
+        <li>Neu: <a href="https://www.mikrocontroller.net/forum/fahrzeugelektronik"><b>Fahrzeugelektronik</b></a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/hausbus">Haus &amp; Smart Home</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/pc-programmierung">PC-Programmierung</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/pc-hardware-software">PC Hard- &amp; Software</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/ausbildung-studium-beruf">Ausbildung &amp; Beruf</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/offtopic">Offtopic</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/website">Webseite</a></li>
+       </ul>
+    </li>
+<!--    <li><b><a href="/buecher/">Buchtipps</a></b></li>-->
+<!--    <li><b><a href="http://shop.mikrocontroller.net/">Shop</a></b></li>-->
+<!--    <li><b><a href="/articles/Linksammlung">Linksammlung</a></b></li>-->
+    <li><b><a href="https://www.mikrocontroller.net/articles/Hauptseite">Artikelübersicht</a></b></li>
+    <li><b><a href="https://www.mikrocontroller.net/articles/Spezial:Recentchanges">Letzte Änderungen</a></b></li>
+  </ul>
+</div>
+<!-- end nav -->
+  <hr>
+  <!-- google_ad_section_start(weight=ignore) -->
+
+<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
+
+	<div id="p-cactions" class="portlet">
+	  <h5><a href="#toggle" onclick="javascript:toggle_visibility('p-cactions-box'); return false;">▶ Dieser Artikel</a></h5>
+	  <div class="box" id="p-cactions-box">
+      <ul>
+	    <li id="ca-nstab-main" class="selected"><a href="https://www.mikrocontroller.net/articles/Eagle_im_Hobbybereich">Seite</a></li><li id="ca-talk"><a href="https://www.mikrocontroller.net/articles/Diskussion:Eagle_im_Hobbybereich">Diskussion</a></li><li id="ca-viewsource"><a href="https://www.mikrocontroller.net/wikisoftware/index.php?title=Eagle_im_Hobbybereich&amp;action=edit">Quelltext anzeigen</a></li><li id="ca-history"><a href="https://www.mikrocontroller.net/wikisoftware/index.php?title=Eagle_im_Hobbybereich&amp;action=history">Versionsgeschichte</a></li>  	  </ul>
+    </div>
+	</div>
+	<div class="portlet" id="p-personal">
+	  <h5><a href="#toggle" onclick="javascript:toggle_visibility('p-personal-box'); return false;">▶ Benutzer</a></h5>
+	  <div class="box" id="p-personal-box">
+	    <ul>
+	    <li id="pt-login"><a href="https://www.mikrocontroller.net/wikisoftware/index.php?title=Spezial:Anmelden&amp;returnto=Eagle+im+Hobbybereich">Anmelden</a></li>	    </ul>
+	  </div>
+	</div>
+  <!-- LOGO
+	<div class="portlet" id="p-logo">
+	  <a style="background-image: url(/wikisoftware/skins/common/images/wiki.png);"
+	    href="/articles/Hauptseite"
+	    title="Hauptseite"></a>
+	</div>
+  -->
+	<div id="p-search" class="portlet">
+	  <h5><a href="#toggle" onclick="javascript:toggle_visibility('p-search-box'); return false;">▶ Suche</a></h5>
+	  <div class="box" id="p-search-box">
+	    <form name="searchform" action="/articles/Spezial:Suche" id="searchform">
+	      <input id="searchInputX" name="search" type="text" accesskey="f"><br>
+	      <input type="submit" name="go" class="searchButton" value="Ausführen">&nbsp;<input type="submit" name="fulltext" class="searchButton" value="Suche">
+	    </form>
+	  </div>
+	</div>
+	<div class="portlet" id="p-tb">
+	  <h5><a href="#toggle" onclick="javascript:toggle_visibility('p-tb-box'); return false;">▶ Werkzeuge</a></h5>
+	    <div class="box" id="p-tb-box">
+      <ul>
+		  		  <li id="t-whatlinkshere"><a href="https://www.mikrocontroller.net/articles/Spezial:Linkliste/Eagle_im_Hobbybereich">Links auf diese Seite</a></li>
+		  		  <li id="t-recentchangeslinked"><a href="https://www.mikrocontroller.net/articles/Spezial:%C3%84nderungen_an_verlinkten_Seiten/Eagle_im_Hobbybereich">Änderungen an verlinkten Seiten</a></li>
+		  	      	      	      	      	      	      	      	      	      <li id="t-specialpages"><a href="https://www.mikrocontroller.net/articles/Spezial:Spezialseiten">Spezialseiten</a></li>	      	    </ul>
+      </div>
+	</div>
+  <!-- google_ad_section_end -->
+  
+  <!-- start adsense -->
+    <!-- end adsense -->
+  
+      </td><!-- end of the left (by default at least) column -->
+  <td id="main">
+    <!-- google_ad_section_start -->
+    <a name="top" id="contentTop"></a>
+    		<div id="content">
+    <h1 class="firstHeading">Eagle im Hobbybereich</h1>
+    <div id="bodyContent">
+
+						<!-- tagline -->
+			<!-- <div id="siteSub">Aus Mikrocontroller.net</div> -->
+			<!-- /tagline -->
+						<!-- subtitle -->
+			<div id="contentSub"></div>
+			<!-- /subtitle -->
+												<!-- jumpto -->
+			<div id="jump-to-nav" class="mw-jump">
+				Wechseln zu:				<a href="#mw-navigation">Navigation</a>, 				<a href="#p-search">Suche</a>
+			</div>
+			<!-- /jumpto -->
+						<!-- bodycontent -->
+			<div id="mw-content-text" dir="ltr" class="mw-content-ltr" lang="de"><div id="toc" class="toc"><div id="toctitle" class="toctitle"><h2>Inhaltsverzeichnis</h2><span class="toctoggle">&nbsp;[<a role="button" tabindex="0" class="togglelink">Verbergen</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Einleitung"><span class="tocnumber">1</span> <span class="toctext">Einleitung</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Empfehlungen_f.C3.BCr_Leiterbahnen_im_Hobbybereich"><span class="tocnumber">2</span> <span class="toctext">Empfehlungen für Leiterbahnen im Hobbybereich</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Pad-Innendurchmesser_.2F_Bohrl.C3.B6cher"><span class="tocnumber">3</span> <span class="toctext">Pad-Innendurchmesser / Bohrlöcher</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Padformen_und_Au.C3.9Fendurchmesser"><span class="tocnumber">4</span> <span class="toctext">Padformen und Außendurchmesser</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Auswahl_des_Rasters"><span class="tocnumber">5</span> <span class="toctext">Auswahl des Rasters</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Schaltplan"><span class="tocnumber">5.1</span> <span class="toctext">Schaltplan</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Layout"><span class="tocnumber">5.2</span> <span class="toctext">Layout</span></a>
+<ul>
+<li class="toclevel-3 tocsection-8"><a href="#Metrisch_vs._Imperial"><span class="tocnumber">5.2.1</span> <span class="toctext">Metrisch vs. Imperial</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-9"><a href="#Bibliothekseditor"><span class="tocnumber">5.3</span> <span class="toctext">Bibliothekseditor</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Leitungen_gerade_anschlie.C3.9Fen"><span class="tocnumber">5.4</span> <span class="toctext">Leitungen gerade anschließen</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Weitere_Tips"><span class="tocnumber">6</span> <span class="toctext">Weitere Tips</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#Projektbeschreibung"><span class="tocnumber">6.1</span> <span class="toctext">Projektbeschreibung</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Voreinstellungen"><span class="tocnumber">6.2</span> <span class="toctext">Voreinstellungen</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Module_kopieren"><span class="tocnumber">6.3</span> <span class="toctext">Module kopieren</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Lochrasterlayout"><span class="tocnumber">6.4</span> <span class="toctext">Lochrasterlayout</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Drucken_unter_Linux"><span class="tocnumber">6.5</span> <span class="toctext">Drucken unter Linux</span></a>
+<ul>
+<li class="toclevel-3 tocsection-17"><a href="#Ma.C3.9Fgetreuer_Druck"><span class="tocnumber">6.5.1</span> <span class="toctext">Maßgetreuer Druck</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h2 class="mw-header"><a id="Einleitung" href="#Einleitung" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Einleitung</span></h2>
+<p>Ich habe bis vor kurzem keinerlei Erfahrung mit einem PCB Programm 
+gehabt. Meine ersten Schritte habe ich mit Gschem und PCB versucht. Sie 
+waren auch einigermaßen erfolgreich. Mittlerweile bin ich zu Eagle 
+gewechselt. 
+Es finden sich einfach mehr Informationen zu Eagle und die Freeware ist 
+für mich vollkommen ausreichend. Desweitern muss ich für das nächste 
+Projekt im Studium Eagle benutzten. Daher will ich erstmal ein System 
+erlernen.
+</p><p>Meine ersten Erfahrungen zu Eagle waren eigentlich grundsätzlich 
+ganz positiv. Was jedoch völlig in die Hose gegangen ist ist die fertige
+ Platine. Nach dem Belichten, Entwickeln, Ätzen, Bohren und Bestücken 
+sind mir meine Fehler erstmal  so wirklich aufgefallen.
+Viele Leiterbahnen und Pads waren einfach nicht Hobbygerecht ausgeführt.
+ Sind die Pads zu klein und man bohrt nicht ganz genau gibt das nur 
+Ärger.
+</p><p>Aus diesem Grund soll dieser Artikel kein Eagle Tutorial werden, 
+sondern eher eine Anlaufstelle mit welchen optimalen Einstellungen Eagle
+ im Hobbybereich verwendbar ist. 
+</p><p>Meine meisten Informationen habe ich aus folgenden Büchern:
+</p>
+<ul><li> Michael Schramm: "Entwurf und Herstellung gedruckter 
+Schaltungen", Elektor Verlag, 5.Auflage (recht alt, aber sinnvolle Tips 
+zum Positionieren von Bauteilen, Verlegen von Leitungen und Tips zu 
+Eagle 2.05)</li>
+<li> Ketler, Neujahr: "Leiterplattendesign mit Eagle", mitp Verlag</li></ul>
+<p>Sehr zu empfehlen ist das erste Buch. Optimale Leiterbahnendicken 
+werden unter Berücksichtigung des Machbaren im Hobbybereich berechnet 
+und definiert. 
+</p><p>Ich habe mich entschlossen, Eagle nochmal von Vorne an zu 
+erlernen und die Tips aus beiden Büchern mit einzubeziehen. Deshalb wird
+ diese Seite auch erst langsam wachsen. Natürlich sind die Tips und 
+Tricks von langjährigen Eagle Nutzern nicht durch das Geschwafel aus den
+ Büchern ersetzbar. Also daher auch der Aufruf an jeden: Mitmachen.
+</p>
+<h2 class="mw-header"><a id="Empfehlungen_f.C3.BCr_Leiterbahnen_im_Hobbybereich" href="#Empfehlungen_f.C3.BCr_Leiterbahnen_im_Hobbybereich" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Empfehlungen für Leiterbahnen im Hobbybereich</span></h2>
+<table border="1">
+<tbody><tr>
+<th>Breite<br>[mil]
+</th>
+<th>Breite<br>[mm]
+</th>
+<th>Verwendungszweck
+</th>
+<th>Strombelastbarkeit<br>[A]
+</th></tr>
+<tr>
+<td align="center">14
+</td>
+<td align="center">0.35
+</td>
+<td>für IC-Durchführungen und als Standardleiterbreite, wenn wenig Platz ist
+</td>
+<td align="center">1
+</td></tr>
+<tr>
+<td align="center">36
+</td>
+<td align="center">0.91
+</td>
+<td>Standardleiter bei genügend Platz
+</td>
+<td align="center">1.5
+</td></tr>
+<tr>
+<td align="center">58
+</td>
+<td align="center">1.47
+</td>
+<td>Mittlere Breite
+</td>
+<td align="center">2
+</td></tr>
+<tr>
+<td align="center">86
+</td>
+<td align="center">2.18
+</td>
+<td>Kräftiger Leiter für Versorgungsspannung und Masse
+</td>
+<td align="center">3
+</td></tr>
+<tr>
+<td align="center">136
+</td>
+<td align="center">3.45
+</td>
+<td>Sehr kräftiger Leiter für große Elkos und Leistungsbauteile
+</td>
+<td align="center">5
+</td></tr>
+<tr>
+<td align="center">225
+</td>
+<td align="center">5.72
+</td>
+<td>
+</td>
+<td align="center">8
+</td></tr></tbody></table>
+<p>Warum diese Leiterbahndicken gewählt wurden, ist im [Schramm] zu 
+finden. Grundsätzlich haben sie mit der optimalen Isolation, dem Grid 
+und der optimal erreichbaren Packungsdichte zu tun.
+</p><p>Die benutzten Leiterbreiten und Pads besitzen immer mind. 10 mil 
+Isolationsabstand. Die feinster 14 mil Leiter ist im Grundraster 0.025 
+anreihbar. Betriebsspannungen sollen mind. über 36 mil breiter 
+Leiterbahnen geführt werden, IC-Durchführungen sind hierbei zu 
+vermeiden. Siehe auch <a href="https://www.mikrocontroller.net/articles/Leiterbahnbreite" title="Leiterbahnbreite">Leiterbahnbreite</a>.
+</p>
+<h2 class="mw-header"><a id="Pad-Innendurchmesser_.2F_Bohrl.C3.B6cher" href="#Pad-Innendurchmesser_.2F_Bohrl.C3.B6cher" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Pad-Innendurchmesser / Bohrlöcher</span></h2>
+<p>Grundsätzlich: Je weniger Bohrstärken desto weniger Bohrerwechsel und Kosten (z.&nbsp;B. bei professioneller PCB Herstellung)
+</p>
+<table border="1">
+<tbody><tr>
+<th>DRILL<br>[mil]
+</th>
+<th>Zuordnung<br>Werkzeug Nr.
+</th>
+<th>Auszuführender<br>Bohrdurchmesser<br>[mm]
+</th></tr>
+<tr>
+<td align="center">22
+</td>
+<td align="center">TO 1
+</td>
+<td align="center">0.8
+</td></tr>
+<tr>
+<td align="center">24
+</td>
+<td align="center">TO 2
+</td>
+<td align="center">1.0
+</td></tr>
+<tr>
+<td align="center">26
+</td>
+<td align="center">TO 3
+</td>
+<td align="center">1.3
+</td></tr>
+<tr>
+<td align="center">28
+</td>
+<td align="center">TO 4
+</td>
+<td align="center">1.6
+</td></tr>
+<tr>
+<td align="center">30
+</td>
+<td align="center">TO 5
+</td>
+<td align="center">2.8
+</td></tr>
+<tr>
+<td align="center">32
+</td>
+<td align="center">TO 6
+</td>
+<td align="center">3.5
+</td></tr></tbody></table>
+<h2 class="mw-header"><a id="Padformen_und_Au.C3.9Fendurchmesser" href="#Padformen_und_Au.C3.9Fendurchmesser" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Padformen und Außendurchmesser</span></h2>
+<table border="1">
+<tbody><tr>
+<th>Form
+</th>
+<th>Größe<br>[mil]
+</th>
+<th>Verwendung
+</th></tr>
+<tr>
+<td>Quadrat
+</td>
+<td align="center">62
+</td>
+<td>nur für Anreihungen in 0.1" wie in ICs und Stecker nach DIN 41651, DIN 41612
+</td></tr>
+<tr>
+<td>Octagon
+</td>
+<td align="center">86
+</td>
+<td>Widerstände Bauform 0207, Kleindioden, kleine Kondensatoren, Transistor TO-92
+</td></tr>
+<tr>
+<td>Octagon
+</td>
+<td align="center">136
+</td>
+<td>größere Bauteile und einzelne Lötstifte
+</td></tr>
+<tr>
+<td>Octagon
+</td>
+<td align="center">225
+</td>
+<td>größte Bauteile, z.&nbsp;B. axiale Elko, Printtrafo
+</td></tr></tbody></table>
+<p><b>Pads für Befestigungsbohrungen</b>
+</p><p>Rund 189 mil außen, 28 mil innen für 2.8 mm Bohrung
+Rund 217 mil außen, 30 mil innen für 3.5 mm Bohrung
+</p>
+<h2 class="mw-header"><a id="Auswahl_des_Rasters" href="#Auswahl_des_Rasters" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Auswahl des Rasters</span></h2>
+<h3 class="mw-header"><a id="Schaltplan" href="#Schaltplan" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Schaltplan</span></h3>
+<p>Im Schaltplan ist es <b>dringend</b> empfohlen, die Pins von 
+Bauteilen sowie die Netze nur auf dem voreingestellten Raster von 0.1 
+Inch (100mil) zu platzieren. Warum? Weil Eagle nur dann Pins und 
+Netzteile automatisch verbinden kann, wenn die Endpunkte <b>exakt</b> die gleichen Koordinaten haben. Siehe Handbuch. Also hier bitte <b>nicht</b>
+ das Raster verändern. Ausnahmen davon sind Names, Values und 
+Bauteilumrandungen. Die können auf einem beliebigen Raster platziert 
+werden und z.&nbsp;B. nach dem Befehl <b>SMASH</b> beliebig verschoben werden (alternatives Raster mit gedrückter <b>ALT</b>-Taste nutzen).
+</p>
+<h3 class="mw-header"><a id="Layout" href="#Layout" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Layout</span></h3>
+<p>Grundsätzlich muss immer gelten: <b>So groß wie möglich, so klein wie nötig</b>.
+Zur Bauteilplatzierung sollte ein eher grobes Raster gewählt werden. 
+Z.&nbsp;B. 1.0mm oder 50mil, um eine saubere Ausrichtung der Bauteile zu
+ erreichen. Zum Routen dann auf ein feineres Raster umstellen. Das 
+kleinere Raster sollte ein ganzzahliger Teiler des großen Raster sein, 
+z.B. 1/2, 1/5, 1/10. Sinnvollerweise nutzt man als Raster das Maß der 
+minimalen Strukturbreite, welche technologisch angestrebt wird (minimale
+ Leiterzugbreite bzw. Abstand zwischen Leiterbahnen). Der liegt bei den 
+meisten Standardanbietern bei 0,15 bis 0,2mm, im Hobbybereich ja nach 
+Verfahren und Talent bei 0,2-0,5mm. Stellt man das Raster nun auf diesen
+ Wert ein, kann man Leitungen mit eben genau dieser Breite bei maximaler
+ Leiterzugdichte verlegen, denn damit werden die Leitungen und Abstände 
+gleich groß. Aber auch hier gilt, daß man ohne Notwendigkeit die 
+verfügbaren Grenzen der Technologie nicht ausreizen muss. Ein paar 
+einfache DIL-ICs und THT Bauteile brauchten nicht 0,15mm Rastermaß, das 
+geht meist mit 25mil/0,635mm problemlos.
+</p>
+<h4 class="mw-header"><a id="Metrisch_vs._Imperial" href="#Metrisch_vs._Imperial" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Metrisch vs. Imperial</span></h4>
+Grundsätzlich ist es nicht von Bedeutung, ob man metrisches oder 
+imperiales Raster wählt. Dadurch, dass Eagle Verbindungen von Routes zum
+ Mittelpunkt des anzulegenden Pads mit einem einstellbaren Fangradius 
+fängt, können problemlos Bauteile im Zollmass mit metrischem Raster und 
+umgekehrt geroutet werden. Es empfiehlt sich den Fangradius unter 
+Optionen -&gt; Einstellungen -&gt; Verschiedenes auf einen der Feinheit 
+des Layouts angemessenen Wert zu stellen. Der Standardwert von 2,54mm 
+ist ein guter Ausgangspunkt. Ansonsten ist die Wahl des Einheitensystems
+ Geschmackssache. Will man zum Beispiel unbedingt die Mitte zwischen 
+zwei DIL-Pads treffen, muss man ein imperiales Raster wählen. Wem es im 
+metrischen System leichter fällt, eine Größenvorstellung zu bekommen, 
+kann einfach auf metrische Anzeige umschalten, aber dennoch imperal 
+bleiben, z.B. mit 50 mil = 1,27mm. Hilfreich kann die Verwendung des 
+jeweils anderen Einheitensystems als alternatives Raster sein. Für 
+schnelles Arbeiten empfiehlt es sich, die persönlich bevorzugten Raster 
+als Direktbefehl auf die Befehlsmenü-Leiste zu legen<div class="floatright"><a href="https://www.mikrocontroller.net/articles/Datei:Eagle_grid_buttons.png" class="image"><img alt="Eagle grid buttons.png" src="Eagle%20im%20Hobbybereich%20%E2%80%93%20Mikrocontroller.net_files/Eagle_grid_buttons.png" width="83" height="190"></a></div>. Siehe dazu Handbuch Kapitel "EAGLE individuell konfigurieren".
+<h3 class="mw-header"><a id="Bibliothekseditor" href="#Bibliothekseditor" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Bibliothekseditor</span></h3>
+<p>Beim Erstellen eines Schaltplansymbols gilt das gleiche wie für den Schaltplan. Es wird <b>dringend</b>
+ empfohlen, die Pins exakt auf 100mil Raster zu platzieren. Alle anderen
+ Elemente (Linien, Texte) können beliebig platziert werden.
+</p><p>Beim Erstellen eines Gehäuses (Package) stellt man meist das 
+exakte Raster der Pads ein, damit kann man schnell und unkompliziert 
+diese platzieren. Bei komplexeren Anordungen kann man auch manuell Pads 
+und alle andere Elemente exakt auf Koordinaten nach einer Zeichnung 
+platzieren, dazu nutzt man die Kommandozeile oben im Menu.
+</p>
+<ul><li>Befehl PAD oder SMD anclicken</li>
+<li>oben in der Menuleiste Breite, Höhe bzw. Durchmesser des Pads einstellen</li>
+<li>X-Y Koordinaten in Klammern eintippen, z.B. (1.5 1.4), der Text erscheint oben in der Kommandozeile</li>
+<li>mit <i>Enter</i> wird platziert</li></ul>
+<p>Mit Pfeil nach oben/unten kann man in den alten Kommandos blättern, hilfreich für mehrere Pads mit gleichen Koordinaten.
+</p><p>Trick: Das erste Pad mit Kommandozeile platzieren. Dann das Raster auf
+den Pad-Abstand stellen und einfach das erste Pad kopieren.
+</p>
+<h3 class="mw-header"><a id="Leitungen_gerade_anschlie.C3.9Fen" href="#Leitungen_gerade_anschlie.C3.9Fen" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Leitungen gerade anschließen</span></h3>
+<p>Anfänger haben oft das Problem, dass ein IC mit metrischem Pinraster 
+nicht genau mittig gelayoutet werden kann, weil das Raster zum Layouten 
+größer als der Fangradius oder der Fangradius generell zu groß ist. Man 
+kann mit dem Routen am Pin des betreffenden Bauteils anfangen, oder 
+Raster oder Fangradius richtig einstellen. Siehe <a href="#Auswahl_des_Rasters">#Auswahl_des_Rasters</a>.
+</p><p>Während des Routens (wiederholt) auf die rechte Maustaste drücken
+ verändert die Art der Leiterbahnführung (Knickmethode), so bekommt man 
+auch gerade Leiterbahnen an ausserhalb des Rasters liegende Anschlüsse.
+</p>
+<h2 class="mw-header"><a id="Weitere_Tips" href="#Weitere_Tips" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Weitere Tips</span></h2>
+<h3 class="mw-header"><a id="Projektbeschreibung" href="#Projektbeschreibung" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Projektbeschreibung</span></h3>
+<p>Nutze die Projektbeschreibungen. Projektbeschreibungen sollten 
+erfolgen und genutzt werden. Viele Informationen zur Schaltung lassen 
+sich hier noch unterbringen und man weiß später noch was man wie und 
+wieso gemacht hat.
+</p><p>RECHTE MAUSTASTE auf das Projekt -&gt; EDIT DESCRIPTION
+</p><p>Die Formatierung kann im HTML-Format erfolgen,
+z.&nbsp;B.:
+</p>
+<pre>
+&lt;b&gt; zu digitales Labornetzteil  &lt;/b&gt;
+
+&lt;p&gt; Dieses Verzeichniss enthält das digitale Labornetzteil von tuxgraphics.org&lt;/p&gt; 
+
+&lt;p&gt; Die Schaltung sowie das Layout sind von mir für meine Zwecke optimiert worden. 
+Für die Zukunft will ich noch ein paar Funktionen hinzufügen und die Schaltung erweitern.&lt;/p&gt;
+...
+
+</pre>
+<h3 class="mw-header"><a id="Voreinstellungen" href="#Voreinstellungen" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Voreinstellungen</span></h3>
+<p>Wer mit COMMAND TEXT arbeitet, dem kann eventuell die Eagle.scr 
+Einstellungsdatei hier weiterhelfen. Bitte auf die ID achten. Ich 
+probiere momentan noch ein wenig mit der Datei herum. Evtl. stellen sich
+ manche Einstellungen als Unsinn heraus. Daher kann es vorkommen, dass 
+ich dies hier ab und zu mal aktualisieren werden.
+</p>
+<pre># Configuration Script
+#
+# This file can be used to configure the editor windows.
+#	$Id: eagle.scr,v 1.6 2006/04/08 14:08:24 sascha Exp $	
+
+
+
+# Einstellungen für Layoutprogramm
+BRD:
+
+Grid Default On;	# Gitter auf Normalwert (0.5)
+Layer Bottom;   # Erster aktiver Layer ist Solder
+
+# Leiterbahnnen
+Change Width 0.014;  # Erste aktive Linienbreite
+#Set auto_width 0.014; # Linienbreite für Autorouter
+Set Width 0.014 0.036 0.058 0.086 0.136 0.225  # Auswahl Linienbreiten, die angeboten werden
+
+# Menue
+# Menu Add Change Copy Delete \
+#     Display \
+#     Grid Group Move Name \
+#     Quit \
+#     Route Script Show Signal \
+#     Split Text Value Via \
+#     Window ';' \
+#     Wire Write Use Edit; 
+
+MENU 'Grid {\
+             Metric   {\
+                        Fine  &nbsp;: Grid mm 0.1; |\
+                        Coarse&nbsp;: Grid mm 1;\
+                      } | \
+             Imperial {\
+                        Fine  &nbsp;: Grid inch 0.001; |\
+                        Coarse&nbsp;: Grid inch 0.1;\
+                      } | \
+             On &nbsp;: Grid On; | \
+             Off&nbsp;: Grid Off;\
+           }'\
+     'Display {\
+                Top      &nbsp;: Display None Top    Pads Vias Dimension; |\
+                Bottom   &nbsp;: Display None Bottom Pads Vias Dimension; |\
+                Placeplan {\
+                            Top   &nbsp;: Display None tPlace Dimension; |\
+                            Bottom&nbsp;: Display None bPlace Dimension;\
+                          }\
+              }'\
+     '---'\
+     'Fit&nbsp;: Window Fit;'\
+     'Add' 'Delete' 'Move' ';' 'Edit' 'Quit'\
+    &nbsp;;
+
+# VIAs
+#set diamaeter 0.063;  # Via Durchmesser
+#set drill 0.020;      # DRILL für VIA
+#change shape oc;      # VIAs 8-Eck Wahl
+
+# Bohrloecher
+#change diameter 0.063;  # Erster aktiver Durchmesser
+#set drill 0.020;    # Ertse aktive Drilleinstellung
+
+# Autorouter
+#set auto_shape oc;	# Autorouter VIA 8-Eck
+#set auto_diameter 0.063;  # Autorouter VIA-Durchmesser
+#set auto_drill 0.020;     # Autorouter VIA DRILL
+
+# Schriftgrö??en
+#set size 0.050 0.070 0.100 0.150   # Schriftgrö??enauswahl
+#change size 0.070;   # Erste aktive Schriftgrö??e
+     
+#Menu Add Change Copy Delete Display Grid Group Move Name Quit Rect \
+#     Route Script Show Signal Split Text Value Via Window ';'  Wire Write Edit;
+
+# --------------------
+# Einstellungen für den Schaltplan
+SCH:
+
+# Grid
+Grid Default;	# Gitter auf Normalwert (100 mil), wird auch von Eagle empfohlen
+Grid Mil;	# Einheiten auf MIL umstellen
+Grid Alt Mil 50 Mil;     # Alternatives (feineres Gitte) mit 50 mil, Umschalten mit ALT-Taste
+Grid Dots;	# Punkte 
+Grid On;	# Grid an
+
+
+Change Width 6;	# Wirebreite 6mil, wird auch von Eagle so verwendet
+
+MENU 'Grid {\
+             Imperial {\
+	     		Finest: Grid Mil 25 Dots on;|\
+                        Fine  &nbsp;: Grid Mil 50 Dots on&nbsp;; |\
+                        Normale&nbsp;: Grid Mil 100 Dots on;\
+                      } | \
+             On &nbsp;: Grid On; | \
+             Off&nbsp;: Grid Off;\
+           }'\
+     'Display {\
+                All Important: Display None Nets Busses Symbols Names Values; |\
+                Components &nbsp;: Display None Symbols Names Values; |\
+                Wires      &nbsp;: Display None Net Busses; |\
+		No Names and Values  &nbsp;: Display None Nets Busses Symbols -Names -Values; \
+              }'\
+     '---'\
+     'Fit&nbsp;: Window Fit;'\
+     'Add' \
+     '---' \
+     'Group' 'Move' 'Delete' 'Edit' \
+     '---' \
+     'Label' 'Name' 'Value'\
+     '---' \
+     'Net' 'Bus' 'Wire' 'Junction'  \
+     '---' \
+     ';' 'Quit'\
+    &nbsp;;
+
+
+#Menu Add Bus Change Copy Delete Display Gateswap Grid Group Invoke Junction \
+#     Label Move Name Net Pinswap Quit Script Show Split Value Window ';' \
+#     Wire Write Edit;
+
+LBR:
+
+#Menu Close Export Open Script Write ';' Edit;
+
+DEV:
+
+Grid Default;
+#Menu Add Change Copy Connect Delete Display Export Grid Move Name Package \
+#     Prefix Quit Script Show Value Window ';' Write Edit;
+
+SYM:
+
+Grid Default On;
+Change Width 0.010;
+#Menu Arc Change Copy Cut Delete Display Export Grid Group Move Name Paste \
+#     Pin Quit Script Show Split Text Value Window ';' Wire Write Edit;
+
+PAC:
+
+Grid Default On;
+Change Width 0.005;
+Change Size 0.050;
+#Menu Add Change Copy Delete Display Grid Group Move Name Pad Quit \
+#     Script Show Smd Split Text Window ';' Wire Write Edit;
+
+</pre>
+<h3 class="mw-header"><a id="Module_kopieren" href="#Module_kopieren" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Module kopieren</span></h3>
+<p>Manchmal hat man eine kleine Anordnung von Bauteilen, welche mehrfach
+ verwendet werden soll, z.&nbsp;B. in einer Relaisansteuerung mit 
+mehreren Kanälen. Da ist es sinnvoll, dieses Modul nur einmal im 
+Schaltplan zu erstellen, zu platzieren und zu layouten und dann mehrfach
+ zu kopieren. Leider geht das so direkt nicht mit Eagle (Versionen 
+kleiner 6.0). Es gibt aber einen brauchbaren Trick. Die Versionen 6.0 
+und aufwärts können vollständige Schaltpläne + Layouts direkt 
+importieren (Menu Datei -&gt; Importieren -&gt; Eagle-Zeichnung)
+</p>
+<ul><li> Baugruppe im Schaltplan anlegen</li>
+<li> <b>Alle</b> Signale mit <b>NAME</b> benennen (die N$xx sind spezielle automatische Netznamen, die funktionieren hier nicht)</li>
+<li> Die Namen dürfen keine Nummer beinhalten</li>
+<li> Ins Board wechseln, Bauteile platzieren und layouten</li>
+<li> Alles <b>speichern</b>, danach eine Sicherheitskopie von Board und Schaltplan erstellen</li>
+<li> Board schliessen</li>
+<li> Im Schaltplan die Baugruppe mit <b>GROUP</b> markieren und über <b>CUT/PASTE</b> vervielfältigen (rechte Maustaste bei <b>CUT</b>)</li>
+<li> Schaltplan speichern und schliessen</li>
+<li> Schaltplan wieder öffnen, Eagle lädt automatisch auch das Board und meckert wegen der Inkonsistenz</li>
+<li> Ins Board gehen und auch dort die Baugruppe mit <b>GROUP</b> markieren und mitsammt Layout über <b>CUT/PASTE</b> kopieren (rechte Maustaste bei <b>CUT</b>)</li>
+<li> Jetzt im Board <b>ERC</b> durchführen, Eagle wird eine Inkonsistenz
+ feststellen, weil einige Signalnamen nicht übereinstimmen. Das gilt vor
+ allem für gemeinsame GND/VCC.</li>
+<li> Im Board die Namen korrigieren (<b>NAME</b>)</li>
+<li> Danach sind Board und Schaltplan wieder konsistent.</li>
+<li> Speichern!</li></ul>
+<h3 class="mw-header"><a id="Lochrasterlayout" href="#Lochrasterlayout" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Lochrasterlayout</span></h3>
+<p>Das ist einfacher als man denkt. Man stellt das Raster im Layout einfach auf das Raster von <a href="https://www.mikrocontroller.net/articles/Lochrasterplatine" title="Lochrasterplatine">Lochrasterplatinen</a>
+ von 2,54mm (100mil). Die meisten Lochrasterbauteile (Widerstände, 
+DIL-ICs) passen direkt aufs Raster, einige sind um 1/2 Raster 
+verschoben. Aber das ist ein lösbares Problem. Man stellt als 
+alternatives Raster 50 oder 25 mil ein. Wenn man dann ein Bauteil aufs 
+Raster schieben will, hält man während MOVE die ALT-Taste gedrückt, 
+damit ist zwischenzeitlich das ALTernative Raster aktiv und man kann die
+ Bauteile exakt auf dem Raster platzieren. Die meisten Leiterzüge 
+verlegt man logischerweise auf dem Bottom Layer. Entgegen den sonst 
+üblichen <a href="https://www.mikrocontroller.net/articles/Richtiges_Designen_von_Platinenlayouts" title="Richtiges Designen von Platinenlayouts"> Regeln</a>
+ sind hier 90 Grad Winkel der Normalfall, nicht die Ausnahme. 
+Drahtbrücken kann man einfach darstellen, indem man Leitungen auf dem 
+TOP-Layer verlegt. Aber bitte nur senkrecht oder waagerecht, nicht 
+schräg und auch nicht unter Bauteilen (Ausnahme: große DIL-ICs und 
+ähnliches). Ein Beispiel findet man in diesem <a class="external text" href="http://www.mikrocontroller.net/topic/289861#3083431">Beitrag</a>.
+</p>
+<h3 class="mw-header"><a id="Drucken_unter_Linux" href="#Drucken_unter_Linux" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Drucken unter Linux</span></h3>
+<p>Die Linuxversion bezieht Informationen über Drucker aus 
+/etc/printcap.
+Falls die Datei dort nicht existiert, entweder CUPS anweisen, sie zu 
+erstellen - Zeile "Printcap /etc/printcap" zu /etc/cups/cupsd.conf 
+hinzufügen - oder einen symbolischen Link auf eine existierende Datei 
+setzen, z.&nbsp;B. "sudo ln -s /var/run/cups/printcap /etc/printcap".
+</p><p>Evtl. CUPS bzw. EAGLE neustarten: "sudo /etc/init.d/cups restart"
+</p>
+<h4 class="mw-header"><a id="Ma.C3.9Fgetreuer_Druck" href="#Ma.C3.9Fgetreuer_Druck" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Maßgetreuer Druck</span></h4>
+<p>Beim direkten Druck aus Eagle heraus ist die Maßtreue des Ergebnisses
+ ggf. nicht präzise. In einem solchen Fall kann es helfen, statt über 
+den physikalischen Drucker in eine PDF zu drucken und diese dann aus 
+einem PDF-Betrachter heraus zu drucken. Es gibt sicher eine "richtigere"
+ Lösung für dieses Problem, diese ist aber mit individuellen 
+Druckereinstellungen verbunden.
+</p><p>Am besten ist es wenn man das Layout über den CAM-Processor als 
+PS(PostScript) ausgibt. Diese Dateien kann man mit vielen Programmen 
+öffnen(Adobe Illustrator, kostenlose Alternative:GSView). Da PostScript 
+eine Vektorgrafik erstellt, kann man davon ausgehen das die Maße 
+stimmen.
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20190815173810
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.020 seconds
+Real time usage: 0.022 seconds
+Preprocessor visited node count: 84/1000000
+Preprocessor generated node count: 112/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+
+<!-- Saved in parser cache with key uc_wiki:pcache:idhash:2067-0!*!0!!de!5!* and timestamp 20190815173810 and revision id 100532
+ -->
+</div>			<!-- /bodycontent -->
+						<!-- printfooter -->
+			<div class="printfooter">
+			Abgerufen von „<a dir="ltr" href="https://www.mikrocontroller.net/wikisoftware/index.php?title=Eagle_im_Hobbybereich&amp;oldid=100532">https://www.mikrocontroller.net/wikisoftware/index.php?title=Eagle_im_Hobbybereich&amp;oldid=100532</a>“			</div>
+			<!-- /printfooter -->
+									<!-- catlinks -->
+			<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="https://www.mikrocontroller.net/articles/Spezial:Kategorien" title="Spezial:Kategorien">Kategorien</a>: <ul><li><a href="https://www.mikrocontroller.net/articles/Kategorie:Eagle" title="Kategorie:Eagle">Eagle</a></li><li><a href="https://www.mikrocontroller.net/articles/Kategorie:Platinen" title="Kategorie:Platinen">Platinen</a></li></ul></div></div>			<!-- /catlinks -->
+									<div class="visualClear"></div>
+			<!-- debughtml -->
+						<!-- /debughtml -->
+
+      <div class="visualClear"></div>
+    </div>
+	</div>
+  </td>
+  <!-- google_ad_section_end -->
+      </tr>
+      </tbody></table>
+      <!--
+      <div class="visualClear"></div>
+      <div id="footer" style="clear:both">
+    <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="/wikisoftware/resources/assets/poweredby_mediawiki_88x31.png" srcset="/wikisoftware/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /wikisoftware/resources/assets/poweredby_mediawiki_176x62.png 2x" height="31" width="88" alt="Powered by MediaWiki" /></a></div>		<ul id="f-list">
+	  <li id="f-lastmod"> Diese Seite wurde zuletzt am 26. April 2019 um 20:26 Uhr bearbeitet.</li>	  	  	  	  <li id="f-about"><a href="/articles/Mikrocontroller.net:%C3%9Cber_Mikrocontroller.net" title="Mikrocontroller.net:Über Mikrocontroller.net">Über Mikrocontroller.net</a></li>	  <li id="f-disclaimer"><a href="/articles/Mikrocontroller.net:Impressum" title="Mikrocontroller.net:Impressum">Haftungsausschluss</a></li>	</ul>
+      </div>-->
+    </div>
+<div id="bottom">
+  <div id="impress">
+    <a href="https://www.mikrocontroller.net/contact">Kontakt/Impressum</a> – <a href="https://www.mikrocontroller.net/articles/Datenschutzerkl%C3%A4rung">Datenschutzerklärung</a> – <a href="https://www.mikrocontroller.net/user/conditions">Nutzungsbedingungen</a> – <a href="mailto:info@eetech.com?subject=Advertising%20on%20Mikrocontroller.net">Werbung auf Mikrocontroller.net</a>
+  </div>
+  <div id="powered">
+<!--    powered by Ruby on Rails -->
+  </div>
+ <a href="https://www.mikrocontroller.net/util/rb"><!-- nothing --></a>
+</div>
+
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.020","walltime":"0.022","ppvisitednodes":{"value":84,"limit":1000000},"ppgeneratednodes":{"value":112,"limit":1000000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"timestamp":"20190815173810","ttl":86400,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":43});});</script></div>
+
+  
+
+<div class="highslide-container" style="padding: 0px; border: medium none; margin: 0px; position: absolute; left: 0px; top: 0px; width: 100%; z-index: 1001; direction: ltr;"><a class="highslide-loading" title="Klick zum Abbrechen" href="javascript:;" style="position: absolute; top: -9999px; opacity: 0.75; z-index: 1;">Lade...</a><div style="display: none;"></div><table style="padding: 0px; border: medium none; margin: 0px; visibility: hidden; position: absolute; border-collapse: collapse; width: 0px;" cellspacing="0"><tbody style="padding: 0px; border: medium none; margin: 0px;"><tr style="padding: 0px; border: medium none; margin: 0px; height: auto;"><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: rgba(0, 0, 0, 0) url(&quot;https://www.mikrocontroller.net/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll 0px 0px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: rgba(0, 0, 0, 0) url(&quot;https://www.mikrocontroller.net/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll 0px -40px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: rgba(0, 0, 0, 0) url(&quot;https://www.mikrocontroller.net/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll -20px 0px; height: 20px; width: 20px;"></td></tr><tr style="padding: 0px; border: medium none; margin: 0px; height: auto;"><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: rgba(0, 0, 0, 0) url(&quot;https://www.mikrocontroller.net/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll 0px -80px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: medium none; margin: 0px; position: relative;" class="drop-shadow highslide-outline"></td><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: rgba(0, 0, 0, 0) url(&quot;https://www.mikrocontroller.net/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll -20px -80px; height: 20px; width: 20px;"></td></tr><tr style="padding: 0px; border: medium none; margin: 0px; height: auto;"><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: rgba(0, 0, 0, 0) url(&quot;https://www.mikrocontroller.net/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll 0px -20px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: rgba(0, 0, 0, 0) url(&quot;https://www.mikrocontroller.net/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll 0px -60px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: rgba(0, 0, 0, 0) url(&quot;https://www.mikrocontroller.net/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll -20px -20px; height: 20px; width: 20px;"></td></tr></tbody></table></div></body></html>

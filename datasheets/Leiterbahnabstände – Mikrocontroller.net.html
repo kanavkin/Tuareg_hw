@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html class="client-js" dir="ltr" lang="de"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>Leiterbahnabstände – Mikrocontroller.net</title>
+<script async="" src="Leiterbahnabst%C3%A4nde%20%E2%80%93%20Mikrocontroller.net_files/analytics.js"></script><script async="" type="text/javascript" src="Leiterbahnabst%C3%A4nde%20%E2%80%93%20Mikrocontroller.net_files/gpt.js"></script><script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Leiterbahnabstände","wgTitle":"Leiterbahnabstände","wgCurRevisionId":89937,"wgRevisionId":89937,"wgArticleId":4445,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Platinen","Spannungsversorgung und Energiequellen","Schaltplaneditoren"],"wgBreakFrames":false,"wgPageContentLanguage":"de","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"],"wgMonthNamesShort":["","Jan.","Feb.","Mär.","Apr.","Mai","Jun.","Jul.","Aug.","Sep.","Okt.","Nov.","Dez."],"wgRelevantPageName":"Leiterbahnabstände","wgRelevantArticleId":4445,"wgRequestId":"1ce887b76e7cf19395c76d96","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":true,"publish":true}});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready"});mw.loader.implement("user.options@045gamm",function($,jQuery,require,module){mw.user.options.set({"variant":"de"});});mw.loader.implement("user.tokens@0kkvpu6",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<link rel="stylesheet" href="Leiterbahnabst%C3%A4nde%20%E2%80%93%20Mikrocontroller.net_files/load_002.css">
+<script async="" src="Leiterbahnabst%C3%A4nde%20%E2%80%93%20Mikrocontroller.net_files/load.php"></script>
+<style>
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:0;z-index:1099;padding:0;margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:#fff;cursor:pointer;border:solid 1px #aaa;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:#fff;cursor:pointer;border:solid 1px #aaa;padding:0;margin:0}.suggestions-result{color:#000;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#4c59a6;color:#fff}.suggestions-special .special-label{color:#808080;text-align:left}.suggestions-special .special-query{color:#000;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:#c0c0c0}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:#fff}.highlight{font-weight:bold}
+@media screen {
+	.tochidden,.toctoggle{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.toctoggle{font-size:94%}}
+@media print {
+	#toc.tochidden,.toc.tochidden,.toctoggle{display:none}}
+.postedit-container{margin:0 auto;position:fixed;top:0;height:0;left:50%;z-index:1000;font-size:13px}.postedit-container:hover{cursor:pointer}.postedit{position:relative;top:0.6em;left:-50%;padding:0.6em 3.6em 0.6em 1.1em;line-height:1.5625em;color:#626465;background-color:#f4f4f4;border:1px solid #dcd9d9;text-shadow:0 0.0625em 0 rgba( 255,255,255,0.5 );border-radius:5px;box-shadow:0 2px 5px 0 #ccc;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.skin-monobook .postedit{top:6em !important; }.postedit-faded{opacity:0}.postedit-icon{padding-left:41px;  line-height:25px;background-repeat:no-repeat;background-position:8px 50%}.postedit-icon-checkmark{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB9ElEQVR4AZWRA3AYURQArxrVHtW2bdu2bdu2zdi2bdu2bWxs7zeehZaw4f70kbs+zI3e/nWK+RWx3aOFlrL56Sy5SxrruG69hlv6OyK+mz+8KDSXdXembj0ispT7tjs4ZTIbpYBvxGSGKzZTeFrb7W/meN002swFs0U8ttpHTkF2BvCqWQrW35929bTsKm5Zb+SEwWwcY8wAngB9m7Z+d+rIPZ/npdy12M5p47n8dXsCYAf0qPy06eGMdktuDu9Qf+JmKl3SWM91qzVcN9tAbEYkwMaq0tyb1m/To5kP170el/BK8/qa6sJr70ydf+T/Uu5ab+Oo/lS0AkUBpIFWlZ9WPhxpse/PHO7YbOOczjL0vZV2lNxPPtG73dYXM+xvm2znrOl83tidoqCwMBgYXsPFB0on5S6pr+eK5TKuW67lgvaKvF8mL1dtfTL32FHxRdyx3cQpg7m4x9sCXKkTIzA4LDH44zWdzaUf71hv5rTG4uyzcusybxSX7aThbMQ8XgCYAp3rzTTQOiIh9PNlzY3FSuZxrzjme1Y7uGS6kjsWO4jPjM4FVjRZsvD4kO9XtTZzQn82NyzWc0B7AmZh6gA/hOYSGhfw9YbOVnarj+S7800AL2BIsxUAbWNToj7bhBuQmZcOsFdoKUC74rGheCwXmqAIQTc9jQcrADIAAAAASUVORK5CYII=);background-image:url(/wikisoftware/resources/src/mediawiki.action/images/green-checkmark.png?d94f1)!ie;background-position:left}.postedit-close{position:absolute;padding:0 0.8em;right:0;top:0;font-size:1.25em;font-weight:bold;line-height:2.3em;color:#000;text-shadow:0 0.0625em 0 #fff;text-decoration:none;opacity:0.2;filter:alpha( opacity=20 )}.postedit-close:hover{color:#000;text-decoration:none;opacity:0.4;filter:alpha( opacity=40 )}</style><style>
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:#000;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:#fff}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}</style><meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="Leiterbahnabst%C3%A4nde%20%E2%80%93%20Mikrocontroller.net_files/load.css">
+<meta name="generator" content="MediaWiki 1.29.2">
+<link rel="shortcut icon" href="https://www.mikrocontroller.net/favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="https://www.mikrocontroller.net/wikisoftware/opensearch_desc.php" title="Mikrocontroller.net (de)">
+<link rel="EditURI" type="application/rsd+xml" href="https://www.mikrocontroller.net/wikisoftware/api.php?action=rsd">
+<link rel="alternate" type="application/atom+xml" title="Atom-Feed für „Mikrocontroller.net“" href="https://www.mikrocontroller.net/wikisoftware/index.php?title=Spezial:Letzte_%C3%84nderungen&amp;feed=atom">
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<script>
+(window.RLQ=window.RLQ||[]).push(function(){
+  mw.loader.load( "/assets/application-437665fced489cca361a44b6c988d5256f514f1a98be7612fb3f1708dcd7a312.js" );
+});
+</script>
+<link rel="stylesheet" media="all" href="Leiterbahnabst%C3%A4nde%20%E2%80%93%20Mikrocontroller.net_files/screen-41cf1a53959b4ba4215b236b4b4e3d9af50e6ce21790f1d31c9df.css">
+<link rel="stylesheet" media="print" href="Leiterbahnabst%C3%A4nde%20%E2%80%93%20Mikrocontroller.net_files/print-80f24115f86985d1d30d60a2b339bf75dbcaa308b178ae1f8f564d.css">
+
+
+<script>
+/* <DFP> */
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+
+googletag.cmd.push(function() {
+  //googletag.pubads().enableSingleRequest();
+  googletag.pubads().setTargeting('pagetype', 'article');
+  googletag.pubads().setTargeting('section', 'article');
+  if ('https:' == document.location.protocol) {
+    googletag.pubads().setTargeting('ssl', '1');
+  } else {
+    googletag.pubads().setTargeting('ssl', '0');
+  }
+  if (location.hostname=='embdev.net') {
+      googletag.pubads().setTargeting('site_id', '2');
+  } else {
+    googletag.pubads().setTargeting('site_id', '1');
+  }
+});
+/* </DFP> */
+</script>
+    
+
+<script>
+  if (location.hostname=='embdev.net') {
+    ga_subid = 7;
+  } else {
+    ga_subid = 1;
+  }
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80574-' + ga_subid, 'auto');
+
+  ga('send', 'pageview');
+
+</script>
+    
+<script src="Leiterbahnabst%C3%A4nde%20%E2%80%93%20Mikrocontroller.net_files/load_002.php"></script><link rel="preload" href="Leiterbahnabst%C3%A4nde%20%E2%80%93%20Mikrocontroller.net_files/integrator_002.js" as="script"><script type="text/javascript" src="Leiterbahnabst%C3%A4nde%20%E2%80%93%20Mikrocontroller.net_files/integrator_002.js"></script><link rel="preload" href="Leiterbahnabst%C3%A4nde%20%E2%80%93%20Mikrocontroller.net_files/integrator.js" as="script"><script type="text/javascript" src="Leiterbahnabst%C3%A4nde%20%E2%80%93%20Mikrocontroller.net_files/integrator.js"></script><script src="Leiterbahnabst%C3%A4nde%20%E2%80%93%20Mikrocontroller.net_files/pubads_impl_2019080801.js" async=""></script></head>
+<body class="mediawiki ltr sitedir-ltr capitalize-all-nouns mw-hide-empty-elt ns-0 ns-subject page-Leiterbahnabstände rootpage-Leiterbahnabstände skin-mikrocontroller action-view">
+    <!--<script src="/javascripts/highlightCurrentLink.js" type="text/javascript"></script>-->
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.mikrocontroller.net/favicon.ico">
+    <style type="text/css">#nav-foren-sub {display: none;} </style>
+    <style type="text/css">#nav-tutorial-sub {display: none;} </style>
+
+	<div id="outer-container">
+    <div id="globalWrapper">
+    <div id="top"><h1><a href="https://www.mikrocontroller.net/"><object data="Leiterbahnabst%C3%A4nde%20%E2%80%93%20Mikrocontroller.net_files/logo.svg" type="image/svg+xml">mikrocontroller.net</object></a></h1>
+<div id="hamburger">
+	<div></div>
+  <div></div>
+  <div></div>
+</div>
+
+</div>
+  <table id="twocolumns">
+  <tbody><tr>
+  <td id="sidebar-left" class="sidebar">
+  <!-- begin nav -->
+<div class="nav-container">
+  <ul class="nav-first">
+    <li><b><a href="https://www.mikrocontroller.net/">Home</a></b></li>
+    <li>
+      <b><a href="https://www.mikrocontroller.net/articles/AVR">AVR</a></b>
+      <ul>
+        <li><a href="https://www.mikrocontroller.net/articles/AVR-Tutorial">AVR-Tutorial</a></li>
+        <li><a href="https://www.mikrocontroller.net/articles/AVR-GCC-Tutorial">AVR-GCC-Tutorial</a></li>
+      </ul>
+    </li>
+    <li>
+      <b><a href="https://www.mikrocontroller.net/articles/ARM">ARM</a></b>
+      <ul>
+        <li><a href="https://www.mikrocontroller.net/articles/LPC-Mikrocontroller">LPC</a></li>
+        <li><a href="https://www.mikrocontroller.net/articles/STM32">STM32</a></li>
+        <li><a href="https://www.mikrocontroller.net/articles/Infineon_XMC">XMC</a></li>
+      </ul>
+    </li>
+    <li>
+      <b><a href="https://www.mikrocontroller.net/articles/MSP430">MSP430</a></b>
+    </li>
+    <li>
+      <b><a href="https://www.mikrocontroller.net/articles/PIC">PIC</a></b>
+    </li>
+    <li>
+      <b><a href="https://www.mikrocontroller.net/articles/Programmierbare_Logik">FPGA, CPLD &amp; Co.</a></b>
+      <ul>
+        <li><a href="https://www.mikrocontroller.net/articles/FPGA">Grundlagen zu FPGAs</a></li>
+        <li><a href="https://www.mikrocontroller.net/articles/Hardwarebeschreibungssprachen">VHDL &amp; Co.</a></li>
+        <li><a href="https://www.mikrocontroller.net/articles/Xilinx_ISE">Xilinx ISE</a></li>
+      </ul>
+    </li>
+    <li>
+      <b><a href="https://www.mikrocontroller.net/articles/Digitale_Signalverarbeitung">DSP</a></b>
+    </li>
+
+    <li>
+      <b><a href="https://www.mikrocontroller.net/articles/Elektronik_Allgemein">Elektronik allgemein</a></b>
+      <ul>
+        <li><a href="https://www.mikrocontroller.net/articles/SMD_L%C3%B6ten">SMD Löten</a></li>
+        <li><a href="https://www.mikrocontroller.net/articles/Operationsverst%C3%A4rker-Grundschaltungen">Operationsverstärker</a></li>
+        <li><a href="https://www.mikrocontroller.net/articles/Oszilloskop">Oszilloskop</a></li>
+      </ul> 
+    </li>
+
+    <li>
+      <b><a href="https://www.mikrocontroller.net/forum/all">Forum</a></b>
+      <ul>
+        <li><a href="https://www.mikrocontroller.net/forum/mikrocontroller-elektronik">µC &amp; Elektronik</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/analogtechnik">Analogtechnik</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/fpga-vhdl-cpld">FPGA, VHDL &amp; Co.</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/dsp">DSP</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/gcc">Compiler &amp; IDEs</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/codesammlung">Projekte &amp; Code</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/markt">Markt</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/platinen">Platinen</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/mechanik">Mechanik &amp; Werkzeug</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/hf">HF, Funk &amp; Felder</a></li>
+        <li>Neu: <a href="https://www.mikrocontroller.net/forum/fahrzeugelektronik"><b>Fahrzeugelektronik</b></a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/hausbus">Haus &amp; Smart Home</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/pc-programmierung">PC-Programmierung</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/pc-hardware-software">PC Hard- &amp; Software</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/ausbildung-studium-beruf">Ausbildung &amp; Beruf</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/offtopic">Offtopic</a></li>
+        <li><a href="https://www.mikrocontroller.net/forum/website">Webseite</a></li>
+       </ul>
+    </li>
+<!--    <li><b><a href="/buecher/">Buchtipps</a></b></li>-->
+<!--    <li><b><a href="http://shop.mikrocontroller.net/">Shop</a></b></li>-->
+<!--    <li><b><a href="/articles/Linksammlung">Linksammlung</a></b></li>-->
+    <li><b><a href="https://www.mikrocontroller.net/articles/Hauptseite">Artikelübersicht</a></b></li>
+    <li><b><a href="https://www.mikrocontroller.net/articles/Spezial:Recentchanges">Letzte Änderungen</a></b></li>
+  </ul>
+</div>
+<!-- end nav -->
+  <hr>
+  <!-- google_ad_section_start(weight=ignore) -->
+
+<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
+
+	<div id="p-cactions" class="portlet">
+	  <h5><a href="#toggle" onclick="javascript:toggle_visibility('p-cactions-box'); return false;">▶ Dieser Artikel</a></h5>
+	  <div class="box" id="p-cactions-box">
+      <ul>
+	    <li id="ca-nstab-main" class="selected"><a href="https://www.mikrocontroller.net/articles/Leiterbahnabst%C3%A4nde" class="currentlink">Seite</a></li><li id="ca-talk"><a href="https://www.mikrocontroller.net/articles/Diskussion:Leiterbahnabst%C3%A4nde">Diskussion</a></li><li id="ca-viewsource"><a href="https://www.mikrocontroller.net/wikisoftware/index.php?title=Leiterbahnabst%C3%A4nde&amp;action=edit">Quelltext anzeigen</a></li><li id="ca-history"><a href="https://www.mikrocontroller.net/wikisoftware/index.php?title=Leiterbahnabst%C3%A4nde&amp;action=history">Versionsgeschichte</a></li>  	  </ul>
+    </div>
+	</div>
+	<div class="portlet" id="p-personal">
+	  <h5><a href="#toggle" onclick="javascript:toggle_visibility('p-personal-box'); return false;">▶ Benutzer</a></h5>
+	  <div class="box" id="p-personal-box">
+	    <ul>
+	    <li id="pt-login"><a href="https://www.mikrocontroller.net/wikisoftware/index.php?title=Spezial:Anmelden&amp;returnto=Leiterbahnabst%C3%A4nde">Anmelden</a></li>	    </ul>
+	  </div>
+	</div>
+  <!-- LOGO
+	<div class="portlet" id="p-logo">
+	  <a style="background-image: url(/wikisoftware/skins/common/images/wiki.png);"
+	    href="/articles/Hauptseite"
+	    title="Hauptseite"></a>
+	</div>
+  -->
+	<div id="p-search" class="portlet">
+	  <h5><a href="#toggle" onclick="javascript:toggle_visibility('p-search-box'); return false;">▶ Suche</a></h5>
+	  <div class="box" id="p-search-box">
+	    <form name="searchform" action="/articles/Spezial:Suche" id="searchform">
+	      <input id="searchInputX" name="search" type="text" accesskey="f"><br>
+	      <input type="submit" name="go" class="searchButton" value="Ausführen">&nbsp;<input type="submit" name="fulltext" class="searchButton" value="Suche">
+	    </form>
+	  </div>
+	</div>
+	<div class="portlet" id="p-tb">
+	  <h5><a href="#toggle" onclick="javascript:toggle_visibility('p-tb-box'); return false;">▶ Werkzeuge</a></h5>
+	    <div class="box" id="p-tb-box">
+      <ul>
+		  		  <li id="t-whatlinkshere"><a href="https://www.mikrocontroller.net/articles/Spezial:Linkliste/Leiterbahnabst%C3%A4nde">Links auf diese Seite</a></li>
+		  		  <li id="t-recentchangeslinked"><a href="https://www.mikrocontroller.net/articles/Spezial:%C3%84nderungen_an_verlinkten_Seiten/Leiterbahnabst%C3%A4nde">Änderungen an verlinkten Seiten</a></li>
+		  	      	      	      	      	      	      	      	      	      <li id="t-specialpages"><a href="https://www.mikrocontroller.net/articles/Spezial:Spezialseiten">Spezialseiten</a></li>	      	    </ul>
+      </div>
+	</div>
+  <!-- google_ad_section_end -->
+  
+  <!-- start adsense -->
+    <!-- end adsense -->
+  
+      </td><!-- end of the left (by default at least) column -->
+  <td id="main">
+    <!-- google_ad_section_start -->
+    <a name="top" id="contentTop"></a>
+    		<div id="content">
+    <div class="box" id="attention">Willkommen in der 
+Mikrocontroller.net Artikelsammlung. Alle Artikel hier können nach dem 
+Wiki-Prinzip von jedem bearbeitet werden. <a href="https://www.mikrocontroller.net/articles/">Zur Hauptseite der Artikelsammlung</a></div><h1 class="firstHeading">Leiterbahnabstände</h1>
+    <div id="bodyContent">
+
+						<!-- tagline -->
+			<!-- <div id="siteSub">Aus Mikrocontroller.net</div> -->
+			<!-- /tagline -->
+						<!-- subtitle -->
+			<div id="contentSub"></div>
+			<!-- /subtitle -->
+												<!-- jumpto -->
+			<div id="jump-to-nav" class="mw-jump">
+				Wechseln zu:				<a href="#mw-navigation">Navigation</a>, 				<a href="#p-search">Suche</a>
+			</div>
+			<!-- /jumpto -->
+						<!-- bodycontent -->
+			<div id="mw-content-text" dir="ltr" class="mw-content-ltr" lang="de"><div id="toc" class="toc"><div id="toctitle" class="toctitle"><h2>Inhaltsverzeichnis</h2><span class="toctoggle">&nbsp;[<a role="button" tabindex="0" class="togglelink">Verbergen</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Vorsicht_bei_Arbeiten_mit_Netzspannung.21"><span class="tocnumber">1</span> <span class="toctext">Vorsicht bei Arbeiten mit Netzspannung!</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#G.C3.A4ngige_Normen"><span class="tocnumber">2</span> <span class="toctext">Gängige Normen</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Verlage_f.C3.BCr_Normen"><span class="tocnumber">3</span> <span class="toctext">Verlage für Normen</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Begriffe"><span class="tocnumber">4</span> <span class="toctext">Begriffe</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#.C3.9Cberspannungskategorien"><span class="tocnumber">5</span> <span class="toctext">Überspannungskategorien</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Kategorie_I"><span class="tocnumber">5.1</span> <span class="toctext">Kategorie I</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Kategorie_II"><span class="tocnumber">5.2</span> <span class="toctext">Kategorie II</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Kategorie_III"><span class="tocnumber">5.3</span> <span class="toctext">Kategorie III</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Kategorie_IV"><span class="tocnumber">5.4</span> <span class="toctext">Kategorie IV</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Schutzklassen_von_Ger.C3.A4ten"><span class="tocnumber">6</span> <span class="toctext">Schutzklassen von Geräten</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Schutzklasse_0"><span class="tocnumber">6.1</span> <span class="toctext">Schutzklasse 0</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Schutzklasse_0I"><span class="tocnumber">6.2</span> <span class="toctext">Schutzklasse 0I</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Schutzklasse_I"><span class="tocnumber">6.3</span> <span class="toctext">Schutzklasse I</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Schutzklasse_II"><span class="tocnumber">6.4</span> <span class="toctext">Schutzklasse II</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Isolierstoffgruppen"><span class="tocnumber">7</span> <span class="toctext">Isolierstoffgruppen</span></a>
+<ul>
+<li class="toclevel-2 tocsection-16"><a href="#Isolierstoffgruppen_verschiedener_Materialien"><span class="tocnumber">7.1</span> <span class="toctext">Isolierstoffgruppen verschiedener Materialien</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="#Mindestkriechstrecken_bei_Leiterplatten"><span class="tocnumber">8</span> <span class="toctext">Mindestkriechstrecken bei Leiterplatten</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#Praktische_Anwendung"><span class="tocnumber">9</span> <span class="toctext">Praktische Anwendung</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#Links"><span class="tocnumber">10</span> <span class="toctext">Links</span></a></li>
+</ul>
+</div>
+
+<h2 class="mw-header"><a id="Vorsicht_bei_Arbeiten_mit_Netzspannung.21" href="#Vorsicht_bei_Arbeiten_mit_Netzspannung.21" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Vorsicht bei Arbeiten mit Netzspannung!</span></h2>
+<p><b>Sicherungen nicht vergessen, Berührungsschutz nicht vergessen, euer Versicherungsschutz erlischt bei Arbeiten mit Netzspannung.</b>
+</p><p><b>Alle Angaben ohne Gewähr!</b>
+</p><p>Die angegebenen Abstände sind <b>Mindest</b>abstände, mehr ist besser.
+</p><p>Es sind in der Tabelle die Abstände für Leiterplatten angegeben, 
+diese können u.U. direkt am Bauteil kleiner sein. Eventuell müssen beim 
+Einlöten die Anschlusspins auseinander gebogen sein. Bei Steckern, bei 
+denen dies nicht möglich ist, ist sofort vom Anschlusspin auf den 
+erforderlichen Mindestabstand  auseinander zu routen. Lötstopplack ist <b>keine</b> Isolierung. Zusätzlicher Isolierlack schadet nicht, vorher Platine gründlich reinigen und <i>entfetten</i>. Wer lackiert o.ä. sollte unten angegebene Abstände nicht verringern. Es heißt schließlich <b>Mindest</b>abstände.
+Auch ist zu beachten, daß u.U. andere, <i>höhere</i> als in der Tabelle 
+angegebene Werte gültig sein können. Dies ist von einer Vielzahl 
+weiterer Faktoren abhängig. Beispielsweise hängt die Mindest-Luftstrecke
+ u.a. von der Höhe über Normal-Null ab. Prinzipiell gilt, dass ab ca. 
+2000m andere, <i>höhere</i> Werte gelten. Auch kennen verschiedene 
+Normen unterschiedliche Verschmutzungsgrade, mal nur drei, mal aber 
+vier. Es ist gegebenenfalls sehr schwierig, zu ermitteln, welche 
+Norm/Tabelle im konkreten Anwendungsfall die gültige ist. Die Abstände 
+gelten, wenn nicht anders angegeben, zwischen den Leitern, nicht gegen 
+Erde, Gehäuse, PE. Auch hier gelten <i>höhere</i> Werte. Die Abstände 
+gelten auch in Innenlagen bei mehrlagigen Boards, es sei denn, man kann 
+durch Temperaturwechseltests nachweisen...
+</p><p>Falls ihr jetzt denkt: "Da steigt doch keiner mehr durch!", kann 
+euch mindestens einer der Autoren dieses Artikels versichern, dass auch 
+gestandene Prüfer in offiziellen Normeninstituten erst einmal einen 
+Moment innehalten müssen und überlegen, was denn jetzt gerade zutrifft. 
+Manche Sachen sind ganz einfach interpretationsabhängig (eigentlich 
+unglaublich bei diesem Thema).
+</p><p>Die Werte in den Tabellen gelten <i>nicht</i> für 'Papier'platinen.
+</p>
+<h2 class="mw-header"><a id="G.C3.A4ngige_Normen" href="#G.C3.A4ngige_Normen" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Gängige Normen</span></h2>
+<p>Allgemein gilt:
+</p>
+<ul><li>DIN - Deutsches Institut für Normung</li>
+<li>EN - Europäische Norm</li>
+<li>IEC - Norm der International Electrotechnical Commission</li></ul>
+<p>Dabei sind zumindest bei den neueren Normen die Nummern identisch, 
+d.h. "DIN 60071" entspricht "EN 60071" entspricht "IEC 60071". Das ist 
+aber nicht immer so.  
+</p>
+<ul><li>MIL-Std 275 B - US Standard, eigentlich fürs Militär, wird aber 
+auch sonst oft herangezogen/zitiert, wichtigste US-Norm, auch oft für 
+Industrie gefordert, enthält auch Angaben über Mindestleiterbahnbreiten 
+etc. </li></ul>
+<ul><li>DIN EN 60071 (VDE 0111) - Begriffe und Grundsätze der Isolationskoordination</li></ul>
+<ul><li>DIN EN 60664 (VDE 0110) - Isolationskoordination für elektrische Betriebsmittel in Niederspannungsanlagen</li></ul>
+<ul><li>DIN 7735 (VDE 0318) - VDE-Bestimmung für die 
+Schichtpreßstoff-Erzeugnisse Hartpapier, Hartgewebe und Hartmatte; 
+enthält Mindestwerte für die Spannungsfestigkeit; zurückgezogen</li></ul>
+<ul><li>DIN 53480 (VDE 0303-1) - Bestimmung der Kriechstromfestigkeit; zurückgezogen</li></ul>
+<ul><li>DIN 53481 (VDE 0303-2) - Bestimmung der Durchschlagsfestigkeit; zurückgezogen</li></ul>
+<ul><li>DIN EN 60112 (VDE 0303-11) - Verfahren zur Bestimmung der 
+Prüfzahl und der Vergleichszahl der Kriechwegbildung von festen, 
+isolierenden Werkstoffen</li></ul>
+<ul><li>DIN EN 60243 (VDE 0303-21,22,23) - Elektrische Durchschlagfestigkeit von isolierenden Werkstoffen</li></ul>
+<ul><li>DIN EN 60893 (VDE 0318) - Isolierstoffe - Tafeln aus technischen
+ Schichtpressstoffen auf der Basis warmhärtender Harze für 
+elektrotechnische Zwecke</li></ul>
+<ul><li>DIN EN 50124 (VDE 0115-107) - Bahnanwendungen - Isolationskoordination; Zusammenhang zwischen Isolierstoffgruppen und CTI-Wert</li></ul>
+<ul><li>DIN EN 50178 (VDE 0160) - Ausrüstung von Starkstromanlagen mit elektronischen Betriebsmitteln</li></ul>
+<ul><li>DIN EN 60065 (VDE 0860) - Audio-, Video- und ähnliche elektronische Geräte - Sicherheitsanforderungen</li></ul>
+<ul><li>DIN EN 60204 (VDE 0113) - Sicherheit von Maschinen - Elektrische Ausrüstung von Maschinen</li></ul>
+<ul><li>DIN EN 60335 (VDE 0700) - Sicherheit elektrischer Geräte für den Hausgebrauch und ähnliche Zwecke; u.a. Batterieladegeräte</li></ul>
+<ul><li>DIN EN 60601 (VDE 0750) - Medizinische elektrische Geräte</li></ul>
+<ul><li>DIN EN 60730 (VDE 0631) - Automatische elektrische Regel- und Steuergeräte für den Hausgebrauch und ähnliche Anwendungen</li></ul>
+<ul><li>DIN EN 60950 (VDE 0805)- Einrichtungen der Informationstechnik; 
+sie sollte bei Schaltungen mit Microcontrollern zuständig sein. Diese 
+Norm greift aber in Ermangelung anderer, spezifischerer Normen oft, 
+z.&nbsp;B. bei Schaltnetzteilen! Warum gerade SNT keine extra Norm 
+haben, ist mir ein Rätsel.</li></ul>
+<ul><li>DIN EN 61010 (VDE 0411) - Sicherheitsbestimmungen für elektrische Mess-, Steuer-, Regel- und Laborgeräte</li></ul>
+<ul><li>DIN EN 61800-5-1 (VDE 0160-105-1) - Elektrische 
+Leistungsantriebssysteme mit einstellbarer Drehzahl - Anforderungen an 
+die Sicherheit - Elektrische, thermische und energetische Anforderungen</li></ul>
+<h2 class="mw-header"><a id="Verlage_f.C3.BCr_Normen" href="#Verlage_f.C3.BCr_Normen" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Verlage für Normen</span></h2>
+<ul><li>Beuth Verlag</li></ul>
+<ul><li>VDE Verlag</li></ul>
+<ul><li>FED.de</li></ul>
+<p>Obige Normen käuflich zu erwerben lohnt sich im Normalfall für 
+Privatanwender nicht. Sie sind leider richtig teuer. Man kann im 
+Internet aber herausfinden, welche Inhalte die Normen haben und wofür 
+sie prinzipiell zuständig sind.
+</p><p>Es gibt auch benannte Auslegestellen, wo die Normen kostenfrei eingesehen werden können. <a rel="nofollow" class="external free" href="http://www.beuth.de/scr/auslegestellen">http://www.beuth.de/scr/auslegestellen</a>
+Dies sind meist Hochschulbibliotheken.
+Beachten: hier können nur Kopien einzelner Seiten gemacht werden, wenn überhaupt.
+</p>
+<h2 class="mw-header"><a id="Begriffe" href="#Begriffe" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Begriffe</span></h2>
+<ul><li>Betriebs-Scheitelspannung: bei jeder Wellenform ist das der 
+Scheitelwert. Bei überlagerter Gleich~ &amp; Wechselspannung wird der 
+Maximalwert des Wechselspannungsanteils eingerechnet.</li></ul>
+<ul><li>Effektive Betriebsspannng: gemessener Effektivwert, ohne 
+transiente Überspannungen, diese Transienten fließen in die 
+Überspannungskategorie ein</li></ul>
+<ul><li>Luftstrecke: kürzeste Verbindung, nicht entlang einer Oberfläche. Die Luftstrecke ist abhängig von der Betriebs-<i>Scheitelspannung</i> (!).</li></ul>
+<ul><li>Zusatz-Luftstrecken in Primärstromkreisen:<b>&lt;&lt;&lt;---zu vervollständigen</b></li></ul>
+<ul><li>Kriechstrecke: kürzeste Verbindung entlang einer Oberfläche. 
+Kriechstrecken können auf Platinen leicht durch Bohrungen/Schlitze 
+erhöht werden. Gern gemacht bei SNTen. Die Kriechstrecke ist abhänging 
+von der <i>effektiven</i> (!) Betriebsspannung.</li></ul>
+<p>Luft- &amp; Kriechstrecken dürfen durch leitfähige Teile (ohne 
+Potentialbezug!) unterbrochen sein. Dann wird jedoch die Summe der 
+Teilabschnitte (die Strecken ohne leitfähige Unterbrechungen) zusammen 
+gerechnet. Die Teilabschnitte dürfen dabei bestimmte Mindestmaße nicht 
+unterschreiten, siehe DIN EN 60664-1 Abschnitt 6.2 Messung der Luft- und
+ Kriechstrecken.
+</p>
+<ul><li> Verschmutzungsgrad:
+<ul><li> Verschmutzungsgrad 1 - keine oder nur trockene , <b>nichtleitfähige</b> Verschmutzung</li>
+<li> Verschmutzungsgrad 2  - nur nichtleitfähige verschmutzung, die nur <b>zeitweise</b>
+ leitfähig wird durch Kondensation, wird in den Innenlagen von 
+Leiterplatten angenommen, Verschmutzungsgad 1 nur nach 
+Temperaturwechseltests</li>
+<li> Verschmutzungsgrad 3 - leitfähige Verschmutzung oder nichtleitfähige, welche durch zu erwartende Kondensation leitfähig wird.</li></ul></li></ul>
+<ul><li>Funktionsisolierung:  Isolierung nur für ordnungsgemäße Funktion, bietet keinen Schutz</li></ul>
+<ul><li>Basisisolierung:  Isolierung zum grundlegenden Schutz</li></ul>
+<ul><li>Verstärkte Isolierung:  eine einzige Isolierung die den gleichen
+ Schutz bietet wie doppelte Isolierung (muß keine homogene Isolierung 
+sein, darf aus mehreren Schichten bestehen) </li></ul>
+<ul><li>Betriebsisolierung: veralteter Begriff für Funktionsisolierung</li></ul>
+<ul><li>doppelte Isolierung: besteht aus Basis~ und zusätzlicher Isolierung</li></ul>
+<ul><li>zusätzliche Isolierung: unabhängige (von der Basis~) zusätzliche
+ Isolierung, zusätzlich zur Basisisolierung, die Schutz bietet bei 
+Versagen der Basisisolierung (z.b. vorgeschrieben bei Schutztrafos)</li></ul>
+<ul><li>Transiente Überspannung: Hiermit werden vor allem kurzzeitige 
+Spannungsspitzen durch Schaltvorgänge (oder Blitzeinschläge) bezeichnet.
+ Diese Transienten sind für manche Tests genormt. Es macht einen 
+Unterschied, ob ein Gerät in einem Haushalt (hinter relativ langen 
+Leitungen, Zähler, Sicherungverteilung) oder direkt in der Versorgung 
+des EVU angeschlossen ist. Beim EVU sind die Transienten viel höher, 
+dort gelten dann höhere Werte (z. B. 6,8 mm Abstand zu PE, 2,5mm 
+Leiter-Leiter bei normaler Netzspannung).    </li></ul>
+<ul><li>Interpolation zwischen den Spannungen:  Teilweise darf zwischen 
+den Spannungswerten interpoliert werden, aber nicht immer. Dann ist der 
+nächsthöhere Wert aus der Tabelle zu nehmen. Meist darf erst bei höheren
+ Spannungen interpoliert werden. Es wird dabei grundsätzlich auf volle 
+Millimeter aufgerundet.</li></ul>
+<h2 class="mw-header"><a id=".C3.9Cberspannungskategorien" href="#.C3.9Cberspannungskategorien" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Überspannungskategorien</span></h2>
+<p>DIN EN 60664/VDE 0110 klassifiziert bestimmte Bereiche, an die ein elektrisches Gerät angeschlossen werden
+kann, nach ihrer Gefährdung bezüglich möglicher auftretender Überspannungen (Transienten).  Dabei werden
+vier Kategorien festgelegt, die man häufig auch bei Messgeräten wiederfindet (CAT I ... CAT IV) um
+anzugeben, in welchem Bereich diese Messgeräte benutzt werden dürfen.
+</p>
+<h3 class="mw-header"><a id="Kategorie_I" href="#Kategorie_I" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Kategorie I</span></h3>
+<p>Kategorie mit der niedrigsten Absicherung gegen Überspannung.  Geräte, die an feste elektrische Installation
+angeschlossen werden und bei denen (entweder in der festen Installation oder dazwischen geschaltet)
+Maßnahmen getroffen wurden, um Überspannungen zu begrenzen.
+</p><p>Beispiel: ein Gerät, das an ein Labornetzteil angeschlossen ist.
+</p>
+<h3 class="mw-header"><a id="Kategorie_II" href="#Kategorie_II" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Kategorie II</span></h3>
+<p>Geräte, die an die feste elektrische Installation angeschlossen werden und die selbst Vorkehrungen gegen
+Überspannungen in dieser Installation treffen.
+</p><p>Beispiel: praktisch alle Haushaltgeräte; das Labornetzteil des vorigen Beispiels
+</p>
+<h3 class="mw-header"><a id="Kategorie_III" href="#Kategorie_III" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Kategorie III</span></h3>
+<p>Geräte, die Bestandteil der festen Installation sind.  Diese Kategorie soll ebenfalls angewendet werden
+für Geräte, deren Funktion wie bei Kategorie II definiert ist, aber die eine erhöhte Ausfallsicherheit
+gegen Überspannungen erreichen sollen.
+</p><p>Beispiel: Steckdosen, Schalter, Leitungsschutzschalter, fest montierte elektrische Maschinen
+</p>
+<h3 class="mw-header"><a id="Kategorie_IV" href="#Kategorie_IV" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Kategorie IV</span></h3>
+<p>Geräte, die an oder in der Nähe der Einspeisung der festen elektrischen Installation eines Gebäudes
+eingesetzt werden.
+</p><p>Beispiel: Elektrizitätszähler, Überstromschutzschalter
+</p>
+<h2 class="mw-header"><a id="Schutzklassen_von_Ger.C3.A4ten" href="#Schutzklassen_von_Ger.C3.A4ten" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Schutzklassen von Geräten</span></h2>
+<h3 class="mw-header"><a id="Schutzklasse_0" href="#Schutzklasse_0" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Schutzklasse 0</span></h3>
+<p>Schutz nur durch Basisisolierung, d.h. i.a. Gehäuse aus Isolierwerkstoff mit Mindestdicke überall mindestens Basisisolierung
+</p>
+<h3 class="mw-header"><a id="Schutzklasse_0I" href="#Schutzklasse_0I" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Schutzklasse 0I</span></h3>
+<p>Gehäuse aus Isolierwerkstoff, welches die Basisisolierung bildet, + 
+schutzleiteranschlussklemme aber ohne Schutzleiter in der 
+Anschlussleitung
+</p>
+<h3 class="mw-header"><a id="Schutzklasse_I" href="#Schutzklasse_I" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Schutzklasse I</span></h3>
+<p>Schutz hängt nicht nur von der Basisisolierung ab, sondern zusätlicher Schutz durch Schutzleiter in der Anschlußleitung
+</p>
+<h3 class="mw-header"><a id="Schutzklasse_II" href="#Schutzklasse_II" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Schutzklasse II</span></h3>
+<p>kein Schutzleiter, aber doppelte oder verstärkte Isolierung zusätzlich zur Basisisolierung
+</p>
+<h2 class="mw-header"><a id="Isolierstoffgruppen" href="#Isolierstoffgruppen" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Isolierstoffgruppen</span></h2>
+<table class="wikitable">
+<caption> <b>Ermittlung der Isolierstoffgruppe</b>
+
+</caption>
+
+<tbody><tr>
+<th>Isolierstoffgruppe</th>
+<th>Einteilung nach CTI
+</th></tr>
+<tr>
+<td>I	</td>
+<td>CTI &gt;= 600
+</td></tr>
+<tr>
+<td>II	</td>
+<td>600 &gt; CTI &gt;= 400
+</td></tr>
+<tr>
+<td>IIIa	</td>
+<td>400 &gt; CTI &gt;= 175
+</td></tr>
+<tr>
+<td>IIIb	</td>
+<td>175 &gt; CTI &gt;= 100
+</td></tr></tbody></table>
+<p>CTI – comparative tracking index - Vergleichszahl der Kriechwegbildung
+</p><p>Die Isolierstoffgruppe/CTI wird nach IEC 60112 ermittelt (mittels
+ Tropftest). Ist diese unbekannt, ist grundsätzlich IIIb anzunehmen.
+</p>
+<h3 class="mw-header"><a id="Isolierstoffgruppen_verschiedener_Materialien" href="#Isolierstoffgruppen_verschiedener_Materialien" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Isolierstoffgruppen verschiedener Materialien</span></h3>
+<ul><li> FR4 - 175-200 
+<ul><li>Sofern nicht explizit aus einem Datenblatt eines Herstellers ein
+ genauerer Wert hervor geht, sollte man von 170 und damit Gruppe IIIb 
+ausgehen, um auf der sicheren Seite zu bleiben. Bungard gibt für sein 
+Material 205 an. (Quelle: <a rel="nofollow" class="external free" href="http://www.bungard.de/downloads/ipc4101d.pdf">http://www.bungard.de/downloads/ipc4101d.pdf</a>)</li></ul></li>
+<li> PTFE - &gt;600</li>
+<li> Phenolharz ("Pertinax"): 125</li>
+<li> Polyimid, Kapton: 150</li>
+<li> FR4 Typ KF: 400</li>
+<li> PE-LD, PE-HD (Polyethylen): 600</li>
+<li> Polyesterharz: 600</li></ul>
+<p>(Quelle: <a rel="nofollow" class="external free" href="http://de.wikipedia.org/wiki/Kriechstromfestigkeit">http://de.wikipedia.org/wiki/Kriechstromfestigkeit</a>)
+</p>
+<h2 class="mw-header"><a id="Mindestkriechstrecken_bei_Leiterplatten" href="#Mindestkriechstrecken_bei_Leiterplatten" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Mindestkriechstrecken bei Leiterplatten</span></h2>
+<p>angelehnt an IEC60950, Angaben in V (Volt) und mm (Millimeter)
+</p>
+<table class="wikitable">
+<caption> <b>Mindestkriechstrecken</b>
+
+</caption>
+<tbody><tr>
+<th>   </th>
+<th> Isolierstoffgruppe</th>
+<th> Isolierstoffgruppe
+</th></tr>
+<tr>
+<th> </th>
+<th>	I, II, IIIa, IIIb	</th>
+<th>I, II, IIIa
+</th></tr>
+<tr>
+<th> Effektive Betriebspannung </th>
+<th> Verschmutzungsgrad</th>
+<th> Verschmutzungsgrad
+</th></tr>
+<tr>
+<th> </th>
+<th> 	1	</th>
+<th>2
+</th></tr>
+<tr>
+<td>10</td>
+<td>	0,025</td>
+<td>	0,04
+</td></tr>
+
+<tr>
+<td>12,5</td>
+<td>	0,025	</td>
+<td>0,04
+</td></tr>
+
+<tr>
+<td>16</td>
+<td>	0,025	</td>
+<td>0,04
+</td></tr>
+
+<tr>
+<td>20</td>
+<td>	0,025	</td>
+<td>0,04
+</td></tr>
+
+<tr>
+<td>25</td>
+<td>	0,025	</td>
+<td>0,04
+</td></tr>
+
+<tr>
+<td>32</td>
+<td>	0,025	</td>
+<td>0,04
+</td></tr>
+
+<tr>
+<td>40</td>
+<td>	0,025	</td>
+<td>0,04
+</td></tr>
+
+<tr>
+<td>50</td>
+<td>	0,025	</td>
+<td>0,04
+</td></tr>
+
+<tr>
+<td>63</td>
+<td>	0,040	</td>
+<td>0,063
+</td></tr>
+
+<tr>
+<td>80</td>
+<td>	0,063	</td>
+<td>0,10
+</td></tr>
+
+<tr>
+<td>100</td>
+<td>	0,10	</td>
+<td>0,16
+</td></tr>
+
+<tr>
+<td>125</td>
+<td>	0,16	</td>
+<td>0,25
+</td></tr>
+
+<tr>
+<td>160</td>
+<td>	0,25	</td>
+<td>0,40
+</td></tr>
+
+<tr>
+<td>200</td>
+<td>	0,4	</td>
+<td>0,63
+</td></tr>
+<tr>
+<td>250</td>
+<td>	0,56	</td>
+<td>1,0
+</td></tr>
+
+<tr>
+<td>320</td>
+<td>	0,75	</td>
+<td>1,6
+</td></tr>
+
+<tr>
+<td>400</td>
+<td>	1,0	</td>
+<td>2,0
+</td></tr>
+
+<tr>
+<td>500</td>
+<td>	1,3	</td>
+<td>2,5
+</td></tr>
+
+<tr>
+<td>630</td>
+<td>	1,8	</td>
+<td>3,2
+</td></tr>
+<tr>
+<td>800</td>
+<td>	2,4	</td>
+<td>4,0
+</td></tr>
+<tr>
+<td>1000</td>
+<td>	3,2	</td>
+<td>5,0
+</td></tr></tbody></table>
+<p><br>  
+Zur Tabelle Mindestkriechstrecke: 
+</p><p>Ist die Mindestkriechstrecke kleiner als die zugehörige Mindest-Luftstrecke, ist Letztere zu benutzen.
+</p>
+<table class="wikitable">
+<caption> <b>Mindestabstände nach MIL Std 275 B</b>
+
+</caption>
+<tbody><tr>
+<th>Spannung</th>
+<th>I A</th>
+<th>I B</th>
+<th>II</th>
+<th>III</th>
+<th>IV
+</th></tr>
+<tr>
+<td>50</td>
+<td>0,381</td>
+<td>2,032</td>
+<td>0,660</td>
+<td>0,381</td>
+<td>0,559
+</td></tr>
+<tr>
+<td>51-100</td>
+<td> </td>
+<td> </td>
+<td>1,575</td>
+<td> </td>
+<td>0,762
+</td></tr>
+<tr>
+<td>51-150</td>
+<td>0,660</td>
+<td>2,032</td>
+<td> </td>
+<td>0,559</td>
+<td>
+</td></tr>
+<tr>
+<td>101-170</td>
+<td> </td>
+<td> </td>
+<td>3,17</td>
+<td> </td>
+<td>1,524
+</td></tr>
+<tr>
+<td>171-250</td>
+<td> </td>
+<td> </td>
+<td>6,35</td>
+<td> </td>
+<td>3,17
+</td></tr>
+<tr>
+<td>151-300</td>
+<td>1,575</td>
+<td>3,17</td>
+<td> </td>
+<td>0,762</td>
+<td>
+</td></tr>
+<tr>
+<td>251-500</td>
+<td> </td>
+<td> </td>
+<td>12,70</td>
+<td> </td>
+<td>6,35
+</td></tr>
+<tr>
+<td>301-500</td>
+<td>3,17</td>
+<td>7,62</td>
+<td> </td>
+<td>1,524</td>
+<td>
+</td></tr>
+<tr>
+<td>über500</td>
+<td>0,0076/Volt</td>
+<td>0,0152/Volt</td>
+<td>0,025/Volt</td>
+<td>0,0051/Volt</td>
+<td>0,0127/Volt
+</td></tr></tbody></table>
+<p>Hierbei gilt: 
+</p><p>I - ohne Schutzüberzug bis 3048m
+</p><p>II - ohne Schutzüberzug über 3048m
+</p><p>III - mit Schutzüberzug bis 3048m
+</p><p>IV - mit Schutzüberzug ab 3048m
+</p><p>A - saubere Umgebung
+</p><p>B - schmutzige/staubige Umgebung
+</p><p>Als anerkannter Schutzüberzug ist in den DIN-Normen nur 
+Epoxydharz angegeben. Wie es sich beim MIL Std verhält, ist noch zu 
+ermitteln.
+</p>
+<h2 class="mw-header"><a id="Praktische_Anwendung" href="#Praktische_Anwendung" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Praktische Anwendung</span></h2>
+<p><b>In Arbeit, Angaben ohne Gewähr!</b>
+</p><p>Grundlage: DIN EN 60664-1
+</p>
+<table class="wikitable">
+<caption> <b>Mindestabstände</b>
+
+</caption>
+<tbody><tr>
+<th>Spannung</th>
+<th>Überspannungskategorie</th>
+<th>Verschmutzungsgrad</th>
+<th>Isolierstoffgruppe</th>
+<th>Luftstrecke</th>
+<th>Kriechstrecke</th>
+<th>Hinweis
+</th></tr>
+<tr>
+<td>230V~ Netz</td>
+<td>II</td>
+<td>2</td>
+<td>III</td>
+<td>1,5mm zwischen L und N,<br>3mm zwischen L/N und Schutzkleinspannung</td>
+<td>2,3mm zwischen L und N,<br>5mm zwischen L/N und Schutzkleinspannung</td>
+<td> ohne Schutzlack, bis 2000m über NN
+</td></tr>
+<tr>
+<td>230V~ Netz</td>
+<td>III</td>
+<td>2</td>
+<td>III</td>
+<td>3mm zwischen L und N,<br>6mm zwischen L/N und Schutzkleinspannung</td>
+<td>3mm zwischen L und N,<br>6mm zwischen L/N und Schutzkleinspannung</td>
+<td> ohne Schutzlack, bis 2000m über NN
+</td></tr>
+<tr>
+<td>230V~ Netz</td>
+<td>II</td>
+<td>2</td>
+<td>III</td>
+<td> bitte ergänzen </td>
+<td>  bitte ergänzen</td>
+<td> <b>mit</b> Schutzlack,<br>bis 2000m über NN
+</td></tr>
+<tr>
+<td>230V~ Netz</td>
+<td>III</td>
+<td>2</td>
+<td>III</td>
+<td> bitte ergänzen </td>
+<td> bitte ergänzen </td>
+<td> <b>mit</b> Schutzlack,<br>bis 2000m über NN
+</td></tr>
+<tr>
+<td>230V~ Netz</td>
+<td>II</td>
+<td>1</td>
+<td>III</td>
+<td> bitte ergänzen </td>
+<td>  bitte ergänzen</td>
+<td> Innenlage (Multilayer), <br>bis 2000m über NN
+</td></tr>
+<tr>
+<td>230V~ Netz</td>
+<td>III</td>
+<td>1</td>
+<td>III</td>
+<td> bitte ergänzen </td>
+<td> bitte ergänzen </td>
+<td> Innenlage (Multilayer), <br>bis 2000m über NN
+</td></tr></tbody></table>
+<h2 class="mw-header"><a id="Links" href="#Links" title="Link to this section" class="mw-headline-headanchor"></a><span class="mw-headline">Links</span></h2>
+<ul><li><a rel="nofollow" class="external text" href="http://www.johansondielectrics.com/images/stories/product-training/jdi_training-arc-prevention_2008-01.pdf">High Voltage PCB Design for Arc Prevention, Johanson Dielectrics</a> (danke an Guido: <a class="external text" href="https://www.mikrocontroller.net/topic/239351#2430969">Artikel <i>Re: SMD Kondensatoren bis 1kV?</i></a>)</li>
+<li><a rel="nofollow" class="external text" href="http://www.creepage.com/">Luft- und Kriechstreckenrechner</a> auf Grundlage IEC 60950 und Überspannungskategorie II</li></ul>
+
+<!-- 
+NewPP limit report
+Cached time: 20190815070018
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.012 seconds
+Real time usage: 0.011 seconds
+Preprocessor visited node count: 74/1000000
+Preprocessor generated node count: 80/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+
+<!-- Saved in parser cache with key uc_wiki:pcache:idhash:4445-0!*!*!!de!*!* and timestamp 20190815070018 and revision id 89937
+ -->
+</div>			<!-- /bodycontent -->
+						<!-- printfooter -->
+			<div class="printfooter">
+			Abgerufen von „<a dir="ltr" href="https://www.mikrocontroller.net/wikisoftware/index.php?title=Leiterbahnabst%C3%A4nde&amp;oldid=89937">https://www.mikrocontroller.net/wikisoftware/index.php?title=Leiterbahnabstände&amp;oldid=89937</a>“			</div>
+			<!-- /printfooter -->
+									<!-- catlinks -->
+			<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="https://www.mikrocontroller.net/articles/Spezial:Kategorien" title="Spezial:Kategorien">Kategorien</a>: <ul><li><a href="https://www.mikrocontroller.net/articles/Kategorie:Platinen" title="Kategorie:Platinen">Platinen</a></li><li><a href="https://www.mikrocontroller.net/articles/Kategorie:Spannungsversorgung_und_Energiequellen" title="Kategorie:Spannungsversorgung und Energiequellen">Spannungsversorgung und Energiequellen</a></li><li><a href="https://www.mikrocontroller.net/articles/Kategorie:Schaltplaneditoren" title="Kategorie:Schaltplaneditoren">Schaltplaneditoren</a></li></ul></div></div>			<!-- /catlinks -->
+									<div class="visualClear"></div>
+			<!-- debughtml -->
+						<!-- /debughtml -->
+
+      <div class="visualClear"></div>
+    </div>
+	</div>
+  </td>
+  <!-- google_ad_section_end -->
+      </tr>
+      </tbody></table>
+      <!--
+      <div class="visualClear"></div>
+      <div id="footer" style="clear:both">
+    <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="/wikisoftware/resources/assets/poweredby_mediawiki_88x31.png" srcset="/wikisoftware/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /wikisoftware/resources/assets/poweredby_mediawiki_176x62.png 2x" height="31" width="88" alt="Powered by MediaWiki" /></a></div>		<ul id="f-list">
+	  <li id="f-lastmod"> Diese Seite wurde zuletzt am 10. Oktober 2015 um 06:12 Uhr bearbeitet.</li>	  	  	  	  <li id="f-about"><a href="/articles/Mikrocontroller.net:%C3%9Cber_Mikrocontroller.net" title="Mikrocontroller.net:Über Mikrocontroller.net">Über Mikrocontroller.net</a></li>	  <li id="f-disclaimer"><a href="/articles/Mikrocontroller.net:Impressum" title="Mikrocontroller.net:Impressum">Haftungsausschluss</a></li>	</ul>
+      </div>-->
+    </div>
+<div id="bottom">
+  <div id="impress">
+    <a href="https://www.mikrocontroller.net/contact">Kontakt/Impressum</a> – <a href="https://www.mikrocontroller.net/articles/Datenschutzerkl%C3%A4rung">Datenschutzerklärung</a> – <a href="https://www.mikrocontroller.net/user/conditions">Nutzungsbedingungen</a> – <a href="mailto:info@eetech.com?subject=Advertising%20on%20Mikrocontroller.net">Werbung auf Mikrocontroller.net</a>
+  </div>
+  <div id="powered">
+<!--    powered by Ruby on Rails -->
+  </div>
+ <a href="https://www.mikrocontroller.net/util/rb"><!-- nothing --></a>
+</div>
+
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.012","walltime":"0.011","ppvisitednodes":{"value":74,"limit":1000000},"ppgeneratednodes":{"value":80,"limit":1000000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"timestamp":"20190815070018","ttl":86400,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":106});});</script></div>
+
+  
+
+<div class="highslide-container" style="padding: 0px; border: medium none; margin: 0px; position: absolute; left: 0px; top: 0px; width: 100%; z-index: 1001; direction: ltr;"><a class="highslide-loading" title="Klick zum Abbrechen" href="javascript:;" style="position: absolute; top: -9999px; opacity: 0.75; z-index: 1;">Lade...</a><div style="display: none;"></div><table style="padding: 0px; border: medium none; margin: 0px; visibility: hidden; position: absolute; border-collapse: collapse; width: 0px;" cellspacing="0"><tbody style="padding: 0px; border: medium none; margin: 0px;"><tr style="padding: 0px; border: medium none; margin: 0px; height: auto;"><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: rgba(0, 0, 0, 0) url(&quot;https://www.mikrocontroller.net/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll 0px 0px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: rgba(0, 0, 0, 0) url(&quot;https://www.mikrocontroller.net/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll 0px -40px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: rgba(0, 0, 0, 0) url(&quot;https://www.mikrocontroller.net/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll -20px 0px; height: 20px; width: 20px;"></td></tr><tr style="padding: 0px; border: medium none; margin: 0px; height: auto;"><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: rgba(0, 0, 0, 0) url(&quot;https://www.mikrocontroller.net/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll 0px -80px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: medium none; margin: 0px; position: relative;" class="drop-shadow highslide-outline"></td><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: rgba(0, 0, 0, 0) url(&quot;https://www.mikrocontroller.net/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll -20px -80px; height: 20px; width: 20px;"></td></tr><tr style="padding: 0px; border: medium none; margin: 0px; height: auto;"><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: rgba(0, 0, 0, 0) url(&quot;https://www.mikrocontroller.net/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll 0px -20px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: rgba(0, 0, 0, 0) url(&quot;https://www.mikrocontroller.net/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll 0px -60px; height: 20px; width: 20px;"></td><td style="padding: 0px; border: medium none; margin: 0px; line-height: 0; font-size: 0px; background: rgba(0, 0, 0, 0) url(&quot;https://www.mikrocontroller.net/highslide/graphics/outlines/drop-shadow.png&quot;) repeat scroll -20px -20px; height: 20px; width: 20px;"></td></tr></tbody></table></div></body></html>
