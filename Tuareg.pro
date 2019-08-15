@@ -1,4 +1,4 @@
-update=Di 09 Jul 2019 16:06:24 CEST
+update=Do 15 Aug 2019 10:02:09 CEST
 version=1
 last_client=kicad
 [general]
@@ -271,7 +271,7 @@ dPairGap=0.3
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=uc
-Clearance=0.1
+Clearance=0.2
 TrackWidth=0.3
 ViaDiameter=0.3
 ViaDrill=0.15
@@ -282,7 +282,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=ultra
-Clearance=0.8
+Clearance=0.9
 TrackWidth=2
 ViaDiameter=1
 ViaDrill=0.5
@@ -293,7 +293,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=vr
-Clearance=0.1
+Clearance=0.2
 TrackWidth=0.3
 ViaDiameter=0.6
 ViaDrill=0.3
