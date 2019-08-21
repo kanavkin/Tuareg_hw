@@ -494,7 +494,7 @@ Wire Wire Line
 	18400 7250 18700 7250
 Wire Wire Line
 	18700 7050 18400 7050
-Text Label 18350 5700 2    50   ~ 0
+Text Label 18350 5300 2    50   ~ 0
 con_ach4
 $Comp
 L power:GND #PWR0104
@@ -507,17 +507,15 @@ F 3 "" H 18700 5900 50  0001 C CNN
 	1    18700 5900
 	0    1    1    0   
 $EndComp
-Text Label 18350 6000 2    50   ~ 0
+Text Label 18350 5400 2    50   ~ 0
 con_ach3
-Text Label 18350 6100 2    50   ~ 0
+Text Label 18350 5500 2    50   ~ 0
 con_ach2
 Wire Wire Line
 	18350 6100 18700 6100
-Wire Wire Line
-	18700 6000 18350 6000
-Text Label 18350 5800 2    50   ~ 0
+Text Label 18350 6100 2    50   ~ 0
 con_ach1
-Text Label 18350 5600 2    50   ~ 0
+Text Label 18350 5800 2    50   ~ 0
 con_ach8
 Text Label 20450 6000 0    50   ~ 0
 con_ach6
@@ -574,9 +572,9 @@ Text Label 5700 13450 0    50   ~ 0
 con_pwr_sensors
 Text Label 18400 7250 2    50   ~ 0
 con_pwr_sensors
-Text Label 18350 5400 2    50   ~ 0
+Text Label 18350 5700 2    50   ~ 0
 con_knock1
-Text Label 18350 5300 2    50   ~ 0
+Text Label 18350 5600 2    50   ~ 0
 con_knock2
 Wire Wire Line
 	18350 5300 18700 5300
@@ -585,12 +583,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR069
 U 1 1 5BFEA4FA
-P 18700 5500
-F 0 "#PWR069" H 18700 5250 50  0001 C CNN
-F 1 "GND" V 18705 5372 50  0000 R CNN
-F 2 "" H 18700 5500 50  0001 C CNN
-F 3 "" H 18700 5500 50  0001 C CNN
-	1    18700 5500
+P 18700 6000
+F 0 "#PWR069" H 18700 5750 50  0001 C CNN
+F 1 "GND" V 18705 5872 50  0000 R CNN
+F 2 "" H 18700 6000 50  0001 C CNN
+F 3 "" H 18700 6000 50  0001 C CNN
+	1    18700 6000
 	0    1    1    0   
 $EndComp
 Text Notes 6650 7300 0    31   ~ 0
@@ -746,8 +744,6 @@ F 3 "" H 20150 7750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	18350 5700 18700 5700
-Wire Wire Line
 	20400 7350 20150 7350
 $Comp
 L power:GND #PWR0116
@@ -767,4 +763,8 @@ Wire Wire Line
 Connection ~ 20600 6850
 Wire Wire Line
 	20400 7150 20150 7150
+Wire Wire Line
+	18350 5500 18700 5500
+Wire Wire Line
+	18350 5700 18700 5700
 $EndSCHEMATC
