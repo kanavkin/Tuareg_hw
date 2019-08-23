@@ -1,0 +1,210 @@
+ERC report (Fr 23 Aug 2019 22:47:18 CEST, Encoding UTF8 )
+
+***** Sheet /
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 184,15 mm): Pin 33 (Unspecified) of component CON1 is connected to 
+    @(207,01 mm, 83,82 mm): pin 1 (Passive) of component R84 (net 5).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 179,07 mm): Pin 31 (Unspecified) of component CON1 is connected to 
+    @(327,66 mm, 226,06 mm): pin 7 (Passive) of component P5 (net 6).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(511,81 mm, 171,45 mm): Pin 28 (Unspecified) of component CON1 is connected to 
+    @(115,57 mm, 182,88 mm): pin 1 (Passive) of component R69 (net 9).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 171,45 mm): Pin 23 (Unspecified) of component CON1 is connected to 
+    @(208,28 mm, 49,53 mm): pin 2 (Passive) of component Q4 (net 12).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(511,81 mm, 163,83 mm): Pin 25 (Unspecified) of component CON1 is connected to 
+    @(330,20 mm, 101,60 mm): pin 2 (Passive) of component Q5 (net 13).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(511,81 mm, 196,85 mm): Pin 48 (Unspecified) of component CON1 is connected to 
+    @(223,52 mm, 95,25 mm): pin 2 (Passive) of component C59 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(511,81 mm, 166,37 mm): Pin 26 (Unspecified) of component CON1 is connected to 
+    @(474,98 mm, 163,83 mm): pin 1 (Power input) of component #PWR0102 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 163,83 mm): Pin 1 (Power input) of component #PWR0102 is connected to 
+    @(474,98 mm, 181,61 mm): pin 32 (Unspecified) of component CON1 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 181,61 mm): Pin 32 (Unspecified) of component CON1 is connected to 
+    @(474,98 mm, 163,83 mm): pin 20 (Unspecified) of component CON1 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 163,83 mm): Pin 20 (Unspecified) of component CON1 is connected to 
+    @(474,98 mm, 152,40 mm): pin 14 (Unspecified) of component CON1 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 152,40 mm): Pin 14 (Unspecified) of component CON1 is connected to 
+    @(474,98 mm, 149,86 mm): pin 13 (Unspecified) of component CON1 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 149,86 mm): Pin 13 (Unspecified) of component CON1 is connected to 
+    @(511,81 mm, 144,78 mm): pin 11 (Unspecified) of component CON1 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(511,81 mm, 144,78 mm): Pin 11 (Unspecified) of component CON1 is connected to 
+    @(474,98 mm, 191,77 mm): pin 1 (Power input) of component #PWR0108 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 191,77 mm): Pin 1 (Power input) of component #PWR0108 is connected to 
+    @(511,81 mm, 194,31 mm): pin 47 (Unspecified) of component CON1 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(511,81 mm, 194,31 mm): Pin 47 (Unspecified) of component CON1 is connected to 
+    @(511,81 mm, 191,77 mm): pin 46 (Unspecified) of component CON1 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(511,81 mm, 191,77 mm): Pin 46 (Unspecified) of component CON1 is connected to 
+    @(511,81 mm, 189,23 mm): pin 45 (Unspecified) of component CON1 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(511,81 mm, 189,23 mm): Pin 45 (Unspecified) of component CON1 is connected to 
+    @(474,98 mm, 196,85 mm): pin 43 (Unspecified) of component CON1 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 196,85 mm): Pin 43 (Unspecified) of component CON1 is connected to 
+    @(474,98 mm, 194,31 mm): pin 42 (Unspecified) of component CON1 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 194,31 mm): Pin 42 (Unspecified) of component CON1 is connected to 
+    @(474,98 mm, 191,77 mm): pin 41 (Unspecified) of component CON1 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 191,77 mm): Pin 41 (Unspecified) of component CON1 is connected to 
+    @(95,25 mm, 118,11 mm): pin 1 (Passive) of component R67 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 189,23 mm): Pin 40 (Unspecified) of component CON1 is connected to 
+    @(46,99 mm, 128,27 mm): pin 1 (Power input) of component #PWR038 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(511,81 mm, 179,07 mm): Pin 36 (Unspecified) of component CON1 is connected to 
+    @(511,81 mm, 176,53 mm): pin 35 (Unspecified) of component CON1 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(511,81 mm, 176,53 mm): Pin 35 (Unspecified) of component CON1 is connected to 
+    @(139,70 mm, 123,19 mm): pin 2 (Passive) of component C39 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(511,81 mm, 173,99 mm): Pin 34 (Unspecified) of component CON1 is connected to 
+    @(511,81 mm, 189,23 mm): pin 1 (Power input) of component #PWR0111 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 147,32 mm): Pin 9 (Unspecified) of component CON1 is connected to 
+    @(193,04 mm, 250,19 mm): pin 1 (Passive) of component R20 (net 17).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(511,81 mm, 149,86 mm): Pin 16 (Unspecified) of component CON1 is connected to 
+    @(49,53 mm, 52,07 mm): pin 2 (Passive) of component R42 (net 23).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 137,16 mm): Pin 2 (Unspecified) of component CON1 is connected to 
+    @(54,61 mm, 181,61 mm): pin 1 (Passive) of component R8 (net 24).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 134,62 mm): Pin 1 (Unspecified) of component CON1 is connected to 
+    @(54,61 mm, 247,65 mm): pin 1 (Passive) of component R9 (net 27).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 173,99 mm): Pin 29 (Unspecified) of component CON1 is connected to 
+    @(350,52 mm, 223,52 mm): pin 1 (Passive) of component D19 (net 31).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 154,94 mm): Pin 15 (Unspecified) of component CON1 is connected to 
+    @(54,61 mm, 49,53 mm): pin 1 (Passive) of component R6 (net 33).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 176,53 mm): Pin 30 (Unspecified) of component CON1 is connected to 
+    @(327,66 mm, 229,87 mm): pin 6 (Passive) of component P5 (net 35).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(474,98 mm, 186,69 mm): Pin 39 (Unspecified) of component CON1 is connected to 
+    @(339,09 mm, 231,14 mm): pin 2 (Passive) of component C57 (net 36).
+
+***** Sheet /power_supply/
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(213,36 mm, 87,63 mm): Pin 1 (Passive) of component C58 is connected to 
+    @(474,98 mm, 184,15 mm): pin 33 (Unspecified) of component CON1 (net 5).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(53,34 mm, 33,02 mm): Pin 1 (Power input) of component D1 is connected to 
+    @(474,98 mm, 168,91 mm): pin 22 (Unspecified) of component CON1 (net 10).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(53,34 mm, 33,02 mm): Pin 1 (Power input) of component D1 is not driven (Net 10).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(223,52 mm, 95,25 mm): Pin 2 (Passive) of component C59 is connected to 
+    @(511,81 mm, 166,37 mm): pin 26 (Unspecified) of component CON1 (net 15).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(36,83 mm, 128,27 mm): Pin 1 (Power input) of component #PWR01 is not driven (Net 73).
+
+***** Sheet /analog input/
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(54,61 mm, 115,57 mm): Pin 1 (Passive) of component R7 is connected to 
+    @(474,98 mm, 139,70 mm): pin 3 (Unspecified) of component CON1 (net 7).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(46,99 mm, 184,15 mm): Pin 1 (Passive) of component R4 is connected to 
+    @(474,98 mm, 137,16 mm): pin 2 (Unspecified) of component CON1 (net 24).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(200,66 mm, 115,57 mm): Pin 1 (Passive) of component R24 is connected to 
+    @(511,81 mm, 152,40 mm): pin 17 (Unspecified) of component CON1 (net 32).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(193,04 mm, 52,07 mm): Pin 1 (Passive) of component R18 is connected to 
+    @(511,81 mm, 154,94 mm): pin 18 (Unspecified) of component CON1 (net 34).
+
+***** Sheet /digital input/
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(151,13 mm, 52,07 mm): Pin 2 (Passive) of component R48 is connected to 
+    @(511,81 mm, 134,62 mm): pin 4 (Unspecified) of component CON1 (net 2).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(151,13 mm, 102,87 mm): Pin 2 (Passive) of component R49 is connected to 
+    @(511,81 mm, 137,16 mm): pin 5 (Unspecified) of component CON1 (net 3).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(49,53 mm, 156,21 mm): Pin 2 (Passive) of component R44 is connected to 
+    @(511,81 mm, 139,70 mm): pin 6 (Unspecified) of component CON1 (net 19).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(151,13 mm, 156,21 mm): Pin 2 (Passive) of component R50 is connected to 
+    @(511,81 mm, 147,32 mm): pin 12 (Unspecified) of component CON1 (net 25).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(49,53 mm, 102,87 mm): Pin 2 (Passive) of component R43 is connected to 
+    @(511,81 mm, 142,24 mm): pin 10 (Unspecified) of component CON1 (net 26).
+
+***** Sheet /knock sensor interface/
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(95,25 mm, 93,98 mm): Pin 1 (Passive) of component C29 is connected to 
+    @(474,98 mm, 144,78 mm): pin 8 (Unspecified) of component CON1 (net 18).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(95,25 mm, 101,60 mm): Pin 1 (Passive) of component C30 is connected to 
+    @(474,98 mm, 142,24 mm): pin 7 (Unspecified) of component CON1 (net 30).
+
+***** Sheet /actuators/
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(226,06 mm, 186,69 mm): Pin 1 (Passive) of component R77 is connected to 
+    @(511,81 mm, 181,61 mm): pin 37 (Unspecified) of component CON1 (net 4).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(134,62 mm, 49,53 mm): Pin 2 (Passive) of component Q2 is connected to 
+    @(474,98 mm, 161,29 mm): pin 19 (Unspecified) of component CON1 (net 8).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(63,50 mm, 49,53 mm): Pin 2 (Passive) of component Q1 is connected to 
+    @(474,98 mm, 166,37 mm): pin 21 (Unspecified) of component CON1 (net 11).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(163,83 mm, 101,60 mm): Pin 2 (Passive) of component Q3 is connected to 
+    @(511,81 mm, 161,29 mm): pin 24 (Unspecified) of component CON1 (net 14).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(95,25 mm, 118,11 mm): Pin 1 (Passive) of component R67 is connected to 
+    @(474,98 mm, 189,23 mm): pin 40 (Unspecified) of component CON1 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(46,99 mm, 128,27 mm): Pin 1 (Power input) of component #PWR038 is connected to 
+    @(511,81 mm, 179,07 mm): pin 36 (Unspecified) of component CON1 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(139,70 mm, 123,19 mm): Pin 2 (Passive) of component C39 is connected to 
+    @(511,81 mm, 173,99 mm): pin 34 (Unspecified) of component CON1 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(115,57 mm, 186,69 mm): Pin 1 (Passive) of component R70 is connected to 
+    @(511,81 mm, 168,91 mm): pin 27 (Unspecified) of component CON1 (net 16).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(226,06 mm, 182,88 mm): Pin 1 (Passive) of component R76 is connected to 
+    @(511,81 mm, 184,15 mm): pin 38 (Unspecified) of component CON1 (net 37).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(101,60 mm, 102,87 mm): Pin 8 (Power input) of component P2 is not driven (Net 85).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(267,97 mm, 102,87 mm): Pin 8 (Power input) of component P4 is not driven (Net 90).
+
+***** Sheet /cpu/
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(119,38 mm, 212,09 mm): Pin 1 (Power input) of component #PWR057 is connected to 
+    @(511,81 mm, 196,85 mm): pin 48 (Unspecified) of component CON1 (net 15).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(119,38 mm, 212,09 mm): Pin 1 (Power input) of component #PWR057 is not driven (Net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(339,09 mm, 223,52 mm): Pin 1 (Passive) of component C57 is connected to 
+    @(474,98 mm, 173,99 mm): pin 29 (Unspecified) of component CON1 (net 31).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(350,52 mm, 231,14 mm): Pin 2 (Passive) of component D19 is connected to 
+    @(474,98 mm, 186,69 mm): pin 39 (Unspecified) of component CON1 (net 36).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(129,54 mm, 120,65 mm): Pin 13 (Power input) of component U6 is not driven (Net 105).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(104,14 mm, 135,89 mm): Pin 30 (Power input) of component U6 is not driven (Net 106).
+
+***** Sheet /engine position sensors/
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(72,39 mm, 71,12 mm): Pin 1 (Passive) of component R34 is connected to 
+    @(511,81 mm, 186,69 mm): pin 44 (Unspecified) of component CON1 (net 1).
+
+ ** ERC messages: 66  Errors 0  Warnings 66
