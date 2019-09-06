@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/oli/tenere/efi/Tuareg_hw/Tuareg.sch</source>
-    <date>So 25 Aug 2019 00:06:47 CEST</date>
+    <date>Fr 06 Sep 2019 23:33:41 CEST</date>
     <tool>Eeschema 5.1.2-f72e74a~84~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -121,14 +121,20 @@
       <value>1uF 50V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">963-UMK212BJ105KG-T</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/power_supply/" tstamps="/5BC63700/"/>
       <tstamp>5BC6393F</tstamp>
     </comp>
     <comp ref="C6">
-      <value>220uF 50V</value>
+      <value>22uF 50V</value>
       <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">667-EEE-HC1H220XP </field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/power_supply/" tstamps="/5BC63700/"/>
       <tstamp>5BC63D6D</tstamp>
@@ -137,6 +143,9 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C104Z3V </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/power_supply/" tstamps="/5BC63700/"/>
       <tstamp>5BC649D7</tstamp>
@@ -145,6 +154,9 @@
       <value>22uF 16V</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.8</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">667-EEE-FC1C220R </field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/power_supply/" tstamps="/5BC63700/"/>
       <tstamp>5BC65275</tstamp>
@@ -153,6 +165,9 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C104Z3V </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/power_supply/" tstamps="/5BC63700/"/>
       <tstamp>5BC674C5</tstamp>
@@ -161,20 +176,26 @@
       <value>22uF 6V</value>
       <footprint>Capacitor_SMD:CP_Elec_4x5.8</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">667-EEE-HC0J220R </field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/power_supply/" tstamps="/5BC63700/"/>
       <tstamp>5BC6750F</tstamp>
     </comp>
     <comp ref="C7">
-      <value>1uF 6V</value>
+      <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C105M4R </field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/power_supply/" tstamps="/5BC63700/"/>
       <tstamp>5BC67585</tstamp>
     </comp>
     <comp ref="FB1">
-      <value>Ferrite_Bead</value>
+      <value>BLM21SP102SH1D</value>
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
@@ -190,7 +211,7 @@
       <tstamp>5BCBA833</tstamp>
     </comp>
     <comp ref="D3">
-      <value>D_Zener</value>
+      <value>TZMC5V6</value>
       <footprint>Diode_SMD:D_MiniMELF</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Zener" description="Zener diode"/>
@@ -201,6 +222,9 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C105M4R </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/power_supply/" tstamps="/5BC63700/"/>
       <tstamp>5BCBAA86</tstamp>
@@ -209,6 +233,9 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C104Z3V </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/power_supply/" tstamps="/5BC63700/"/>
       <tstamp>5BCBAB08</tstamp>
@@ -231,6 +258,9 @@
       <value>22uF 50V</value>
       <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">667-EEE-HC1H220XP </field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/power_supply/" tstamps="/5BC63700/"/>
       <tstamp>5BE50DBA</tstamp>
@@ -260,7 +290,7 @@
       <tstamp>5BCC61E2</tstamp>
     </comp>
     <comp ref="FB3">
-      <value>Ferrite_Bead</value>
+      <value>BLM21SP102SH1D</value>
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
@@ -279,6 +309,9 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C105M4R </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/power_supply/" tstamps="/5BC63700/"/>
       <tstamp>5BFCBB21</tstamp>
@@ -287,15 +320,19 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C104Z3V </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/power_supply/" tstamps="/5BC63700/"/>
       <tstamp>5BFCBB27</tstamp>
     </comp>
     <comp ref="C19">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">AVX,08055C104KAT2A</field>
+        <field name="Mouser">80-C0805C104Z3V </field>
         <field name="VEND1,VEND1#">DIGI,478-1395-1-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -303,7 +340,7 @@
       <tstamp>524A0814</tstamp>
     </comp>
     <comp ref="R2">
-      <value>100K</value>
+      <value>100k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB4993V</field>
@@ -315,7 +352,7 @@
       <tstamp>524B7914</tstamp>
     </comp>
     <comp ref="R10">
-      <value>1500 .1%</value>
+      <value>1,5k .1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB152V</field>
@@ -327,7 +364,7 @@
       <tstamp>524B7920</tstamp>
     </comp>
     <comp ref="R14">
-      <value>1500 .1%</value>
+      <value>1,5k .1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB152V</field>
@@ -355,6 +392,7 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">TDK,C2012X7S2A105K125AB</field>
+        <field name="Mouser">80-C0805C105M4R </field>
         <field name="VEND1,VEND1#">DIGI,445-5205-6-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -362,7 +400,7 @@
       <tstamp>588C97A2</tstamp>
     </comp>
     <comp ref="R3">
-      <value>100K</value>
+      <value>100k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB4993V</field>
@@ -374,7 +412,7 @@
       <tstamp>5BDE0B14</tstamp>
     </comp>
     <comp ref="R11">
-      <value>1500 .1%</value>
+      <value>1,5k .1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB152V</field>
@@ -386,7 +424,7 @@
       <tstamp>5BDE0B1D</tstamp>
     </comp>
     <comp ref="R15">
-      <value>1500 .1%</value>
+      <value>1,5k .1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB152V</field>
@@ -414,6 +452,7 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">TDK,C2012X7S2A105K125AB</field>
+        <field name="Mouser">80-C0805C105M4R </field>
         <field name="VEND1,VEND1#">DIGI,445-5205-6-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -421,7 +460,7 @@
       <tstamp>5BDE0B51</tstamp>
     </comp>
     <comp ref="R4">
-      <value>100K</value>
+      <value>100k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB4993V</field>
@@ -433,7 +472,7 @@
       <tstamp>5BDF3448</tstamp>
     </comp>
     <comp ref="R12">
-      <value>1500 .1%</value>
+      <value>1,5k .1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB152V</field>
@@ -445,7 +484,7 @@
       <tstamp>5BDF3451</tstamp>
     </comp>
     <comp ref="R16">
-      <value>1500 .1%</value>
+      <value>1,5k .1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB152V</field>
@@ -473,6 +512,7 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">TDK,C2012X7S2A105K125AB</field>
+        <field name="Mouser">80-C0805C105M4R </field>
         <field name="VEND1,VEND1#">DIGI,445-5205-6-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -480,7 +520,7 @@
       <tstamp>5BDF347C</tstamp>
     </comp>
     <comp ref="R5">
-      <value>100K</value>
+      <value>100k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB4993V</field>
@@ -492,7 +532,7 @@
       <tstamp>5BE259B2</tstamp>
     </comp>
     <comp ref="R13">
-      <value>1500 .1%</value>
+      <value>1,5k .1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB152V</field>
@@ -504,7 +544,7 @@
       <tstamp>5BE259BB</tstamp>
     </comp>
     <comp ref="R17">
-      <value>1500 .1%</value>
+      <value>1,5k .1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB152V</field>
@@ -532,6 +572,7 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">TDK,C2012X7S2A105K125AB</field>
+        <field name="Mouser">80-C0805C105M4R </field>
         <field name="VEND1,VEND1#">DIGI,445-5205-6-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -539,10 +580,11 @@
       <tstamp>5BE259E5</tstamp>
     </comp>
     <comp ref="C20">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">AVX,08055C104KAT2A</field>
+        <field name="Mouser">80-C0805C104Z3V </field>
         <field name="VEND1,VEND1#">DIGI,478-1395-1-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -550,7 +592,7 @@
       <tstamp>5BEA5BA1</tstamp>
     </comp>
     <comp ref="R18">
-      <value>100K</value>
+      <value>100k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB4993V</field>
@@ -562,7 +604,7 @@
       <tstamp>5BEA5BAA</tstamp>
     </comp>
     <comp ref="R26">
-      <value>1500 .1%</value>
+      <value>1,5k .1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB152V</field>
@@ -574,7 +616,7 @@
       <tstamp>5BEA5BB3</tstamp>
     </comp>
     <comp ref="R30">
-      <value>1500 .1%</value>
+      <value>1,5k .1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB152V</field>
@@ -602,6 +644,7 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">TDK,C2012X7S2A105K125AB</field>
+        <field name="Mouser">80-C0805C105M4R </field>
         <field name="VEND1,VEND1#">DIGI,445-5205-6-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -609,7 +652,7 @@
       <tstamp>5BEA5C21</tstamp>
     </comp>
     <comp ref="R19">
-      <value>100K</value>
+      <value>100k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB4993V</field>
@@ -621,7 +664,7 @@
       <tstamp>5BEA5C49</tstamp>
     </comp>
     <comp ref="R27">
-      <value>1500 .1%</value>
+      <value>1,5k .1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB152V</field>
@@ -633,7 +676,7 @@
       <tstamp>5BEA5C52</tstamp>
     </comp>
     <comp ref="R31">
-      <value>1500 .1%</value>
+      <value>1,5k .1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB152V</field>
@@ -661,6 +704,7 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">TDK,C2012X7S2A105K125AB</field>
+        <field name="Mouser">80-C0805C105M4R </field>
         <field name="VEND1,VEND1#">DIGI,445-5205-6-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -668,7 +712,7 @@
       <tstamp>5BEA5C7D</tstamp>
     </comp>
     <comp ref="R28">
-      <value>1500 .1%</value>
+      <value>1,5k .1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB152V</field>
@@ -680,7 +724,7 @@
       <tstamp>5BEA5CAF</tstamp>
     </comp>
     <comp ref="R32">
-      <value>1500 .1%</value>
+      <value>1,5k .1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB152V</field>
@@ -696,6 +740,7 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">TDK,C2012X7S2A105K125AB</field>
+        <field name="Mouser">80-C0805C105M4R </field>
         <field name="VEND1,VEND1#">DIGI,445-5205-6-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -703,7 +748,7 @@
       <tstamp>5BEA5CD9</tstamp>
     </comp>
     <comp ref="R20">
-      <value>100K</value>
+      <value>100k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB4993V</field>
@@ -715,7 +760,7 @@
       <tstamp>5BEA5D01</tstamp>
     </comp>
     <comp ref="R29">
-      <value>1500 .1%</value>
+      <value>1,5k .1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB152V</field>
@@ -727,7 +772,7 @@
       <tstamp>5BEA5D0A</tstamp>
     </comp>
     <comp ref="R33">
-      <value>1500 .1%</value>
+      <value>1,5k .1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">ECG,ERA6AEB152V</field>
@@ -755,6 +800,7 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">TDK,C2012X7S2A105K125AB</field>
+        <field name="Mouser">80-C0805C105M4R </field>
         <field name="VEND1,VEND1#">DIGI,445-5205-6-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -762,7 +808,7 @@
       <tstamp>5BEA5D34</tstamp>
     </comp>
     <comp ref="R21">
-      <value>R</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -770,7 +816,7 @@
       <tstamp>5BCD9484</tstamp>
     </comp>
     <comp ref="R22">
-      <value>R</value>
+      <value>20k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -797,6 +843,9 @@
       <value>BAT54S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="Mouser">863-BAT54SLT1G</field>
+      </fields>
       <libsource lib="boctok" part="BAT54S" description="schottky barrier diode"/>
       <sheetpath names="/analog input/" tstamps="/5BCA0341/"/>
       <tstamp>5BF43125</tstamp>
@@ -805,6 +854,9 @@
       <value>BAT54S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="Mouser">863-BAT54SLT1G</field>
+      </fields>
       <libsource lib="boctok" part="BAT54S" description="schottky barrier diode"/>
       <sheetpath names="/analog input/" tstamps="/5BCA0341/"/>
       <tstamp>5BF43309</tstamp>
@@ -813,6 +865,9 @@
       <value>BAT54S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="Mouser">863-BAT54SLT1G</field>
+      </fields>
       <libsource lib="boctok" part="BAT54S" description="schottky barrier diode"/>
       <sheetpath names="/analog input/" tstamps="/5BCA0341/"/>
       <tstamp>5BF433F3</tstamp>
@@ -821,6 +876,9 @@
       <value>BAT54S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="Mouser">863-BAT54SLT1G</field>
+      </fields>
       <libsource lib="boctok" part="BAT54S" description="schottky barrier diode"/>
       <sheetpath names="/analog input/" tstamps="/5BCA0341/"/>
       <tstamp>5BF434CD</tstamp>
@@ -829,6 +887,9 @@
       <value>BAT54S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="Mouser">863-BAT54SLT1G</field>
+      </fields>
       <libsource lib="boctok" part="BAT54S" description="schottky barrier diode"/>
       <sheetpath names="/analog input/" tstamps="/5BCA0341/"/>
       <tstamp>5BF43593</tstamp>
@@ -837,6 +898,9 @@
       <value>BAT54S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="Mouser">863-BAT54SLT1G</field>
+      </fields>
       <libsource lib="boctok" part="BAT54S" description="schottky barrier diode"/>
       <sheetpath names="/analog input/" tstamps="/5BCA0341/"/>
       <tstamp>5BF43699</tstamp>
@@ -845,6 +909,9 @@
       <value>BAT54S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="Mouser">863-BAT54SLT1G</field>
+      </fields>
       <libsource lib="boctok" part="BAT54S" description="schottky barrier diode"/>
       <sheetpath names="/analog input/" tstamps="/5BCA0341/"/>
       <tstamp>5BF4376B</tstamp>
@@ -853,6 +920,9 @@
       <value>BAT54S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="Mouser">863-BAT54SLT1G</field>
+      </fields>
       <libsource lib="boctok" part="BAT54S" description="schottky barrier diode"/>
       <sheetpath names="/analog input/" tstamps="/5BCA0341/"/>
       <tstamp>5BF43857</tstamp>
@@ -877,6 +947,9 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C105M4R </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/digital input/" tstamps="/5BD211BC/"/>
       <tstamp>5BD21753</tstamp>
@@ -901,6 +974,9 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C105M4R </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/digital input/" tstamps="/5BD211BC/"/>
       <tstamp>5BD5F8D7</tstamp>
@@ -925,6 +1001,9 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C105M4R </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/digital input/" tstamps="/5BD211BC/"/>
       <tstamp>5BD5F8DC</tstamp>
@@ -949,6 +1028,9 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C105M4R </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/digital input/" tstamps="/5BD211BC/"/>
       <tstamp>5BD5F8E1</tstamp>
@@ -973,6 +1055,9 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C105M4R </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/digital input/" tstamps="/5BD211BC/"/>
       <tstamp>5BD6D9C8</tstamp>
@@ -997,6 +1082,9 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C105M4R </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/digital input/" tstamps="/5BD211BC/"/>
       <tstamp>5BEC0BA7</tstamp>
@@ -1005,6 +1093,9 @@
       <value>BAT54S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="Mouser">863-BAT54SLT1G</field>
+      </fields>
       <libsource lib="boctok" part="BAT54S" description="schottky barrier diode"/>
       <sheetpath names="/digital input/" tstamps="/5BD211BC/"/>
       <tstamp>5BFF6FD9</tstamp>
@@ -1013,6 +1104,9 @@
       <value>BAT54S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="Mouser">863-BAT54SLT1G</field>
+      </fields>
       <libsource lib="boctok" part="BAT54S" description="schottky barrier diode"/>
       <sheetpath names="/digital input/" tstamps="/5BD211BC/"/>
       <tstamp>5BFF70E4</tstamp>
@@ -1021,6 +1115,9 @@
       <value>BAT54S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="Mouser">863-BAT54SLT1G</field>
+      </fields>
       <libsource lib="boctok" part="BAT54S" description="schottky barrier diode"/>
       <sheetpath names="/digital input/" tstamps="/5BD211BC/"/>
       <tstamp>5BFF716E</tstamp>
@@ -1029,6 +1126,9 @@
       <value>BAT54S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="Mouser">863-BAT54SLT1G</field>
+      </fields>
       <libsource lib="boctok" part="BAT54S" description="schottky barrier diode"/>
       <sheetpath names="/digital input/" tstamps="/5BD211BC/"/>
       <tstamp>5BFF7212</tstamp>
@@ -1037,6 +1137,9 @@
       <value>BAT54S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="Mouser">863-BAT54SLT1G</field>
+      </fields>
       <libsource lib="boctok" part="BAT54S" description="schottky barrier diode"/>
       <sheetpath names="/digital input/" tstamps="/5BD211BC/"/>
       <tstamp>5BFF72DE</tstamp>
@@ -1045,16 +1148,20 @@
       <value>BAT54S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="Mouser">863-BAT54SLT1G</field>
+      </fields>
       <libsource lib="boctok" part="BAT54S" description="schottky barrier diode"/>
       <sheetpath names="/digital input/" tstamps="/5BD211BC/"/>
       <tstamp>5BFF736C</tstamp>
     </comp>
     <comp ref="C32">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="MFG,MFG#">avx,08055C104KAT2A</field>
+        <field name="Mouser">80-C0805C104Z3V </field>
         <field name="VEND1,VEND1#">DIGI,478-1395-1-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1066,6 +1173,7 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">johnson,251R15S240JV4E</field>
+        <field name="Mouser">80-C0805C471J5GAUTO</field>
         <field name="VEND1,VEND1#">DIGI,712-1383-1-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1078,6 +1186,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="MFG,MFG#">Murata,GRM21B5C1H223JA01L</field>
+        <field name="Mouser">80-C0805C104Z3V </field>
         <field name="VEND1,VEND1#">DIGI,490-1644-1-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1109,10 +1218,11 @@
       <tstamp>53C502B3</tstamp>
     </comp>
     <comp ref="C31">
-      <value>4.7uF</value>
+      <value>4,7uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">TDK,CGA4J3X5R1H475K125AB</field>
+        <field name="Mouser">755-TCSOPL1A226M8R </field>
         <field name="VEND1,VEND1#">DIGI,445-7882-6-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1147,6 +1257,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="MFG,MFG#">Murata,GRM2165C1H332JA01D</field>
+        <field name="Mouser">80-C0805C332K5RAUTO </field>
         <field name="VEND1,VEND1#">DIGI,490-1632-1-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1192,6 +1303,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="MFG,MFG#">Murata,GRM2165C1H332JA01D</field>
+        <field name="Mouser">80-C0805C332K5RAUTO </field>
         <field name="VEND1,VEND1#">DIGI,490-1632-1-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1211,6 +1323,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="MFG,MFG#">Murata,GRM21B5C1H223JA01L</field>
+        <field name="Mouser">80-C0805C104Z3V </field>
         <field name="VEND1,VEND1#">DIGI,490-1644-1-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1230,6 +1343,7 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="MFG,MFG#">johnson,251R15S240JV4E</field>
+        <field name="Mouser">80-C0805C471J5GAUTO</field>
         <field name="VEND1,VEND1#">DIGI,712-1383-1-ND</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1264,6 +1378,9 @@
       <value>0,47uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C474K5RECTU</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/actuators/" tstamps="/5BC701B3/"/>
       <tstamp>5BD3FFE6</tstamp>
@@ -1277,7 +1394,7 @@
       <tstamp>5BD400B0</tstamp>
     </comp>
     <comp ref="R64">
-      <value>R</value>
+      <value>4,7k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1285,7 +1402,7 @@
       <tstamp>5BDA6306</tstamp>
     </comp>
     <comp ref="R65">
-      <value>R</value>
+      <value>4,7k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1293,7 +1410,7 @@
       <tstamp>5BDA6378</tstamp>
     </comp>
     <comp ref="R69">
-      <value>R</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1301,7 +1418,7 @@
       <tstamp>5BDBAF8F</tstamp>
     </comp>
     <comp ref="R70">
-      <value>R</value>
+      <value>47</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1324,7 +1441,7 @@
       <tstamp>5BE3B72E</tstamp>
     </comp>
     <comp ref="R67">
-      <value>5,10k</value>
+      <value>5,1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1359,6 +1476,9 @@
       <value>0,47uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C474K5RECTU</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/actuators/" tstamps="/5BC701B3/"/>
       <tstamp>5BE98EE5</tstamp>
@@ -1387,7 +1507,7 @@
       <tstamp>5BE98F00</tstamp>
     </comp>
     <comp ref="R79">
-      <value>5,10k</value>
+      <value>5,1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1426,7 +1546,7 @@
       <tstamp>5BEA2872</tstamp>
     </comp>
     <comp ref="R68">
-      <value>R</value>
+      <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1434,7 +1554,7 @@
       <tstamp>5BEC26C6</tstamp>
     </comp>
     <comp ref="R72">
-      <value>R</value>
+      <value>4,7k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1442,7 +1562,7 @@
       <tstamp>5BEF0830</tstamp>
     </comp>
     <comp ref="R73">
-      <value>R</value>
+      <value>4,7k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1450,7 +1570,7 @@
       <tstamp>5BEF0836</tstamp>
     </comp>
     <comp ref="R76">
-      <value>R</value>
+      <value>10</value>
       <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1458,7 +1578,7 @@
       <tstamp>5BEF085A</tstamp>
     </comp>
     <comp ref="R77">
-      <value>R</value>
+      <value>10</value>
       <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1511,6 +1631,9 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C104Z3V </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/cpu/" tstamps="/5BC70368/"/>
       <tstamp>5BCFC190</tstamp>
@@ -1519,6 +1642,9 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C104Z3V </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/cpu/" tstamps="/5BC70368/"/>
       <tstamp>5BCFC23B</tstamp>
@@ -1527,6 +1653,9 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C104Z3V </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/cpu/" tstamps="/5BC70368/"/>
       <tstamp>5BCFC283</tstamp>
@@ -1535,6 +1664,9 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C104Z3V </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/cpu/" tstamps="/5BC70368/"/>
       <tstamp>5BCFC2A9</tstamp>
@@ -1543,6 +1675,9 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C104Z3V </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/cpu/" tstamps="/5BC70368/"/>
       <tstamp>5BCFC2DF</tstamp>
@@ -1559,6 +1694,9 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C105M4R </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/cpu/" tstamps="/5BC70368/"/>
       <tstamp>5BCFF063</tstamp>
@@ -1567,12 +1705,15 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C104Z3V </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/cpu/" tstamps="/5BC70368/"/>
       <tstamp>5BCFF0F1</tstamp>
     </comp>
     <comp ref="FB2">
-      <value>Ferrite_Bead</value>
+      <value>BLM21SP102SH1D</value>
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
@@ -1583,6 +1724,9 @@
       <value>4,7uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">755-TCSOPL1A226M8R </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/cpu/" tstamps="/5BC70368/"/>
       <tstamp>5BD03CAA</tstamp>
@@ -1596,7 +1740,7 @@
       <tstamp>5BD05964</tstamp>
     </comp>
     <comp ref="C46">
-      <value>C</value>
+      <value>14pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1604,7 +1748,7 @@
       <tstamp>5BD0CD33</tstamp>
     </comp>
     <comp ref="C47">
-      <value>C</value>
+      <value>14pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1612,7 +1756,7 @@
       <tstamp>5BD0CDAD</tstamp>
     </comp>
     <comp ref="R80">
-      <value>R</value>
+      <value>1,4k 0,1%</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1662,6 +1806,9 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C104Z3V </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/cpu/" tstamps="/5BC70368/"/>
       <tstamp>5BD6B6E9</tstamp>
@@ -1670,6 +1817,9 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C104Z3V </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/cpu/" tstamps="/5BC70368/"/>
       <tstamp>5BD6B6EA</tstamp>
@@ -1691,7 +1841,7 @@
       <tstamp>5BEE53A7</tstamp>
     </comp>
     <comp ref="D19">
-      <value>D_Zener</value>
+      <value>TZMC5V6</value>
       <footprint>Diode_SMD:D_MELF</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Zener" description="Zener diode"/>
@@ -1702,6 +1852,9 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C104Z3V </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/cpu/" tstamps="/5BC70368/"/>
       <tstamp>5BFF4BDB</tstamp>
@@ -1710,6 +1863,9 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C104Z3V </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/cpu/" tstamps="/5BC70368/"/>
       <tstamp>5BFF5159</tstamp>
@@ -1734,6 +1890,9 @@
       <value>BAT54S</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="Mouser">863-BAT54SLT1G</field>
+      </fields>
       <libsource lib="boctok" part="BAT54S" description="schottky barrier diode"/>
       <sheetpath names="/engine position sensors/" tstamps="/5BCA424F/"/>
       <tstamp>5CFF7B90</tstamp>
@@ -1795,7 +1954,7 @@
       <tstamp>5CFFAB70</tstamp>
     </comp>
     <comp ref="D22">
-      <value>D_Zener</value>
+      <value>TZMC24</value>
       <footprint>Diode_SMD:D_MiniMELF</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Zener" description="Zener diode"/>
@@ -1827,9 +1986,12 @@
       <tstamp>5D0101C4</tstamp>
     </comp>
     <comp ref="C66">
-      <value>C</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C104Z3V </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/engine position sensors/" tstamps="/5BCA424F/"/>
       <tstamp>5D010387</tstamp>
@@ -1838,6 +2000,9 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C0805C104Z3V </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/engine position sensors/" tstamps="/5BCA424F/"/>
       <tstamp>5D01040F</tstamp>
@@ -1846,6 +2011,9 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser">80-C1206C105M4R </field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/engine position sensors/" tstamps="/5BCA424F/"/>
       <tstamp>5D010453</tstamp>
@@ -2691,7 +2859,7 @@
       <node ref="C59" pin="2"/>
       <node ref="D1" pin="2"/>
       <node ref="CON1" pin="26"/>
-      <node ref="R66" pin="1"/>
+      <node ref="R66" pin="2"/>
       <node ref="CON1" pin="32"/>
       <node ref="CON1" pin="20"/>
       <node ref="CON1" pin="14"/>
@@ -2726,8 +2894,8 @@
       <node ref="CON1" pin="8"/>
     </net>
     <net code="19" name="/con_dspare1">
-      <node ref="R44" pin="2"/>
       <node ref="CON1" pin="6"/>
+      <node ref="R44" pin="2"/>
     </net>
     <net code="20" name="/cpu/PB10">
       <node ref="U6" pin="29"/>
@@ -2739,13 +2907,13 @@
       <node ref="U6" pin="9"/>
     </net>
     <net code="23" name="/con_run">
-      <node ref="CON1" pin="16"/>
       <node ref="R42" pin="2"/>
+      <node ref="CON1" pin="16"/>
     </net>
     <net code="24" name="/con_ach3">
-      <node ref="R4" pin="1"/>
       <node ref="CON1" pin="2"/>
       <node ref="R8" pin="1"/>
+      <node ref="R4" pin="1"/>
     </net>
     <net code="25" name="/con_dspare2">
       <node ref="R50" pin="2"/>
@@ -2864,9 +3032,9 @@
     </net>
     <net code="49" name="/crash">
       <node ref="D13" pin="3"/>
-      <node ref="R46" pin="2"/>
-      <node ref="C24" pin="1"/>
       <node ref="R43" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="R46" pin="2"/>
       <node ref="U6" pin="11"/>
     </net>
     <net code="50" name="/ach6">
@@ -2906,24 +3074,24 @@
     </net>
     <net code="57" name="/spare_act_2">
       <node ref="U6" pin="62"/>
-      <node ref="R72" pin="2"/>
       <node ref="P3" pin="3"/>
+      <node ref="R72" pin="2"/>
     </net>
     <net code="58" name="/TACH">
-      <node ref="P1" pin="1"/>
       <node ref="R65" pin="2"/>
+      <node ref="P1" pin="1"/>
       <node ref="U6" pin="52"/>
     </net>
     <net code="59" name="/din_spare2">
-      <node ref="R53" pin="2"/>
       <node ref="C28" pin="1"/>
-      <node ref="U6" pin="56"/>
+      <node ref="R53" pin="2"/>
       <node ref="D17" pin="3"/>
+      <node ref="U6" pin="56"/>
       <node ref="R50" pin="1"/>
     </net>
     <net code="60" name="/din_spare1">
-      <node ref="U6" pin="8"/>
       <node ref="C25" pin="1"/>
+      <node ref="U6" pin="8"/>
       <node ref="R47" pin="2"/>
       <node ref="D14" pin="3"/>
       <node ref="R44" pin="1"/>
@@ -2939,25 +3107,25 @@
       <node ref="P1" pin="3"/>
     </net>
     <net code="63" name="/FUELP">
+      <node ref="R74" pin="1"/>
       <node ref="Q4" pin="1"/>
       <node ref="U6" pin="51"/>
-      <node ref="R74" pin="1"/>
     </net>
     <net code="64" name="/COIL2">
-      <node ref="P4" pin="2"/>
-      <node ref="R78" pin="2"/>
       <node ref="C42" pin="1"/>
+      <node ref="R78" pin="2"/>
+      <node ref="P4" pin="2"/>
       <node ref="U6" pin="38"/>
     </net>
     <net code="65" name="/COIL1">
-      <node ref="C38" pin="1"/>
+      <node ref="R66" pin="1"/>
       <node ref="P2" pin="2"/>
-      <node ref="R66" pin="2"/>
       <node ref="U6" pin="37"/>
+      <node ref="C38" pin="1"/>
     </net>
     <net code="66" name="/INJ2">
-      <node ref="U6" pin="40"/>
       <node ref="R71" pin="1"/>
+      <node ref="U6" pin="40"/>
       <node ref="Q2" pin="1"/>
     </net>
     <net code="67" name="/INJ1">
@@ -2966,18 +3134,18 @@
       <node ref="Q1" pin="1"/>
     </net>
     <net code="68" name="+5V">
-      <node ref="C63" pin="1"/>
-      <node ref="U5" pin="8"/>
       <node ref="C19" pin="1"/>
-      <node ref="D18" pin="1"/>
       <node ref="C32" pin="1"/>
+      <node ref="D18" pin="1"/>
       <node ref="C31" pin="2"/>
-      <node ref="C4" pin="1"/>
-      <node ref="R64" pin="1"/>
-      <node ref="FB3" pin="2"/>
-      <node ref="R65" pin="1"/>
-      <node ref="C22" pin="1"/>
+      <node ref="U5" pin="8"/>
+      <node ref="C63" pin="1"/>
       <node ref="C20" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="R65" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="FB3" pin="2"/>
+      <node ref="R64" pin="1"/>
       <node ref="C64" pin="1"/>
       <node ref="U1" pin="2"/>
       <node ref="U4" pin="4"/>
@@ -2990,28 +3158,28 @@
       <node ref="R73" pin="1"/>
     </net>
     <net code="69" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
       <node ref="FB1" pin="1"/>
+      <node ref="D2" pin="2"/>
     </net>
     <net code="70" name="Net-(FB3-Pad1)">
-      <node ref="R84" pin="2"/>
       <node ref="FB3" pin="1"/>
+      <node ref="R84" pin="2"/>
     </net>
     <net code="71" name="Net-(D2-Pad1)">
-      <node ref="R1" pin="2"/>
       <node ref="D2" pin="1"/>
+      <node ref="R1" pin="2"/>
     </net>
     <net code="72" name="Net-(D1-Pad3)">
       <node ref="D1" pin="3"/>
       <node ref="L1" pin="1"/>
     </net>
     <net code="73" name="+12V">
-      <node ref="U1" pin="3"/>
-      <node ref="U2" pin="3"/>
       <node ref="C6" pin="1"/>
+      <node ref="U1" pin="3"/>
       <node ref="C8" pin="1"/>
       <node ref="R21" pin="1"/>
       <node ref="C40" pin="1"/>
+      <node ref="U2" pin="3"/>
       <node ref="R62" pin="2"/>
       <node ref="C3" pin="1"/>
       <node ref="C36" pin="1"/>
@@ -3031,8 +3199,8 @@
       <node ref="D10" pin="2"/>
       <node ref="D16" pin="2"/>
       <node ref="D15" pin="2"/>
-      <node ref="D17" pin="2"/>
       <node ref="R35" pin="1"/>
+      <node ref="D17" pin="2"/>
       <node ref="D4" pin="2"/>
       <node ref="D3" pin="1"/>
       <node ref="C10" pin="1"/>
@@ -3121,9 +3289,9 @@
       <node ref="P4" pin="6"/>
     </net>
     <net code="90" name="Net-(C41-Pad1)">
-      <node ref="R75" pin="1"/>
       <node ref="C41" pin="1"/>
       <node ref="P4" pin="8"/>
+      <node ref="R75" pin="1"/>
     </net>
     <net code="91" name="Net-(P4-Pad5)">
       <node ref="P4" pin="5"/>
@@ -3157,12 +3325,12 @@
       <node ref="U6" pin="3"/>
     </net>
     <net code="100" name="/cpu/USART6_TX">
-      <node ref="J1" pin="2"/>
       <node ref="U6" pin="44"/>
+      <node ref="J1" pin="2"/>
     </net>
     <net code="101" name="/cpu/USART1_TX">
-      <node ref="P5" pin="3"/>
       <node ref="U6" pin="42"/>
+      <node ref="P5" pin="3"/>
     </net>
     <net code="102" name="/cpu/USART1_RX">
       <node ref="P5" pin="2"/>
@@ -3181,8 +3349,8 @@
     <net code="105" name="/cpu/pwr_vdda">
       <node ref="C54" pin="1"/>
       <node ref="C55" pin="1"/>
-      <node ref="U6" pin="13"/>
       <node ref="FB2" pin="1"/>
+      <node ref="U6" pin="13"/>
     </net>
     <net code="106" name="Net-(C51-Pad1)">
       <node ref="U6" pin="30"/>
@@ -3193,9 +3361,9 @@
       <node ref="U6" pin="46"/>
     </net>
     <net code="108" name="/cpu/nRESET">
-      <node ref="C50" pin="2"/>
       <node ref="J1" pin="7"/>
       <node ref="U6" pin="7"/>
+      <node ref="C50" pin="2"/>
     </net>
     <net code="109" name="Net-(R81-Pad1)">
       <node ref="R81" pin="1"/>

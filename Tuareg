@@ -1,18 +1,205 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    </head>
-    <body>
-    <h1>/home/oli/tenere/efi/Tuareg_hw/Tuareg.sch</h1>
-    <p>So 25 Aug 2019 00:03:07 CEST</p>
-    <p>Eeschema 5.1.2-f72e74a~84~ubuntu18.04.1</p>
-    <p><b>Component Count:</b>200</p>
-    <table>
-    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Datasheet</th><th>Description</th><th>Vendor</th></tr><tr><td>C1</td><td>1</td><td>1uF 50V</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C2, C3, C10, C33, C35, C44, C45, C48, C49, C52, C54, C56, C57, C59, C60, C61, C63</td><td>17</td><td>100nF</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C4</td><td>1</td><td>22uF 16V</td><td>Device:CP</td><td>~</td><td>Polarized capacitor</td><td></td></tr><tr><td>C5</td><td>1</td><td>22uF 6V</td><td>Device:CP</td><td>~</td><td>Polarized capacitor</td><td></td></tr><tr><td>C6</td><td>1</td><td>220uF 50V</td><td>Device:CP</td><td>~</td><td>Polarized capacitor</td><td></td></tr><tr><td>C7</td><td>1</td><td>1uF 6V</td><td>Device:CP</td><td>~</td><td>Polarized capacitor</td><td></td></tr><tr><td>C8</td><td>1</td><td>22uF 50V</td><td>Device:CP</td><td>~</td><td>Polarized capacitor</td><td></td></tr><tr><td>C9, C11, C12, C13, C14, C15, C16, C17, C18, C23, C24, C25, C26, C27, C28, C55, C58</td><td>17</td><td>1uF</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C19, C20, C32</td><td>3</td><td>0.1uF</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C21, C65</td><td>2</td><td>10uF</td><td>Device:CP</td><td>~</td><td>Polarized capacitor</td><td></td></tr><tr><td>C22</td><td>1</td><td>1uF</td><td>Device:CP</td><td>~</td><td>Polarized capacitor</td><td></td></tr><tr><td>C29, C30</td><td>2</td><td>3300pF</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C31</td><td>1</td><td>4.7uF</td><td>Device:C</td><td></td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C34, C62</td><td>2</td><td>470pF</td><td>Device:C</td><td></td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C36, C40</td><td>2</td><td>0,47uF</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C37, C38, C41, C42, C50</td><td>5</td><td>10nF</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C39, C43</td><td>2</td><td>20nF</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C46, C47, C66</td><td>3</td><td>C</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C51</td><td>1</td><td>4,7uF</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C53</td><td>1</td><td>10uF</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>C64</td><td>1</td><td>5uF</td><td>Device:CP</td><td>~</td><td>Polarized capacitor</td><td></td></tr><tr><td>CON1</td><td>1</td><td>ModICE_48</td><td>boctok:ModICE_48</td><td></td><td></td><td></td></tr><tr><td>D1</td><td>1</td><td>RBO40-40G</td><td>boctok:RBO40-40G</td><td>~</td><td>Bidirectional dual transient-voltage-suppression diode, center on pin 3</td><td></td></tr><tr><td>D2</td><td>1</td><td>BAT54</td><td>boctok:BAT54</td><td>http://www.vishay.com/docs/88503/1n4001.pdf</td><td>schottky barrier diode</td><td></td></tr><tr><td>D3, D22</td><td>2</td><td>D_Zener</td><td>Device:D_Zener</td><td>~</td><td>Zener diode</td><td></td></tr><tr><td>D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D20</td><td>15</td><td>BAT54S</td><td>boctok:BAT54S</td><td>https://www.diodes.com/assets/Datasheets/ds11005.pdf</td><td>schottky barrier diode</td><td></td></tr><tr><td>D18</td><td>1</td><td>TPIC8101</td><td>boctok:TPIC8101</td><td></td><td>dual knock sensor interface</td><td></td></tr><tr><td>D19</td><td>1</td><td>D_Zener</td><td>Device:D_Zener</td><td>~</td><td>Zener diode</td><td></td></tr><tr><td>D21</td><td>1</td><td>BAT54A</td><td>boctok:BAT54A</td><td>http://www.diodes.com/_files/datasheets/ds11005.pdf</td><td>schottky barrier diode</td><td></td></tr><tr><td>FB1, FB2, FB3</td><td>3</td><td>Ferrite_Bead</td><td>Device:Ferrite_Bead</td><td>~</td><td>Ferrite bead</td><td></td></tr><tr><td>J1</td><td>1</td><td>SWD_boctok</td><td>boctok:SWD_boctok</td><td>http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf</td><td>Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface</td><td></td></tr><tr><td>L1</td><td>1</td><td>SRR1210A-680M</td><td>boctok:SRR1210A</td><td>~</td><td>Inductor</td><td></td></tr><tr><td>P1, P3</td><td>2</td><td>VNLD5090e</td><td>boctok:VNLD5090e</td><td></td><td></td><td></td></tr><tr><td>P2, P4</td><td>2</td><td>FAN1100</td><td>boctok:FAN1100</td><td></td><td>ignition IGBT driver</td><td></td></tr><tr><td>P5</td><td>1</td><td>ISO7421D</td><td>boctok:ISO7421D</td><td></td><td></td><td></td></tr><tr><td>Q1, Q2, Q4</td><td>3</td><td>BTS3028SDL</td><td>boctok:BTS3028SDL</td><td></td><td>smart low side power switch</td><td></td></tr><tr><td>Q3, Q5</td><td>2</td><td>ISL9V3040</td><td>boctok:ISL9V3040</td><td></td><td>300mJ, 400V, N-Channel Ignition IGBT</td><td></td></tr><tr><td>R1, R84</td><td>2</td><td>100</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R2, R3, R4, R5, R18, R19, R20</td><td>7</td><td>100K</td><td>Device:R</td><td></td><td>Resistor</td><td></td></tr><tr><td>R6, R7, R8, R9, R23, R24, R25, R42, R43, R44, R48, R49, R50, R60, R61, R81</td><td>16</td><td>10k</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R10, R11, R12, R13, R14, R15, R16, R17, R26, R27, R28, R29, R30, R31, R32, R33</td><td>16</td><td>1500 .1%</td><td>Device:R</td><td></td><td>Resistor</td><td></td></tr><tr><td>R21, R22</td><td>2</td><td>R</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R34</td><td>1</td><td>10k</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R35</td><td>1</td><td>27k</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R36</td><td>1</td><td>8,2k</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R37</td><td>1</td><td>4,3k</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R38</td><td>1</td><td>15k</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R39, R40, R82, R83</td><td>4</td><td>4,7k</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R41, R85</td><td>2</td><td>62k</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R45, R46, R47, R51, R52, R53</td><td>6</td><td>100k</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R54, R55, R56, R57</td><td>4</td><td>39k</td><td>Device:R</td><td></td><td>Resistor</td><td></td></tr><tr><td>R58</td><td>1</td><td>16k</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R59</td><td>1</td><td>1k</td><td>Device:R</td><td></td><td>Resistor</td><td></td></tr><tr><td>R62, R75</td><td>2</td><td>200</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R63, R66, R71, R74, R78</td><td>5</td><td>47k</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R64, R65, R68, R69, R70, R72, R73, R80</td><td>8</td><td>R</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R67, R79</td><td>2</td><td>5,10k</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R76, R77</td><td>2</td><td>R</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R86</td><td>1</td><td>330k</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R87</td><td>1</td><td>5,1k</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>U1</td><td>1</td><td>NCV1117DT</td><td>boctok:NCV1117DT</td><td></td><td>1A Low-Dropout Linear Regulator, automotive</td><td></td></tr><tr><td>U2</td><td>1</td><td>NCV1117ST</td><td>boctok:NCV1117ST</td><td></td><td>1A Low-Dropout Linear Regulator, automotive</td><td></td></tr><tr><td>U3, U4</td><td>2</td><td>MCP6004</td><td>boctok:MCP6004</td><td>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</td><td>Low-Power, Quad-Operational Amplifiers, SOIC-14</td><td></td></tr><tr><td>U5</td><td>1</td><td>LM2903</td><td>boctok:LM2903</td><td>http://www.ti.com/lit/ds/symlink/lm393-n.pdf</td><td>Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SSOP-8</td><td></td></tr><tr><td>U6</td><td>1</td><td>STM32F410RBTx</td><td>boctok:STM32F410RBTx</td><td>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00214043.pdf</td><td>ARM Cortex-M4 MCU, 128KB flash, 32KB RAM, 100MHz, 1.7-3.6V, 50 GPIO, LQFP-64</td><td></td></tr><tr><td>U7</td><td>1</td><td>24C64</td><td>boctok:24C64</td><td>http://www.cypress.com/file/41651/download</td><td>64Kb serial FRAM nonvolatile Memory, SOIC-8</td><td></td></tr><tr><td>Y1</td><td>1</td><td>lfxtal071673</td><td>boctok:lfxtal071673</td><td>~</td><td>Four pin crystal, GND on pins 2 and 4, small symbol</td><td></td></tr><tr><td>Y2</td><td>1</td><td>cx5032ga</td><td>boctok:cx5032ga</td><td>~</td><td>Two pin crystal, small symbol</td><td></td></tr><!--TABLEROW-->
-    </table>
-    </body>
-</html>
-    
+Source:	/home/oli/tenere/efi/Tuareg_hw/Tuareg.sch
+Date:	Fr 06 Sep 2019 22:38:37 CEST
+Tool:	Eeschema 5.1.2-f72e74a~84~ubuntu18.04.1
+Component Count:	200
+Ref	Value	Part	Footprint	Description	Vendor
+C1	1uF 50V	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C2	100nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C3	100nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C4	22uF 16V	Device:CP	Capacitor_SMD:CP_Elec_5x5.8	Polarized capacitor	
+C5	22uF 6V	Device:CP	Capacitor_SMD:CP_Elec_4x5.8	Polarized capacitor	
+C6	22uF 50V	Device:CP	Capacitor_SMD:CP_Elec_6.3x7.7	Polarized capacitor	
+C7	1uF 6V	Device:CP	Capacitor_SMD:C_0805_2012Metric	Polarized capacitor	
+C8	22uF 50V	Device:CP	Capacitor_SMD:CP_Elec_6.3x7.7	Polarized capacitor	
+C9	1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C10	100nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C11	1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C12	1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C13	1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C14	1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C15	1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C16	1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C17	1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C18	1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C19	0.1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C20	0.1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C21	10uF	Device:CP	Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D	Polarized capacitor	
+C22	1uF	Device:CP	Capacitor_SMD:C_1206_3216Metric	Polarized capacitor	
+C23	1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C24	1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C25	1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C26	1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C27	1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C28	1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C29	3300pF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C30	3300pF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C31	4.7uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C32	0.1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C33	100nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C34	470pF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C35	100nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C36	0,47uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C37	10nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C38	10nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C39	20nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C40	0,47uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C41	10nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C42	10nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C43	20nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C44	100nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C45	100nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C46	14pF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C47	14pF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C48	100nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C49	100nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C50	10nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C51	4,7uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C52	100nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C53	10uF	Device:C	Capacitor_SMD:C_1206_3216Metric	Unpolarized capacitor	
+C54	100nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C55	1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C56	100nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C57	100nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C58	1uF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C59	100nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C60	100nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C61	100nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C62	470pF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C63	100nF	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+C64	5uF	Device:CP	Capacitor_SMD:C_1206_3216Metric	Polarized capacitor	
+C65	10uF	Device:CP	Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D	Polarized capacitor	
+C66	C	Device:C	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	
+CON1	ModICE_48	boctok:ModICE_48	boctok_footprints:modICE_48		
+D1	RBO40-40G	boctok:RBO40-40G	boctok_footprints:RBO40-40G	Bidirectional dual transient-voltage-suppression diode, center on pin 3	
+D2	BAT54	boctok:BAT54	Diode_SMD:D_SOT-23_ANK	schottky barrier diode	
+D3	TZMC5V1	Device:D_Zener	Diode_SMD:D_MiniMELF	Zener diode	
+D4	BAT54S	boctok:BAT54S	Package_TO_SOT_SMD:SOT-23	schottky barrier diode	
+D5	BAT54S	boctok:BAT54S	Package_TO_SOT_SMD:SOT-23	schottky barrier diode	
+D6	BAT54S	boctok:BAT54S	Package_TO_SOT_SMD:SOT-23	schottky barrier diode	
+D7	BAT54S	boctok:BAT54S	Package_TO_SOT_SMD:SOT-23	schottky barrier diode	
+D8	BAT54S	boctok:BAT54S	Package_TO_SOT_SMD:SOT-23	schottky barrier diode	
+D9	BAT54S	boctok:BAT54S	Package_TO_SOT_SMD:SOT-23	schottky barrier diode	
+D10	BAT54S	boctok:BAT54S	Package_TO_SOT_SMD:SOT-23	schottky barrier diode	
+D11	BAT54S	boctok:BAT54S	Package_TO_SOT_SMD:SOT-23	schottky barrier diode	
+D12	BAT54S	boctok:BAT54S	Package_TO_SOT_SMD:SOT-23	schottky barrier diode	
+D13	BAT54S	boctok:BAT54S	Package_TO_SOT_SMD:SOT-23	schottky barrier diode	
+D14	BAT54S	boctok:BAT54S	Package_TO_SOT_SMD:SOT-23	schottky barrier diode	
+D15	BAT54S	boctok:BAT54S	Package_TO_SOT_SMD:SOT-23	schottky barrier diode	
+D16	BAT54S	boctok:BAT54S	Package_TO_SOT_SMD:SOT-23	schottky barrier diode	
+D17	BAT54S	boctok:BAT54S	Package_TO_SOT_SMD:SOT-23	schottky barrier diode	
+D18	TPIC8101	boctok:TPIC8101	boctok_footprints:TPIC8101	dual knock sensor interface	
+D19	D_Zener	Device:D_Zener	Diode_SMD:D_MELF	Zener diode	
+D20	BAT54S	boctok:BAT54S	Package_TO_SOT_SMD:SOT-23	schottky barrier diode	
+D21	BAT54A	boctok:BAT54A	Package_TO_SOT_SMD:SOT-23	schottky barrier diode	
+D22	D_Zener	Device:D_Zener	Diode_SMD:D_MiniMELF	Zener diode	
+FB1	Ferrite_Bead	Device:Ferrite_Bead	Inductor_SMD:L_0805_2012Metric	Ferrite bead	
+FB2	Ferrite_Bead	Device:Ferrite_Bead	Inductor_SMD:L_0805_2012Metric	Ferrite bead	
+FB3	Ferrite_Bead	Device:Ferrite_Bead	Inductor_SMD:L_0805_2012Metric	Ferrite bead	
+J1	SWD_boctok	boctok:SWD_boctok	boctok_footprints:swd_boctok	Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface	
+L1	SRR1210A-680M	boctok:SRR1210A	boctok_footprints:SRR1210A	Inductor	
+P1	VNLD5090e	boctok:VNLD5090e	boctok_footprints:VNLD5090e		
+P2	FAN1100	boctok:FAN1100	boctok_footprints:FAN_1100	ignition IGBT driver	
+P3	VNLD5090e	boctok:VNLD5090e	boctok_footprints:VNLD5090e		
+P4	FAN1100	boctok:FAN1100	boctok_footprints:FAN_1100	ignition IGBT driver	
+P5	ISO7421D	boctok:ISO7421D	boctok_footprints:ISO7421D		
+Q1	BTS3028SDL	boctok:BTS3028SDL	boctok_footprints:BTS3028SD	smart low side power switch	
+Q2	BTS3028SDL	boctok:BTS3028SDL	boctok_footprints:BTS3028SD	smart low side power switch	
+Q3	ISL9V3040	boctok:ISL9V3040	boctok_footprints:ISL9V3040	300mJ, 400V, N-Channel Ignition IGBT	
+Q4	BTS3028SDL	boctok:BTS3028SDL	boctok_footprints:BTS3028SD	smart low side power switch	
+Q5	ISL9V3040	boctok:ISL9V3040	boctok_footprints:ISL9V3040	300mJ, 400V, N-Channel Ignition IGBT	
+R1	100	Device:R	Resistor_SMD:R_1210_3225Metric	Resistor	
+R2	100K	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R3	100K	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R4	100K	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R5	100K	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R6	10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R7	10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R8	10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R9	10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R10	1500 .1%	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R11	1500 .1%	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R12	1500 .1%	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R13	1500 .1%	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R14	1500 .1%	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R15	1500 .1%	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R16	1500 .1%	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R17	1500 .1%	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R18	100K	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R19	100K	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R20	100K	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R21	R	Device:R	Resistor_SMD:R_1206_3216Metric	Resistor	
+R22	R	Device:R	Resistor_SMD:R_1206_3216Metric	Resistor	
+R23	10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R24	10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R25	10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R26	1500 .1%	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R27	1500 .1%	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R28	1500 .1%	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R29	1500 .1%	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R30	1500 .1%	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R31	1500 .1%	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R32	1500 .1%	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R33	1500 .1%	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R34	10k	Device:R	Resistor_SMD:R_1206_3216Metric	Resistor	
+R35	27k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R36	8,2k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R37	4,3k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R38	15k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R39	4,7k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R40	4,7k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R41	62k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R42	10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R43	10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R44	10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R45	100k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R46	100k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R47	100k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R48	10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R49	10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R50	10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R51	100k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R52	100k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R53	100k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R54	39k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R55	39k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R56	39k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R57	39k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R58	16k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R59	1k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R60	10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R61	10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R62	200	Device:R	Resistor_SMD:R_1206_3216Metric	Resistor	
+R63	47k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R64	4,7k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R65	4,7k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R66	47k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R67	5,10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R68	1k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R69	10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R70	47	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R71	47k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R72	4,7k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R73	4,7k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R74	47k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R75	200	Device:R	Resistor_SMD:R_1206_3216Metric	Resistor	
+R76	10	Device:R	Resistor_SMD:R_1210_3225Metric	Resistor	
+R77	10	Device:R	Resistor_SMD:R_1210_3225Metric	Resistor	
+R78	47k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R79	5,10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R80	1,4k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R81	10k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R82	4,7k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R83	4,7k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R84	100	Device:R	Resistor_SMD:R_1210_3225Metric	Resistor	
+R85	62k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R86	330k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+R87	5,1k	Device:R	Resistor_SMD:R_0805_2012Metric	Resistor	
+U1	NCV1117DT	boctok:NCV1117DT	boctok_footprints:NCV1117DT	1A Low-Dropout Linear Regulator, automotive	
+U2	NCV1117ST	boctok:NCV1117ST	boctok_footprints:NCV1117ST	1A Low-Dropout Linear Regulator, automotive	
+U3	MCP6004	boctok:MCP6004	boctok_footprints:MCP6004	Low-Power, Quad-Operational Amplifiers, SOIC-14	
+U4	MCP6004	boctok:MCP6004	boctok_footprints:MCP6004	Low-Power, Quad-Operational Amplifiers, SOIC-14	
+U5	LM2903	boctok:LM2903	Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SSOP-8	
+U6	STM32F410RBTx	boctok:STM32F410RBTx	Package_QFP:LQFP-64_10x10mm_P0.5mm	ARM Cortex-M4 MCU, 128KB flash, 32KB RAM, 100MHz, 1.7-3.6V, 50 GPIO, LQFP-64	
+U7	24C64	boctok:24C64	boctok_footprints:24C64	64Kb serial FRAM nonvolatile Memory, SOIC-8	
+Y1	lfxtal071673	boctok:lfxtal071673	boctok_footprints:lfxtal071673	Four pin crystal, GND on pins 2 and 4, small symbol	
+Y2	cx5032ga	boctok:cx5032ga	boctok_footprints:cx5032	Two pin crystal, small symbol	
